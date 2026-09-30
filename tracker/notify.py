@@ -16,11 +16,10 @@ def _row(r: dict) -> str:
     bits = [e.get("district") or "?", f"{e['area']:g} m²" if e.get("area") else None,
             f"{e['floor']}. posch." if e.get("floor") is not None else None]
     line = f"<b>{e['effective']} €/mes.</b> " + ", ".join(b for b in bits if b)
-    detail = f"{e['rent']:.0f} nájom"
-    detail += f" + {e['energy']:.0f} energie" if e.get("energy") else (
-        " vrátane energií" if e["energy_status"] == "included" else " + ? energie")
-    if e.get("provision"):
-        detail += f" + {e['provision'] / 12:.0f} provízia"
+    detail = f"nájom {e['rent']:.0f} €"
+    detail += f" | energie {e['energy']:.0f} €" if e.get("energy") else (
+        " | energie v cene" if e["energy_status"] == "included" else " | energie ?")
+    detail += f" | provízia/12 {e['provision'] / 12:.0f} €" if e.get("provision") else " | provízia 0 €"
     warn = " ⚠️ " + "; ".join(e["flags"]) if e.get("flags") else ""
     return (f"{line}\n{html.escape(detail)}{html.escape(warn)}\n"
             f"<a href=\"{html.escape(r['url'])}\">{html.escape(r['title'][:70])}</a>")

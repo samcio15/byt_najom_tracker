@@ -81,7 +81,8 @@ def test_condition(text, structured, expected):
     ("cena je vrátane všetkých energií", "included", 0),
     ("nájom 750 € + energie", "unknown", None),
     ("pekný byt", "unknown", None),
-    ("850 € vrátane energií (+ 150 € energie)", "ambiguous", 150),
+    ("850 € vrátane energií (+ 150 € energie)", "included", 0),
+    ("Cena 750 €, nie je vrátane energií. Energie 150 €.", "separate", 150),
 ])
 def test_energies(text, status, amount):
     e = tp.energies(text)
@@ -136,7 +137,7 @@ def test_wanted_ad():
      800, "separate", 250),
     ("Cena prenájmu: 750 €/mesiac + 350 € energie vrátane parkovacieho státia.", 750, "separate", 350),
     ("Nájomné: 710 € / mesiac Energie: 190 € / mesiac Celková mesačná platba: 900 €", 710, "separate", 190),
-    ("Cena: 900€ / mesiac (vrátane energií) (nájom 580 € + 320 € energie)", 580, "separate", 320),
+    ("Cena: 900€ / mesiac (vrátane energií) (nájom 580 € + 320 € energie)", 580, "total", 320),
     ("Nájom 850 € vrátane energií, energie tvoria cca 150 €.", 850, "included", 0),
 ])
 def test_energies_real(text, rent, status, amount):
@@ -159,7 +160,7 @@ def test_provision_real(text, rent, amount, source):
     # JutFtXCOvjF: "za služby a energie" was not recognised
     ("Cena prenájmu bytu: 700 € / mesiac + 200 € / mesiac za služby a energie", 700, "separate", 200),
     # Jumgtje9FFB: listed rent 700, text states the total with energies
-    ("CENA 850€ / mesiac vrátane energií, satelitného TV a internetu", 700, "separate", 150),
+    ("CENA 850€ / mesiac vrátane energií, satelitného TV a internetu", 700, "total", 150),
 ])
 def test_energies_live(text, rent, status, amount):
     e = tp.energies(text, rent)
@@ -179,3 +180,44 @@ def test_unavailable():
     assert tp.is_unavailable("Rezervované DVOJGARSÓNKA DeLuxe")
     assert tp.is_unavailable("PRENAJATÉ - 2-izbový byt")
     assert not tp.is_unavailable("2-izbový byt s balkónom")
+
+
+# JugcTpgIFfW (Štrkovec): energies named only indirectly.
+@pytest.mark.parametrize("text,rent,status,amount", [
+    ("V cene prenájmu niesu zahrnuté energie. Doterajší nájomca mal 150€ mesacne nakoľko bol sám. "
+     "Cena prenájmu je 650€", 650, "guessed", 150),
+    ("Cena 700 €. Parkovacie miesto v garáži 120 € mesačne.", 700, "unknown", None),
+    ("Cena 700 €. Depozit 200 €.", 700, "unknown", None),
+    ("Cena 700 €. Mesačne cca 180 € podľa spotreby.", 700, "guessed", 180),
+])
+def test_energy_guess_fallback(text, rent, status, amount):
+    e = tp.energies(text, rent)
+    assert (e["status"], e["amount"]) == (status, amount)
+
+
+def test_no_provision_reversed_phrase():
+    p = tp.provision("Prosím, aby ma nekontaktovali realitné kancelárie.", 650, None)
+    assert p["source"] == "none"
+
+
+@pytest.mark.parametrize("text,rent,status,amount", [
+    # internet counts as part of energies, not an exclusion
+    ("Cena 650 €. Energie a internet cca 170 € mesačne.", 650, "separate", 170),
+    ("Cena 650 €. Mesačne ešte 160 € vrátane internetu a TV.", 650, "guessed", 160),
+    # deposit, garage, parking, dog, cellar amounts are never energies
+    ("Cena 700 €. Kaucia 150 €.", 700, "unknown", None),
+    ("Cena 700 €. Garážové státie 150 € mesačne.", 700, "unknown", None),
+    ("Cena 700 €. Pivnica za 120 €.", 700, "unknown", None),
+])
+def test_energy_user_rules(text, rent, status, amount):
+    e = tp.energies(text, rent)
+    assert (e["status"], e["amount"]) == (status, amount)
+
+
+def test_included_overrules_portal_field():
+    from tracker.evaluate import evaluate
+    e = evaluate({"source": "nehnutelnosti", "title": "2-izbový byt",
+                  "location": "Bratislava-Ružinov", "rent": 750, "structured_energy": 150,
+                  "structured_condition": "Kompletná rekonštrukcia", "is_agency": False,
+                  "detail_text": "3. poschodie, balkón. Cena 750 € vrátane energií."})
+    assert (e["energy_status"], e["energy"], e["effective"]) == ("included", 0, 750)

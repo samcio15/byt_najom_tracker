@@ -9,16 +9,19 @@ DEFAULT_PROVISION_MONTHS = 1.0  # agency listing, provision not stated -> assume
 
 # Plausible range for a stated energy amount; outside it we ignore the number.
 ENERGY_MIN, ENERGY_MAX = 40, 450
+# Fallback when energies are not named: any amount in this range in the text
+# (not next to words like parking, deposit, provision) is taken as energies.
+ENERGY_GUESS_MIN, ENERGY_GUESS_MAX = 100, 300
 
 # ---- Flat rules -------------------------------------------------------------
 ROOMS = 2
 MIN_FLOOR = 2                # 2. poschodie and higher (prizemie = 0)
 # Dvojgarsonka = two small rooms. Portals list it as 2-room.
 # "flag" = keep it but mark it, "exclude" = drop it, "accept" = treat as normal 2-room.
-DVOJGARSONKA = "flag"
+DVOJGARSONKA = "accept"
 
 # Bump when parsing changes, so stored listings get their detail page re-read once.
-PARSER_VERSION = 2
+PARSER_VERSION = 4
 
 # ---- Districts --------------------------------------------------------------
 # Regexes run on lowercase text with diacritics removed.

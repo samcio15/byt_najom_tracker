@@ -8,7 +8,7 @@ from . import config
 
 SECTIONS = [
     ("match", f"Matches up to {config.MAX_EFFECTIVE} €", "matches",
-     "Every criterion confirmed. Effective price includes energies and provision spread over 12 months."),
+     "Every criterion confirmed. Total = rent + energies + provision ÷ 12."),
     ("near", f"Near misses, {config.MAX_EFFECTIVE}–{config.NEAR_MISS_MAX} €", "near misses",
      "Worth a negotiation attempt, especially if listed for weeks."),
     ("check", "Needs a manual check", "to check",
@@ -58,7 +58,7 @@ section{margin-top:40px}
 section h2{font-size:1.3rem;margin:0 0 2px}
 section>p{margin:0 0 12px;color:var(--muted);font-size:.93rem;max-width:75ch}
 .scroll{overflow-x:auto;background:var(--panel);border:1px solid var(--rule);border-radius:6px}
-table{border-collapse:collapse;width:100%;min-width:900px;table-layout:fixed;font-size:.93rem}
+table{border-collapse:collapse;width:100%;min-width:1120px;table-layout:fixed;font-size:.93rem}
 th,td{text-align:left;padding:10px 12px;vertical-align:top;border-bottom:1px solid var(--rule)}
 tr:last-child td{border-bottom:0}
 th{font-weight:700;font-size:.85rem;color:var(--muted);white-space:nowrap;position:sticky;top:0;background:var(--panel)}
@@ -79,6 +79,9 @@ a{color:var(--teal)}
 .bar.stale i{background:var(--amber)}
 .stale-note{color:var(--amber);font-weight:700}
 .flag{display:block;font-size:.82rem;color:var(--amber)}
+.sub.warn{color:var(--amber)}
+.unk{color:var(--red);font-weight:700}
+th.numh{text-align:right}
 .miss{display:block;font-size:.82rem;color:var(--red)}
 .drop{color:var(--teal);font-weight:700}
 .rise{color:var(--red)}
@@ -104,15 +107,21 @@ const STALE = 21;
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const cond = {renovated:"Renovated",partial:"Partly renovated","new":"New build",original:"Original"};
 
-function priceCell(r){
-  if (r.effective == null) return '<td class="num">?</td>';
-  const lb = r.energy_status === "unknown" ? "≥ " : "";
-  let parts = [`${Math.round(r.rent)} rent`];
-  if (r.energy_status === "included") parts.push("energies incl.");
-  else if (r.energy) parts.push(`${Math.round(r.energy)} energies`);
-  else parts.push("? energies");
-  if (r.provision) parts.push(`${Math.round(r.provision/12)} provision`);
-  return `<td class="num"><span class="eff">${lb}${r.effective} €</span><span class="sub">${parts.join(" + ")}</span></td>`;
+const ESRC = {portal:"portal field", separate:"from text", total:"from stated total", guessed:"guessed", included:"", unknown:""};
+const PSRC = {stated:"stated", assumed:"assumed 1× rent", none:"none", "private":"private owner"};
+function moneyCells(r){
+  let energy;
+  if (r.energy_status === "included") energy = `incl.<span class="sub">in rent</span>`;
+  else if (r.energy == null) energy = `<span class="unk">?</span>`;
+  else energy = `${Math.round(r.energy)} €<span class="sub${r.energy_status === "guessed" ? " warn" : ""}">${ESRC[r.energy_status] ?? ""}</span>`;
+  const prov = r.provision
+    ? `${Math.round(r.provision / 12)} €<span class="sub${r.provision_source === "assumed" ? " warn" : ""}">${PSRC[r.provision_source] ?? ""}</span>`
+    : `0 €<span class="sub">${PSRC[r.provision_source] ?? ""}</span>`;
+  const lb = r.energy == null && r.energy_status !== "included" ? "≥ " : "";
+  return `<td class="num">${r.rent != null ? Math.round(r.rent) + " €" : "?"}</td>
+    <td class="num">${energy}</td>
+    <td class="num">${prov}</td>
+    <td class="num"><span class="eff">${r.effective != null ? lb + r.effective + " €" : "?"}</span></td>`;
 }
 function historyCell(h){
   const p = h.map(x => x[1]).filter(x => x != null);
@@ -130,21 +139,23 @@ function row(r, sec){
   return `<tr>
     <td class="title"><a href="${esc(r.links[0].url)}" rel="noopener" target="_blank">${esc(r.title)}</a>
       <span class="sub">${esc(r.district ?? "?")}${r.area ? ", " + r.area + " m²" : ""}, on ${links}</span></td>
-    ${priceCell(r)}
+    ${moneyCells(r)}
     <td class="num">${r.floor ?? "?"}</td>
     <td>${r.balcony === true ? "Yes" : r.balcony === false ? "No" : "?"}</td>
     <td>${cond[r.condition] ?? "?"}</td>
     <td class="age">${days} days${sec === "removed" ? " until removed" : ""}${stale && sec !== "removed" ? ' <span class="stale-note">negotiable</span>' : ""}
       <div class="bar${stale ? " stale" : ""}"><i style="width:${w}%"></i></div>${historyCell(r.history)}</td>
-    <td>${r.flags.map(f => `<span class="flag">${esc(f)}</span>`).join("")}${notes}</td>
+    <td>${r.flags.filter(f => !/^(energies guessed|provision assumed)/.test(f)).map(f => `<span class="flag">${esc(f)}</span>`).join("")}${notes}</td>
   </tr>`;
 }
-const COLS = [["Listing","title",28],["Per month","effective",18],["Floor","floor",6],["Balcony",null,8],["Condition",null,11],["Listed","days",13],["Notes",null,16]];
+const COLS = [["Listing","title",20],["Rent","rent",7],["Energies","energy",9],["Provision /12","provision",11],["Total","effective",8],
+  ["Floor","floor",5],["Balcony",null,7],["Condition",null,9],["Listed","days",11],["Notes",null,13]];
 
 function table(sec, rows){
   if (!rows.length) return `<div class="scroll"><p class="empty">Nothing here right now.</p></div>`;
   const cols = COLS.map(c => `<col style="width:${c[2]}%">`).join("");
-  const head = COLS.map(([label,key]) => key ? `<th data-key="${key}"><button>${label}</button></th>` : `<th>${label}</th>`).join("");
+  const right = new Set(["rent","energy","provision","effective","floor"]);
+  const head = COLS.map(([label,key]) => key ? `<th data-key="${key}"${right.has(key) ? ' class="numh"' : ""}><button>${label}</button></th>` : `<th>${label}</th>`).join("");
   return `<div class="scroll"><table data-sec="${sec}"><colgroup>${cols}</colgroup><thead><tr>${head}</tr></thead><tbody>${rows.map(r => row(r, sec)).join("")}</tbody></table></div>`;
 }
 function render(){

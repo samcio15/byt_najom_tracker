@@ -205,30 +205,64 @@ def _energy_amount(patterns, t):
     return None
 
 
+def _included_matches(t: str):
+    """'vrátane energií' and similar, skipping negated forms ('nie je vrátane', 'bez')."""
+    for m in re.finditer(_ENERGY_INCLUDED, t):
+        before = t[max(0, m.start() - 14):m.start()]
+        if re.search(r"\b(?:nie|bez|nezahrn\w*|neobsahuj\w*)\b", before):
+            continue
+        yield m
+
+
 def energies(text: str, rent: float | None = None) -> dict:
     """
-    {'status': 'included' | 'separate' | 'unknown' | 'ambiguous', 'amount': int|None}
-    'ambiguous' = text says both "including energies" and names an energy amount;
-    the amount is then counted on top of rent (conservative) and flagged.
+    {'status': 'included' | 'total' | 'separate' | 'guessed' | 'unknown', 'amount': int|None}
+
+    'included' and 'total' come from "vrátane energií" wording, which overrules
+    everything else (also the portal's energy field):
+      - "700 € vrátane energií" with rent 700      -> included, energies 0
+      - "850 € vrátane energií" with listed rent 700 -> total 850, energies 150
     """
     t = norm(text)
-    if rent:
-        # "850 € / mesiac vrátane energií" while the listed rent is 700:
-        # the text states a total, so energies = total - rent.
-        for m in re.finditer(r"\b(\d{3,4})\s*€[^.\d]{0,30}(?:" + _ENERGY_INCLUDED + ")", t):
-            total = int(m.group(1))
-            if total == int(rent):
-                return {"status": "included", "amount": 0}
-            if config.ENERGY_MIN <= total - rent <= config.ENERGY_MAX:
-                return {"status": "separate", "amount": total - int(rent)}
+    inc = list(_included_matches(t))
+    if inc:
+        if rent:
+            for m in re.finditer(r"\b(\d{3,4})\s*€[^.\d]{0,30}$", t[:inc[0].start()]):
+                total = int(m.group(1))
+                if total > rent and total - rent <= config.ENERGY_MAX:
+                    return {"status": "total", "amount": total - int(rent)}
+            for m in inc[1:]:
+                pre = re.search(r"\b(\d{3,4})\s*€[^.\d]{0,30}$", t[:m.start()])
+                if pre and int(pre.group(1)) > rent and int(pre.group(1)) - rent <= config.ENERGY_MAX:
+                    return {"status": "total", "amount": int(pre.group(1)) - int(rent)}
+        return {"status": "included", "amount": 0}
     plus = _energy_amount(_ENERGY_PLUS, t)
     amount = plus if plus is not None else _energy_amount(_ENERGY_PLAIN, t)
-    included = re.search(_ENERGY_INCLUDED, t) is not None
     if amount is not None:
-        return {"status": "ambiguous" if included else "separate", "amount": amount}
-    if included:
-        return {"status": "included", "amount": 0}
+        return {"status": "separate", "amount": amount}
+    guess = _guess_energy(t)
+    if guess is not None:
+        return {"status": "guessed", "amount": guess}
     return {"status": "unknown", "amount": None}
+
+
+# Words that mean a nearby amount is NOT energies.
+_NOT_ENERGY = (r"park|garaz|stati|provizi|depozit|kauci|zabezpec|\bpes\b|\bpsa\b|zviera"
+               r"|kobk|pivnic|€\s*/\s*m|m2|vybav|nabyt|upratov|cistenie")
+
+
+def _guess_energy(t: str) -> int | None:
+    """Fallback: an amount of 100-300 EUR anywhere in the text is taken as energies,
+    unless the words around it say it's parking, deposit, provision, etc."""
+    for m in re.finditer(r"(?<![\d.,])(\d{3})\s*€", t):
+        val = int(m.group(1))
+        if not config.ENERGY_GUESS_MIN <= val <= config.ENERGY_GUESS_MAX:
+            continue
+        window = t[max(0, m.start() - 45):m.end() + 30]
+        if re.search(_NOT_ENERGY, window):
+            continue
+        return val
+    return None
 
 
 # --------------------------------------------------------------------------- #
@@ -240,6 +274,7 @@ _NO_PROVISION = (
     r"|\bnie\s+(?:som\s+|sme\s+)?(?:rk\b|realitka|realitna kancelaria)"
     r"|\b(?:rk|realitky|realitne kancelarie)\b[^.]{0,20}(?:nevolat|nekontaktovat|neotravovat|prosim nie)"
     r"|priamo\s+od\s+(?:majitel|vlastnik)|sukromn\w*\s+(?:osob|inzer|majitel)"
+    r"|(?:nekontaktoval\w*|nevolal\w*|nevolajte|nekontaktujte)\s+(?:ma\s+|nas\s+)?(?:\w+\s+)?(?:rk\b|realitn|realitk)"
     r"|provizi\w*\s+(?:je\s+)?(?:0\b|nulov|ziadn)|ziadn\w*\s+provizi|nulov\w*\s+provizi"
     r"|provizi\w*\s+(?:sa\s+)?(?:neplat|neuctuj|nebude)|neplati\w*\s+(?:sa\s+)?(?:ziadn\w*\s+)?provizi"
 )
