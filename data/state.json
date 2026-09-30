@@ -15,7 +15,7 @@
     "status": "excluded",
     "district": "Petržalka",
     "rooms": 2,
-    "floor": 19,
+    "floor": 4,
     "balcony": true,
     "condition": "new",
     "rent": 700.0,
@@ -47,8 +47,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 300.0
+   "parser_version": 6,
+   "structured_energy": 300.0,
+   "list_category": "2",
+   "structured_floor": "4/19 + výťah"
   },
   "nehnutelnosti:JuTmctmsF4x": {
    "id": "nehnutelnosti:JuTmctmsF4x",
@@ -98,7 +100,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2",
+   "structured_floor": "4/9"
   },
   "nehnutelnosti:JuG-Epv8z3T": {
    "id": "nehnutelnosti:JuG-Epv8z3T",
@@ -115,7 +119,7 @@
     "status": "excluded",
     "district": "Ružinov",
     "rooms": 2,
-    "floor": null,
+    "floor": 2,
     "balcony": true,
     "condition": "original",
     "rent": 570.0,
@@ -128,9 +132,7 @@
     "excluded": [
      "original condition"
     ],
-    "unknown": [
-     "floor"
-    ],
+    "unknown": [],
     "flags": []
    },
    "fp": "23f395830016fe34",
@@ -147,8 +149,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 180.0
+   "parser_version": 6,
+   "structured_energy": 180.0,
+   "list_category": "2",
+   "structured_floor": "2/7 + výťah"
   },
   "nehnutelnosti:JuvH0G6TPcE": {
    "id": "nehnutelnosti:JuvH0G6TPcE",
@@ -197,8 +201,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 150.0
+   "parser_version": 6,
+   "structured_energy": 150.0,
+   "list_category": "2",
+   "structured_floor": "2/3"
   },
   "nehnutelnosti:JuETGWR_VDo": {
    "id": "nehnutelnosti:JuETGWR_VDo",
@@ -245,7 +251,8 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2"
   },
   "nehnutelnosti:Jub_djyTuuj": {
    "id": "nehnutelnosti:Jub_djyTuuj",
@@ -292,8 +299,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 200.0
+   "parser_version": 6,
+   "structured_energy": 200.0,
+   "list_category": "2"
   },
   "nehnutelnosti:JuDA6YaKoPes": {
    "id": "nehnutelnosti:JuDA6YaKoPes",
@@ -342,8 +350,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 170.0
+   "parser_version": 6,
+   "structured_energy": 170.0,
+   "list_category": "2",
+   "structured_floor": "6/29 + výťah"
   },
   "nehnutelnosti:JuwdnciPW24": {
    "id": "nehnutelnosti:JuwdnciPW24",
@@ -395,7 +405,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2",
+   "structured_floor": "4/8 + výťah"
   },
   "nehnutelnosti:JubC5B_hSEX": {
    "id": "nehnutelnosti:JubC5B_hSEX",
@@ -412,7 +424,7 @@
     "status": "excluded",
     "district": "Karlova Ves",
     "rooms": 2,
-    "floor": 1,
+    "floor": 2,
     "balcony": true,
     "condition": "new",
     "rent": 650.0,
@@ -423,7 +435,6 @@
     "effective": 904,
     "area": 39.73,
     "excluded": [
-     "1. poschodie",
      "too expensive (904 €/month)"
     ],
     "unknown": [],
@@ -445,8 +456,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 200.0
+   "parser_version": 6,
+   "structured_energy": 200.0,
+   "list_category": "2",
+   "structured_floor": "2/6 + výťah"
   },
   "nehnutelnosti:JunEjsigkpx": {
    "id": "nehnutelnosti:JunEjsigkpx",
@@ -496,7 +509,8 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2"
   },
   "nehnutelnosti:JuBHFJ1eZC5": {
    "id": "nehnutelnosti:JuBHFJ1eZC5",
@@ -513,7 +527,7 @@
     "status": "excluded",
     "district": "Nové Mesto",
     "rooms": 2,
-    "floor": null,
+    "floor": 1,
     "balcony": true,
     "condition": "new",
     "rent": 800.0,
@@ -524,11 +538,10 @@
     "effective": 867,
     "area": 98.0,
     "excluded": [
+     "1. poschodie",
      "too expensive (867 €/month)"
     ],
-    "unknown": [
-     "floor"
-    ],
+    "unknown": [],
     "flags": [
      "energies unknown",
      "provision assumed 1× rent"
@@ -548,7 +561,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2",
+   "structured_floor": "1/5"
   },
   "nehnutelnosti:Ju6q07afmUQ": {
    "id": "nehnutelnosti:Ju6q07afmUQ",
@@ -565,7 +580,7 @@
     "status": "excluded",
     "district": "Ružinov",
     "rooms": 2,
-    "floor": null,
+    "floor": 17,
     "balcony": true,
     "condition": "new",
     "rent": 800.0,
@@ -578,9 +593,7 @@
     "excluded": [
      "too expensive (1050 €/month)"
     ],
-    "unknown": [
-     "floor"
-    ],
+    "unknown": [],
     "flags": []
    },
    "fp": "539a9ff471be1543",
@@ -597,7 +610,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2",
+   "structured_floor": "17/22 + výťah"
   },
   "nehnutelnosti:Juc7VSCsa-l": {
    "id": "nehnutelnosti:Juc7VSCsa-l",
@@ -614,7 +629,7 @@
     "status": "excluded",
     "district": "Ružinov",
     "rooms": 2,
-    "floor": 7,
+    "floor": 4,
     "balcony": true,
     "condition": "new",
     "rent": 750.0,
@@ -640,7 +655,7 @@
    ],
    "group": "nehnutelnosti:Juc7VSCsa-l",
    "last_seen": "2026-09-30",
-   "missed_runs": 0,
+   "missed_runs": 1,
    "active": true,
    "removed_on": null,
    "inactive": false,
@@ -662,7 +677,7 @@
     "status": "excluded",
     "district": "Ružinov",
     "rooms": 2,
-    "floor": 3,
+    "floor": 2,
     "balcony": true,
     "condition": "renovated",
     "rent": 630.0,
@@ -690,7 +705,7 @@
    ],
    "group": "nehnutelnosti:JuEo1F3Kz5l",
    "last_seen": "2026-09-30",
-   "missed_runs": 0,
+   "missed_runs": 1,
    "active": true,
    "removed_on": null,
    "inactive": false,
@@ -742,8 +757,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 200.0
+   "parser_version": 6,
+   "structured_energy": 200.0,
+   "list_category": "2",
+   "structured_floor": "3/4"
   },
   "nehnutelnosti:Juo7G92Fha0": {
    "id": "nehnutelnosti:Juo7G92Fha0",
@@ -791,7 +808,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2",
+   "structured_floor": "Ďalšie nadzemné podlažie"
   },
   "nehnutelnosti:JuLtSnb6Ptm": {
    "id": "nehnutelnosti:JuLtSnb6Ptm",
@@ -808,7 +827,7 @@
     "status": "excluded",
     "district": "Karlova Ves",
     "rooms": 2,
-    "floor": null,
+    "floor": 1,
     "balcony": true,
     "condition": "new",
     "rent": 600.0,
@@ -819,11 +838,10 @@
     "effective": 867,
     "area": 58.0,
     "excluded": [
+     "1. poschodie",
      "too expensive (867 €/month)"
     ],
-    "unknown": [
-     "floor"
-    ],
+    "unknown": [],
     "flags": []
    },
    "fp": "738b4702379e6bb7",
@@ -840,8 +858,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 200.0
+   "parser_version": 6,
+   "structured_energy": 200.0,
+   "list_category": "2",
+   "structured_floor": "1/2"
   },
   "nehnutelnosti:JuVyCfjfgbt": {
    "id": "nehnutelnosti:JuVyCfjfgbt",
@@ -891,7 +911,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2",
+   "structured_floor": "3/6 + výťah"
   },
   "nehnutelnosti:Ju8Gcp5xQGI": {
    "id": "nehnutelnosti:Ju8Gcp5xQGI",
@@ -905,10 +927,10 @@
    "detail_text": "Vlastnosti nehnuteľnosti\nK dispozícii od\n:\n12.09.2026\nVýhľad\n:\nMesto, Príroda\nVybavenie\n:\nVyhradené parkovanie, Detské ihrisko, Kočikáreň\nUmiestnenie\n:\nĎalšie nadzemné podlažie\nOrientácia\n:\nJuhozápadná\nVlastníctvo\n:\nOsobné\nZobraziť všetky\nNahlásiť\nVšetky novostavby na jednom mieste\nZobraziť\nZobraziť všetky\n\nPonúkame na prenájom\nModerný 2-izbový byt v prémiovej lokalite Ružinova v lokalite na NIVÁCH\nHľadáte bývanie, ktoré má štýl, atmosféru aj výbornú adresu a dosah kamkoľvek ?\nTento slnečný 2-izbový byt  na Košickejulici v Bratislave ponúka: komfort, kvalitné prevedenie a vynikajúcu polohu.\nV okolí nájdete Nivy Mall, Cvernovku, trhovisko Miletička, co-workingové priestory, kaviarne, parky… všetko do pár minút chôdze.\nBYT\n•       72 m²  s výhľadom na Košickú smerom na Dulovo námestie\n•       2. poschodie / 5\n•       Orientácia: JZ.\n•       Slnečný, vzdušný zariadený byt\n•       Možnosť prenajať parkovacie státie v blízkom ZWIRNe v podzemí\nDISPOZÍCIA\n•       vstupná predsieň\n•       samostatná spálňa\n•       obývačka prepojená s kuchyňou\n•       kúpeľňa s WC\nBYTOVÝ DOM\n•       tehlový\n•       udržiavané zelené okolie\n•       výborná občianska vybavenosť\nŠTANDARD & ÚPRAVY\n•       bezpečnostné dvere\n•       2x  veľké skrine(výborné úložné riešenia)\n•       veľkoplošné okná so sieťkami\n•       kuchynská linka na mieru so všetkými spotrebičmi\n•       nápadito riešené prepojenie kuchyne s obývačkou\n•       spálňa  - veľká priestranná\n•       kúpeľňa s vaňou\nLOKALITA: BA Ružinov / Nivy\nPešia dostupnosť k najlepšiemu, čo centrum BA ponúka:\n•       Cvernovka, ZWIRN, Nivy Mall, autobusová stanica\n•       trhovisko Miletička\n•       kaviarne, bistrá, potraviny, služby\n•       Dulovo námestie, zeleň typická pre mestskú časť Ružinov, známa svojimi mestskými parkami\n•       MHD 1 min, centrum BA 3 min\n•       skvelé možnosti športovania a cyklotrás\nPODMIENKY\n•       vhodné max. pre 2 osoby\n•       majitelia preferujú nefajčiarov, bez zvierat\nNÁŠ NÁZOR\nAk hľadáte moderný byt v top lokalite, kde máte všetko na pešo a zároveň v tichšom zelenom prostredí, toto je jedno z najlepších riešení v Ružinove.\nSkvelé pre náročných jednotlivcov či pár.\nByt je voľný IHNEĎ\nCENA: 750 €/mesiac + energie\nKontakt: RK BETTY\nMaklér:  Zuzana Václavínková\n...",
    "is_agency": true,
    "eval": {
-    "status": "check",
+    "status": "excluded",
     "district": "Ružinov",
     "rooms": 2,
-    "floor": 2,
+    "floor": 1,
     "balcony": null,
     "condition": "renovated",
     "rent": 750.0,
@@ -918,7 +940,9 @@
     "provision_source": "assumed",
     "effective": 812,
     "area": 72.0,
-    "excluded": [],
+    "excluded": [
+     "1. poschodie"
+    ],
     "unknown": [
      "balcony"
     ],
@@ -941,7 +965,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2",
+   "structured_floor": "1/4"
   },
   "nehnutelnosti:JuDkU7NM-yk": {
    "id": "nehnutelnosti:JuDkU7NM-yk",
@@ -986,8 +1012,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 130.0
+   "parser_version": 6,
+   "structured_energy": 130.0,
+   "list_category": "2",
+   "structured_floor": "8/12"
   },
   "nehnutelnosti:JuLTHC4NX-H": {
    "id": "nehnutelnosti:JuLTHC4NX-H",
@@ -1037,8 +1065,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 200.0
+   "parser_version": 6,
+   "structured_energy": 200.0,
+   "list_category": "2",
+   "structured_floor": "1/5 + výťah"
   },
   "nehnutelnosti:JucXH8w28SO": {
    "id": "nehnutelnosti:JucXH8w28SO",
@@ -1087,8 +1117,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 150.0
+   "parser_version": 6,
+   "structured_energy": 150.0,
+   "list_category": "2",
+   "structured_floor": "2/5 + výťah"
   },
   "nehnutelnosti:JuK7owTOuVc": {
    "id": "nehnutelnosti:JuK7owTOuVc",
@@ -1137,7 +1169,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2",
+   "structured_floor": "6/6"
   },
   "nehnutelnosti:JuHy7GqCSk0": {
    "id": "nehnutelnosti:JuHy7GqCSk0",
@@ -1158,19 +1192,18 @@
     "balcony": true,
     "condition": "renovated",
     "rent": 700.0,
-    "energy_status": "unknown",
-    "energy": null,
+    "energy_status": "portal",
+    "energy": 230.0,
     "provision": 0.0,
     "provision_source": "private",
-    "effective": 700,
+    "effective": 930,
     "area": 50.55,
     "excluded": [
-     "1. poschodie"
+     "1. poschodie",
+     "too expensive (930 €/month)"
     ],
     "unknown": [],
-    "flags": [
-     "energies unknown"
-    ]
+    "flags": []
    },
    "fp": "7c9635f4776aea05",
    "first_seen": "2026-09-30",
@@ -1182,11 +1215,13 @@
    ],
    "group": "nehnutelnosti:JuHy7GqCSk0",
    "last_seen": "2026-09-30",
-   "missed_runs": 1,
+   "missed_runs": 0,
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 4
+   "parser_version": 6,
+   "structured_energy": 230.0,
+   "list_category": "2"
   },
   "nehnutelnosti:Ju95sTfpzjG": {
    "id": "nehnutelnosti:Ju95sTfpzjG",
@@ -1207,8 +1242,8 @@
     "balcony": null,
     "condition": "partial",
     "rent": 575.0,
-    "energy_status": "separate",
-    "energy": 180,
+    "energy_status": "portal",
+    "energy": 180.0,
     "provision": 0.0,
     "provision_source": "private",
     "effective": 755,
@@ -1231,11 +1266,13 @@
    ],
    "group": "nehnutelnosti:Ju95sTfpzjG",
    "last_seen": "2026-09-30",
-   "missed_runs": 1,
+   "missed_runs": 0,
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 4
+   "parser_version": 6,
+   "structured_energy": 180.0,
+   "list_category": "2"
   },
   "nehnutelnosti:Ju_uDJeLNi-": {
    "id": "nehnutelnosti:Ju_uDJeLNi-",
@@ -1282,8 +1319,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 200.0
+   "parser_version": 6,
+   "structured_energy": 200.0,
+   "list_category": "2"
   },
   "nehnutelnosti:JuMlon7Pg5A": {
    "id": "nehnutelnosti:JuMlon7Pg5A",
@@ -1330,7 +1368,8 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2"
   },
   "nehnutelnosti:JuFlppxoHTX": {
    "id": "nehnutelnosti:JuFlppxoHTX",
@@ -1375,8 +1414,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 150.0
+   "parser_version": 6,
+   "structured_energy": 150.0,
+   "list_category": "2"
   },
   "nehnutelnosti:Ju9BqnVvlIZ": {
    "id": "nehnutelnosti:Ju9BqnVvlIZ",
@@ -1426,8 +1466,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 200.0
+   "parser_version": 6,
+   "structured_energy": 200.0,
+   "list_category": "2"
   },
   "nehnutelnosti:JuMCwoUJiTC": {
    "id": "nehnutelnosti:JuMCwoUJiTC",
@@ -1474,7 +1515,8 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2"
   },
   "nehnutelnosti:JuC_theLzk6": {
    "id": "nehnutelnosti:JuC_theLzk6",
@@ -1502,7 +1544,6 @@
     "effective": 800,
     "area": null,
     "excluded": [
-     "1.5 rooms",
      "prízemie"
     ],
     "unknown": [],
@@ -1522,8 +1563,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 230.0
+   "parser_version": 6,
+   "structured_energy": 230.0,
+   "list_category": "2"
   },
   "nehnutelnosti:Ju97Z-yAcJr": {
    "id": "nehnutelnosti:Ju97Z-yAcJr",
@@ -1616,8 +1658,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 160.0
+   "parser_version": 6,
+   "structured_energy": 160.0,
+   "list_category": "2"
   },
   "nehnutelnosti:Ju6nXX3jxj4": {
    "id": "nehnutelnosti:Ju6nXX3jxj4",
@@ -1665,8 +1708,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 190.0
+   "parser_version": 6,
+   "structured_energy": 190.0,
+   "list_category": "2"
   },
   "nehnutelnosti:JusDEVbAqnX": {
    "id": "nehnutelnosti:JusDEVbAqnX",
@@ -1715,8 +1759,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 200.0
+   "parser_version": 6,
+   "structured_energy": 200.0,
+   "list_category": "2"
   },
   "nehnutelnosti:Ju3RG1mIDwi": {
    "id": "nehnutelnosti:Ju3RG1mIDwi",
@@ -1733,7 +1778,7 @@
     "status": "excluded",
     "district": "Karlova Ves",
     "rooms": 2,
-    "floor": null,
+    "floor": 1,
     "balcony": true,
     "condition": "new",
     "rent": 700.0,
@@ -1744,11 +1789,10 @@
     "effective": 850,
     "area": 52.0,
     "excluded": [
+     "1. poschodie",
      "too expensive (850 €/month)"
     ],
-    "unknown": [
-     "floor"
-    ],
+    "unknown": [],
     "flags": []
    },
    "fp": "b8096ca7b3e136b7",
@@ -1765,8 +1809,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 150.0
+   "parser_version": 6,
+   "structured_energy": 150.0,
+   "list_category": "2"
   },
   "nehnutelnosti:JuWEjKXqevO": {
    "id": "nehnutelnosti:JuWEjKXqevO",
@@ -1816,8 +1861,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 240.0
+   "parser_version": 6,
+   "structured_energy": 240.0,
+   "list_category": "2"
   },
   "nehnutelnosti:JuJ9x1F6guY": {
    "id": "nehnutelnosti:JuJ9x1F6guY",
@@ -1864,8 +1910,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 140.0
+   "parser_version": 6,
+   "structured_energy": 140.0,
+   "list_category": "2"
   },
   "nehnutelnosti:JuX066o-M0X": {
    "id": "nehnutelnosti:JuX066o-M0X",
@@ -1915,8 +1962,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 150.0
+   "parser_version": 6,
+   "structured_energy": 150.0,
+   "list_category": "2"
   },
   "nehnutelnosti:JucLvcGgUdK": {
    "id": "nehnutelnosti:JucLvcGgUdK",
@@ -1963,8 +2011,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 250.0
+   "parser_version": 6,
+   "structured_energy": 250.0,
+   "list_category": "2"
   },
   "nehnutelnosti:Juc3RRQJUdf": {
    "id": "nehnutelnosti:Juc3RRQJUdf",
@@ -2013,15 +2062,16 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 250.0
+   "parser_version": 6,
+   "structured_energy": 250.0,
+   "list_category": "2"
   },
   "nehnutelnosti:JuTsAOLnCMQ": {
    "id": "nehnutelnosti:JuTsAOLnCMQ",
    "source": "nehnutelnosti",
    "url": "https://www.nehnutelnosti.sk/detail/JuTsAOLnCMQ/prenajom-2-izboveho-bytu-s-balkonom-53-m2-bratislava-ruzinov-martincekova-ulica",
    "title": "Prenájom 2-izbového bytu s balkónom / 53 m² / Bratislava – Ružinov, Martinčekova ulica",
-   "location": "Byty Bratislava-Ružinov",
+   "location": "Prenájom 2-izbového bytu s balkónom / 53 m² / Bratislava – Ružinov, Martinčekova ulica | Nehnutelnosti.sk",
    "rent": 800.0,
    "card_text": "TOP\nPrenájom 2-izbového bytu s balkónom / 53 m² / Bratislava – Ružinov, Martinčekova ulica\nMartinčekova, Bratislava-Ružinov, okres Bratislava II\n2 izbový byt\n53 m²\n800 €/mes.\n15,09 €/m²/mes.\nPrenájom 2-izbového bytu s balkónom / 53 m² / Bratislava – Ružinov, Martinčekova ulica\nMartinčekova, Bratislava-Ružinov, okres Bratislava II\n2 izbový byt\n53 m²\nPonúkam na prenájom štýlový a kompletne vybavený 2-izbový byt v v širšom centre Bratislavy - Ružinov na Martinčekovej ulici, ktorý predstavuje ideálnu voľbu pre tých, ktorí hľadajú komfortné bývanie vo veľmi dobrom stave. Byt je v zateplenom bytovom dome situovaný na 2. poschodí (2.NP) zo šiestich s novým výťahom, je rozľahlý 53 m² a jeho premyslená dispozícia zahŕňa priestrannú obývaciu izbu, samostatnú kuchyňu a oddelenú útulnú spálňu s novou posteľou a matracom a pracovným stolom, čo zaručuje príjemné a praktické bývanie.\nDo bytu patrí aj priestranná lodžia s rozlohou 7,35 m², ktorá poskytuje dostatok priestoru na relaxáciu a vychutnanie si čerstvého vzduchu, či sušenia prádla. Celá lodžia je zasklená s elektrickými žalúziami na diaľkové ovládanie. K dispozícii je aj pivnica s rozlohou 2,74 m², ktorá zabezpečuje úložné priestory na vaše veci.\nCelý byt je novo zrekonštruovaný s plastovými oknami a je plne vybavený vrátane internetového pripojenia, takže stačí len priniesť svoje osobné veci a môžete sa okamžite usadiť.\nLen seriózny záujemca, nefajčiar bez zvierat. V blízkom okolí bytového domu je kompletná občianska vybavenosť, pošta, banka do 5 min. chôdze, obchody (Tesco), reštaurácie, nákupné centrá, business centra, kúpalisko a známe trhovisko. MHD spojenia umožnia dostať sa v krátkom čase na vlakovú a autobusovú stanicu. Okolie domu je plné zelene s parkom a detským ihriskom.\nCena nájomného je 800€/mes. vrátane energií a internetu\nPriamo od majiteľa\n2 izbový byt Slovensko Prenájom\n800 €/mes.\n15,09 €/m²/mes.",
    "structured_condition": "Kompletná rekonštrukcia",
@@ -2059,7 +2109,8 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2"
   },
   "nehnutelnosti:JuT8scrVc3-": {
    "id": "nehnutelnosti:JuT8scrVc3-",
@@ -2106,8 +2157,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 150.0
+   "parser_version": 6,
+   "structured_energy": 150.0,
+   "list_category": "2"
   },
   "nehnutelnosti:Ju5UH61zo56": {
    "id": "nehnutelnosti:Ju5UH61zo56",
@@ -2156,8 +2208,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 150.0
+   "parser_version": 6,
+   "structured_energy": 150.0,
+   "list_category": "2"
   },
   "nehnutelnosti:Jumgtje9FFB": {
    "id": "nehnutelnosti:Jumgtje9FFB",
@@ -2248,7 +2301,7 @@
    ],
    "group": "nehnutelnosti:JucDWZ_Hfv6",
    "last_seen": "2026-09-30",
-   "missed_runs": 0,
+   "missed_runs": 1,
    "active": true,
    "removed_on": null,
    "inactive": false,
@@ -2270,7 +2323,7 @@
     "status": "excluded",
     "district": "Ružinov",
     "rooms": 2,
-    "floor": null,
+    "floor": 2,
     "balcony": true,
     "condition": "renovated",
     "rent": 670.0,
@@ -2283,9 +2336,7 @@
     "excluded": [
      "too expensive (946 €/month)"
     ],
-    "unknown": [
-     "floor"
-    ],
+    "unknown": [],
     "flags": [
      "provision assumed 1× rent"
     ]
@@ -2304,7 +2355,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2",
+   "structured_floor": "2"
   },
   "nehnutelnosti:JunvG2VQ99f": {
    "id": "nehnutelnosti:JunvG2VQ99f",
@@ -2351,8 +2404,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 200.0
+   "parser_version": 6,
+   "structured_energy": 200.0,
+   "list_category": "2",
+   "structured_floor": "10"
   },
   "nehnutelnosti:JukvXkVxH8O": {
    "id": "nehnutelnosti:JukvXkVxH8O",
@@ -2369,7 +2424,7 @@
     "status": "excluded",
     "district": "Petržalka",
     "rooms": 2,
-    "floor": 0,
+    "floor": 1,
     "balcony": null,
     "condition": "renovated",
     "rent": 700.0,
@@ -2380,7 +2435,7 @@
     "effective": 758,
     "area": 50.0,
     "excluded": [
-     "prízemie"
+     "1. poschodie"
     ],
     "unknown": [
      "balcony"
@@ -2403,7 +2458,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2",
+   "structured_floor": "1/7"
   },
   "nehnutelnosti:Ju0jtR3uJOw": {
    "id": "nehnutelnosti:Ju0jtR3uJOw",
@@ -2452,8 +2509,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 200.0
+   "parser_version": 6,
+   "structured_energy": 200.0,
+   "list_category": "2",
+   "structured_floor": "13 + výťah"
   },
   "nehnutelnosti:Ju1y9dT-sDZ": {
    "id": "nehnutelnosti:Ju1y9dT-sDZ",
@@ -2470,7 +2529,7 @@
     "status": "excluded",
     "district": "Ružinov",
     "rooms": 2,
-    "floor": null,
+    "floor": 5,
     "balcony": true,
     "condition": "renovated",
     "rent": 670.0,
@@ -2483,9 +2542,7 @@
     "excluded": [
      "too expensive (860 €/month)"
     ],
-    "unknown": [
-     "floor"
-    ],
+    "unknown": [],
     "flags": []
    },
    "fp": "62e7e4a765707400",
@@ -2502,8 +2559,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 190.0
+   "parser_version": 6,
+   "structured_energy": 190.0,
+   "list_category": "2",
+   "structured_floor": "5/7 + výťah"
   },
   "nehnutelnosti:JuNEhltIuCJ": {
    "id": "nehnutelnosti:JuNEhltIuCJ",
@@ -2552,7 +2611,8 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2"
   },
   "nehnutelnosti:Juu-UyNXmev": {
    "id": "nehnutelnosti:Juu-UyNXmev",
@@ -2569,7 +2629,7 @@
     "status": "excluded",
     "district": "Ružinov",
     "rooms": 2,
-    "floor": 2,
+    "floor": 5,
     "balcony": true,
     "condition": "new",
     "rent": 800.0,
@@ -2601,8 +2661,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 200.0
+   "parser_version": 6,
+   "structured_energy": 200.0,
+   "list_category": "2",
+   "structured_floor": "5"
   },
   "nehnutelnosti:Ju79NG_99G_": {
    "id": "nehnutelnosti:Ju79NG_99G_",
@@ -2653,8 +2715,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 220.0
+   "parser_version": 6,
+   "structured_energy": 220.0,
+   "list_category": "2",
+   "structured_floor": "Ďalšie nadzemné podlažie"
   },
   "nehnutelnosti:JudkUITBdvLh": {
    "id": "nehnutelnosti:JudkUITBdvLh",
@@ -2703,8 +2767,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 200.0
+   "parser_version": 6,
+   "structured_energy": 200.0,
+   "list_category": "2",
+   "structured_floor": "9/13"
   },
   "nehnutelnosti:JuoFsUsJtrK": {
    "id": "nehnutelnosti:JuoFsUsJtrK",
@@ -2718,10 +2784,10 @@
    "detail_text": "Vlastnosti nehnuteľnosti\nVybavenie\n:\nŠpajza, Výťah\nPočet balkónov\n:\n1\nPočet pivníc\n:\n1\nRok poslednej rekonštrukcie\n:\n2017\nDražobná zábezpeka\n:\n500€\nVlastníctvo\n:\nOsobné\nZobraziť všetky\nNahlásiť\nVšetky novostavby na jednom mieste\nZobraziť\nZobraziť všetky\n\nZískať ďalšie informácie, kontakt alebo si dohodnúť obhliadku priamo s majiteľom nehnuteľnosti môžete na webovej stránke: \"bezmaklerov.sk/sk/inzerat/5XCczZpkW4HspkNs6jwQDF\". ID 105929.\nBližšie info o tom ako na nehnuteľnosti bez realitnej kancelárie, bez provízie a bez maklérov nájdete na bezmaklerov.sk.\n### Ponuka prenájmu 2-izbového bytu v tichej lokalite – priamo od majiteľa, bez maklérskeho poplatku!\nVolný od 1.10 ,alebo dohodou okt.2026\n#### Výhodné podmienky prenájmu : Môžete kontaktovať majiteľa:\n...\n-Prosím SMS po 15h sa ozvem , nie RK !!!!!!!\nPrenajmem za výhodných podmienok aj poniženie depozitu na prenájom veľký , úsporný , 2-izbový byt tichej lokalite 62 m². na 2./zo 6 s výťahom, v zateplenom tehlovom dome. Vo výbornej dostupnosti do mesta aj k občianskej vybavenosti. Elektr. -Bus 3min , Lidl ,kaufland 5min. cyklotrasa a výpadovka do vinohradov hneď za domom\nByt prešiel čiastočnou rekonštrukciou v roku 2019. Vďaka osobnému vlastníctvu a prenájmu priamo od majiteľa máte istotu seriózneho a férového jedného partnera – žiadne poplatky navyše ani sprostredkovatelia.\nVybavenie bytu:\n- Kompletné zariadenie vrátane nábytku\n- Plne vybavená kuchynka: sporák, chladnička, rýchlovarná kanvica, príborník\n- Priestranný balkón a pivnica\n- Oddelená kúpeľňa s vaňou a samostatným WC\n- Práčka k dispozícii\n- Spoľahlivý internet\n- Bezpečnostné dvere\n- K dispozícii aj velká komora\nKomfort a okolie:\n- Tichá lokalita plná zelene -.\n- Vynikajúca dostupnosť MHD\n- Blízko obchodov a supermarketov\n- Verejné parkovanie dostupné\n- Rok výstavby: 1978, dom zrekonštruovaný a zateplený\n- Úsporné centrálne kúrenie\nCena: 760€/mes.,komplet vrátane energií! - Cenu je možne upraviť po dohode - upredňostňujem pár, alebo pár s 1 dieťaťom, vec Dohody .\n- 1 mesačný (500 €) Depozit je dohodou\n- Byt je voľný ihneď od 1.10.2026 , Dohodou !!\nNeváhajte nás kontaktovať ešte dnes!",
    "is_agency": true,
    "eval": {
-    "status": "check",
+    "status": "match",
     "district": "Rača",
     "rooms": 2,
-    "floor": null,
+    "floor": 2,
     "balcony": true,
     "condition": "partial",
     "rent": 760.0,
@@ -2732,9 +2798,7 @@
     "effective": 760,
     "area": 62.0,
     "excluded": [],
-    "unknown": [
-     "floor"
-    ],
+    "unknown": [],
     "flags": []
    },
    "fp": "815f4d25ce113beb",
@@ -2751,7 +2815,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2",
+   "structured_floor": "2/6 + výťah"
   },
   "nehnutelnosti:JuDRGKBxk0u": {
    "id": "nehnutelnosti:JuDRGKBxk0u",
@@ -2768,7 +2834,7 @@
     "status": "excluded",
     "district": "Karlova Ves",
     "rooms": 2,
-    "floor": 0,
+    "floor": 1,
     "balcony": true,
     "condition": "new",
     "rent": 800.0,
@@ -2779,7 +2845,7 @@
     "effective": 1017,
     "area": 85.0,
     "excluded": [
-     "prízemie",
+     "1. poschodie",
      "too expensive (1017 €/month)"
     ],
     "unknown": [],
@@ -2801,8 +2867,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 150.0
+   "parser_version": 6,
+   "structured_energy": 150.0,
+   "list_category": "2",
+   "structured_floor": "1/2"
   },
   "nehnutelnosti:JuPbDJfydw1": {
    "id": "nehnutelnosti:JuPbDJfydw1",
@@ -2853,8 +2921,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 200.0
+   "parser_version": 6,
+   "structured_energy": 200.0,
+   "list_category": "2",
+   "structured_floor": "3/4"
   },
   "nehnutelnosti:Ju16jX8WWLH": {
    "id": "nehnutelnosti:Ju16jX8WWLH",
@@ -2903,8 +2973,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 150.0
+   "parser_version": 6,
+   "structured_energy": 150.0,
+   "list_category": "2",
+   "structured_floor": "4/5 + výťah"
   },
   "nehnutelnosti:JuXGRj8Bo1E": {
    "id": "nehnutelnosti:JuXGRj8Bo1E",
@@ -2921,7 +2993,7 @@
     "status": "near",
     "district": "Nové Mesto",
     "rooms": 2,
-    "floor": 23,
+    "floor": 5,
     "balcony": true,
     "condition": "new",
     "rent": 600.0,
@@ -2951,8 +3023,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 170.0
+   "parser_version": 6,
+   "structured_energy": 170.0,
+   "list_category": "2",
+   "structured_floor": "5/24 + výťah"
   },
   "nehnutelnosti:JuvrBPwT6XX8": {
    "id": "nehnutelnosti:JuvrBPwT6XX8",
@@ -3001,8 +3075,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 200.0
+   "parser_version": 6,
+   "structured_energy": 200.0,
+   "list_category": "2",
+   "structured_floor": "2/6 + výťah"
   },
   "nehnutelnosti:Juzv9EBX8c6": {
    "id": "nehnutelnosti:Juzv9EBX8c6",
@@ -3051,8 +3127,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 190.0
+   "parser_version": 6,
+   "structured_energy": 190.0,
+   "list_category": "2",
+   "structured_floor": "9/14 + výťah"
   },
   "nehnutelnosti:JudNHKsZLlN": {
    "id": "nehnutelnosti:JudNHKsZLlN",
@@ -3101,8 +3179,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 150.0
+   "parser_version": 6,
+   "structured_energy": 150.0,
+   "list_category": "2",
+   "structured_floor": "4/7 + výťah"
   },
   "nehnutelnosti:Ju7t939mSEu": {
    "id": "nehnutelnosti:Ju7t939mSEu",
@@ -3149,8 +3229,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 225.0
+   "parser_version": 6,
+   "structured_energy": 225.0,
+   "list_category": "2",
+   "structured_floor": "6/6 + výťah"
   },
   "nehnutelnosti:JuExceyMNGv": {
    "id": "nehnutelnosti:JuExceyMNGv",
@@ -3167,7 +3249,7 @@
     "status": "excluded",
     "district": "Ružinov",
     "rooms": 2,
-    "floor": 9,
+    "floor": 7,
     "balcony": true,
     "condition": "renovated",
     "rent": 630.0,
@@ -3199,7 +3281,8 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2"
   },
   "nehnutelnosti:JuLN0gBXAKv": {
    "id": "nehnutelnosti:JuLN0gBXAKv",
@@ -3246,7 +3329,8 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2"
   },
   "nehnutelnosti:JuNG5jLPNUz": {
    "id": "nehnutelnosti:JuNG5jLPNUz",
@@ -3295,8 +3379,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 260.0
+   "parser_version": 6,
+   "structured_energy": 260.0,
+   "list_category": "2",
+   "structured_floor": "2/5"
   },
   "nehnutelnosti:JuKwiqXJzQa": {
    "id": "nehnutelnosti:JuKwiqXJzQa",
@@ -3345,8 +3431,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 150.0
+   "parser_version": 6,
+   "structured_energy": 150.0,
+   "list_category": "2",
+   "structured_floor": "5/6"
   },
   "nehnutelnosti:JuRFEeUhmAt": {
    "id": "nehnutelnosti:JuRFEeUhmAt",
@@ -3360,10 +3448,10 @@
    "detail_text": "Vlastnosti nehnuteľnosti\nSkladový priestor\n:\nNie\nUmiestnenie\n:\nĎalšie nadzemné podlažie\nOrientácia\n:\nJuhovýchodná\nVlastníctvo\n:\nOsobné\nVykurovanie\n:\nÚstredné\nTelekomunikácie\n:\nInternet\nZobraziť všetky\nNahlásiť\nVšetky novostavby na jednom mieste\nZobraziť\nZobraziť všetky\n\nHERRYS - Na prenájom 1,5 izbový apartmán v projekte NUPPU\nRealitná kancelária Herrys ponúka exkluzívne na prenájom 1,5 izbový apartmán v obľúbenom rezidenčnom komplexe Nuppu, ktorý spája komfort mestského života s pokojnou atmosférou moderného bývania. Apartmán sa nachádza v budove Magnolia a je otočený do tichého vnútrobloku. Spacia časť je prakticky oddelená vstavanou skriňou, čo zabezpečuje dostatok súkromia ako aj veľa úložného priestoru. Byt sa prenajíma kompletne zariadený aj s pripojením na internet. V byte je povolené malé domácie zvieratko (mačka nie) a je vhodný pre 1-2 osoby. Byt je voľný od 1.11.2026.\nBENEFITY\n•novostavba\n•kompletná občianska vybavenosť\n•dobrá dostupnoť\n•byt zariadený nábytkom na mieru\n•internet v cene\n•petfriendly\nDISPOZÍCIA\nVstupná chodba, kúpeľňa s WC a sprchovým kútom, obývačka spojená s kuchyňou, spací kút.\nLOKALITA\nRezidenčný komplex Nuppu sa nachádza v bratislavskej časti Ružinov, ktorá patrí medzi najvyhľadávanejšie mestské štvrte v Bratislave. Tento moderný projekt ponúka jedinečné spojenie príjemného bývania, výbornej dostupnosti a bohatej občianskej vybavenosti. Nuppu je situované v blízkosti hlavných dopravných uzlov. Rýchla dostupnosť do centra Bratislavy aj na obchvat zaručuje pohodlné dochádzanie za prácou či oddychom. V okolí nájdete všetko potrebné pre pohodlný život – školy, škôlky, potraviny, reštaurácie, kaviarne, fitness centrá či zdravotnícke zariadenia. Projekt Nuppu kladie dôraz na prírodu a komunitný život. Areál ponúka vnútroblokové parky, detské ihriská a oddychové zóny. Ideálne na prechádzky, športovanie alebo trávenie času s rodinou a priateľmi.\nCENA\n600eur/mesiac + 150eur/energie\n© Text a fotografie sú autorským dielom a majetkom realitnej kancelárie HERRYS.",
    "is_agency": true,
    "eval": {
-    "status": "excluded",
+    "status": "rooms15",
     "district": "Ružinov",
     "rooms": 1.5,
-    "floor": null,
+    "floor": 4,
     "balcony": null,
     "condition": "new",
     "rent": 600.0,
@@ -3373,11 +3461,8 @@
     "provision_source": "assumed",
     "effective": 800,
     "area": null,
-    "excluded": [
-     "1.5 rooms"
-    ],
+    "excluded": [],
     "unknown": [
-     "floor",
      "balcony"
     ],
     "flags": [
@@ -3398,8 +3483,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 150.0
+   "parser_version": 6,
+   "structured_energy": 150.0,
+   "list_category": "2",
+   "structured_floor": "4/7"
   },
   "nehnutelnosti:Ju2i6TzayXt": {
    "id": "nehnutelnosti:Ju2i6TzayXt",
@@ -3416,7 +3503,7 @@
     "status": "excluded",
     "district": "Ružinov",
     "rooms": 2,
-    "floor": null,
+    "floor": 4,
     "balcony": true,
     "condition": "new",
     "rent": 800.0,
@@ -3429,9 +3516,7 @@
     "excluded": [
      "too expensive (1067 €/month)"
     ],
-    "unknown": [
-     "floor"
-    ],
+    "unknown": [],
     "flags": [
      "provision assumed 1× rent"
     ]
@@ -3450,8 +3535,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 200.0
+   "parser_version": 6,
+   "structured_energy": 200.0,
+   "list_category": "2",
+   "structured_floor": "4/4 + výťah"
   },
   "nehnutelnosti:JurFLb8958n": {
    "id": "nehnutelnosti:JurFLb8958n",
@@ -3499,8 +3586,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 150.0
+   "parser_version": 6,
+   "structured_energy": 150.0,
+   "list_category": "2"
   },
   "nehnutelnosti:JulKY_c4_lE": {
    "id": "nehnutelnosti:JulKY_c4_lE",
@@ -3551,7 +3639,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2",
+   "structured_floor": "7/10 + výťah"
   },
   "nehnutelnosti:JuiA9Ab-i5K": {
    "id": "nehnutelnosti:JuiA9Ab-i5K",
@@ -3568,7 +3658,7 @@
     "status": "excluded",
     "district": "Petržalka",
     "rooms": 2,
-    "floor": null,
+    "floor": 12,
     "balcony": null,
     "condition": "renovated",
     "rent": 700.0,
@@ -3582,7 +3672,6 @@
      "too expensive (929 €/month)"
     ],
     "unknown": [
-     "floor",
      "balcony"
     ],
     "flags": []
@@ -3601,8 +3690,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 200.0
+   "parser_version": 6,
+   "structured_energy": 200.0,
+   "list_category": "2",
+   "structured_floor": "12/12 + výťah"
   },
   "nehnutelnosti:JuOUj49c-65": {
    "id": "nehnutelnosti:JuOUj49c-65",
@@ -3619,7 +3710,7 @@
     "status": "excluded",
     "district": "Nové Mesto",
     "rooms": 2,
-    "floor": null,
+    "floor": 3,
     "balcony": true,
     "condition": "new",
     "rent": 650.0,
@@ -3632,9 +3723,7 @@
     "excluded": [
      "too expensive (833 €/month)"
     ],
-    "unknown": [
-     "floor"
-    ],
+    "unknown": [],
     "flags": []
    },
    "fp": "79dcffe7ad8c7e31",
@@ -3651,8 +3740,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 150.0
+   "parser_version": 6,
+   "structured_energy": 150.0,
+   "list_category": "2",
+   "structured_floor": "3/4 + výťah"
   },
   "nehnutelnosti:Juw-J07Z7Bb": {
    "id": "nehnutelnosti:Juw-J07Z7Bb",
@@ -3669,7 +3760,7 @@
     "status": "excluded",
     "district": "Petržalka",
     "rooms": 2,
-    "floor": 2,
+    "floor": 3,
     "balcony": true,
     "condition": "original",
     "rent": 800.0,
@@ -3702,7 +3793,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2",
+   "structured_floor": "3/5 + výťah"
   },
   "nehnutelnosti:JuyCYcoRwF6": {
    "id": "nehnutelnosti:JuyCYcoRwF6",
@@ -3719,7 +3812,7 @@
     "status": "excluded",
     "district": "Petržalka",
     "rooms": 2,
-    "floor": null,
+    "floor": 13,
     "balcony": true,
     "condition": "new",
     "rent": 700.0,
@@ -3732,9 +3825,7 @@
     "excluded": [
      "too expensive (958 €/month)"
     ],
-    "unknown": [
-     "floor"
-    ],
+    "unknown": [],
     "flags": [
      "provision assumed 1× rent"
     ]
@@ -3753,8 +3844,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 200.0
+   "parser_version": 6,
+   "structured_energy": 200.0,
+   "list_category": "2",
+   "structured_floor": "13/16 + výťah"
   },
   "nehnutelnosti:JuOlTxAotR8": {
    "id": "nehnutelnosti:JuOlTxAotR8",
@@ -3771,7 +3864,7 @@
     "status": "excluded",
     "district": "Petržalka",
     "rooms": 2,
-    "floor": 2,
+    "floor": 1,
     "balcony": true,
     "condition": "new",
     "rent": 690.0,
@@ -3782,6 +3875,7 @@
     "effective": 888,
     "area": 50.0,
     "excluded": [
+     "1. poschodie",
      "too expensive (888 €/month)"
     ],
     "unknown": [],
@@ -3803,8 +3897,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 140.0
+   "parser_version": 6,
+   "structured_energy": 140.0,
+   "list_category": "2",
+   "structured_floor": "1/5 + výťah"
   },
   "nehnutelnosti:Ju4xXhfoROZ": {
    "id": "nehnutelnosti:Ju4xXhfoROZ",
@@ -3853,7 +3949,8 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2"
   },
   "nehnutelnosti:JulZXAX0HSP": {
    "id": "nehnutelnosti:JulZXAX0HSP",
@@ -3902,8 +3999,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 265.0
+   "parser_version": 6,
+   "structured_energy": 265.0,
+   "list_category": "2",
+   "structured_floor": "3/4 + výťah"
   },
   "nehnutelnosti:Ju8BaLwxH9n": {
    "id": "nehnutelnosti:Ju8BaLwxH9n",
@@ -3954,7 +4053,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2",
+   "structured_floor": "3/5"
   },
   "nehnutelnosti:JuoALNcDM5F": {
    "id": "nehnutelnosti:JuoALNcDM5F",
@@ -4003,8 +4104,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 140.0
+   "parser_version": 6,
+   "structured_energy": 140.0,
+   "list_category": "2",
+   "structured_floor": "6/12 + výťah"
   },
   "nehnutelnosti:JulgFIghBJY": {
    "id": "nehnutelnosti:JulgFIghBJY",
@@ -4051,8 +4154,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 200.0
+   "parser_version": 6,
+   "structured_energy": 200.0,
+   "list_category": "2",
+   "structured_floor": "5/7 + výťah"
   },
   "nehnutelnosti:Ju2ICK8qOSe": {
    "id": "nehnutelnosti:Ju2ICK8qOSe",
@@ -4069,7 +4174,7 @@
     "status": "excluded",
     "district": "Petržalka",
     "rooms": 2,
-    "floor": 17,
+    "floor": 13,
     "balcony": true,
     "condition": "new",
     "rent": 700.0,
@@ -4099,8 +4204,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 200.0
+   "parser_version": 6,
+   "structured_energy": 200.0,
+   "list_category": "2",
+   "structured_floor": "13/17 + výťah"
   },
   "nehnutelnosti:JuvyzJnceki": {
    "id": "nehnutelnosti:JuvyzJnceki",
@@ -4147,8 +4254,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 180.0
+   "parser_version": 6,
+   "structured_energy": 180.0,
+   "list_category": "2",
+   "structured_floor": "3/4 + výťah"
   },
   "nehnutelnosti:Jua-Ne6BprJ": {
    "id": "nehnutelnosti:Jua-Ne6BprJ",
@@ -4165,7 +4274,7 @@
     "status": "excluded",
     "district": null,
     "rooms": 2,
-    "floor": 10,
+    "floor": 8,
     "balcony": null,
     "condition": "new",
     "rent": 720.0,
@@ -4198,8 +4307,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 170.0
+   "parser_version": 6,
+   "structured_energy": 170.0,
+   "list_category": "2",
+   "structured_floor": "8/10 + výťah"
   },
   "nehnutelnosti:JuGeV3GN_x7": {
    "id": "nehnutelnosti:JuGeV3GN_x7",
@@ -4246,7 +4357,8 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2"
   },
   "nehnutelnosti:JuFK4vHud9N": {
    "id": "nehnutelnosti:JuFK4vHud9N",
@@ -4293,7 +4405,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2",
+   "structured_floor": "17/24 + výťah"
   },
   "nehnutelnosti:Ju-8FoQoc6W": {
    "id": "nehnutelnosti:Ju-8FoQoc6W",
@@ -4340,8 +4454,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 300.0
+   "parser_version": 6,
+   "structured_energy": 300.0,
+   "list_category": "2",
+   "structured_floor": "3/7 + výťah"
   },
   "nehnutelnosti:JuyjDTNo6XQ": {
    "id": "nehnutelnosti:JuyjDTNo6XQ",
@@ -4358,7 +4474,7 @@
     "status": "excluded",
     "district": "Ružinov",
     "rooms": 2,
-    "floor": null,
+    "floor": 3,
     "balcony": true,
     "condition": "partial",
     "rent": 690.0,
@@ -4371,9 +4487,7 @@
     "excluded": [
      "too expensive (948 €/month)"
     ],
-    "unknown": [
-     "floor"
-    ],
+    "unknown": [],
     "flags": [
      "provision assumed 1× rent"
     ]
@@ -4396,8 +4510,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 200.0
+   "parser_version": 6,
+   "structured_energy": 200.0,
+   "list_category": "2",
+   "structured_floor": "3/4 + výťah"
   },
   "nehnutelnosti:Juo5nBeppl8": {
    "id": "nehnutelnosti:Juo5nBeppl8",
@@ -4446,8 +4562,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 150.0
+   "parser_version": 6,
+   "structured_energy": 150.0,
+   "list_category": "2",
+   "structured_floor": "6/6"
   },
   "nehnutelnosti:JuUgsbCBDKj": {
    "id": "nehnutelnosti:JuUgsbCBDKj",
@@ -4464,7 +4582,7 @@
     "status": "excluded",
     "district": "Ružinov",
     "rooms": 2,
-    "floor": 2,
+    "floor": 5,
     "balcony": true,
     "condition": "new",
     "rent": 800.0,
@@ -4496,7 +4614,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2",
+   "structured_floor": "5/7"
   },
   "nehnutelnosti:JufiyHS9X92": {
    "id": "nehnutelnosti:JufiyHS9X92",
@@ -4513,7 +4633,7 @@
     "status": "check",
     "district": "Nové Mesto",
     "rooms": 2,
-    "floor": null,
+    "floor": 3,
     "balcony": null,
     "condition": "renovated",
     "rent": 360.0,
@@ -4525,7 +4645,6 @@
     "area": null,
     "excluded": [],
     "unknown": [
-     "floor",
      "balcony",
      "rent below 600 € and energies unknown"
     ],
@@ -4548,7 +4667,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2",
+   "structured_floor": "3/4"
   },
   "nehnutelnosti:JuCLvwKLQ2P": {
    "id": "nehnutelnosti:JuCLvwKLQ2P",
@@ -4597,7 +4718,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2",
+   "structured_floor": "Ďalšie nadzemné podlažie"
   },
   "nehnutelnosti:Juj6r-BKA1K": {
    "id": "nehnutelnosti:Juj6r-BKA1K",
@@ -4614,7 +4737,7 @@
     "status": "excluded",
     "district": "Petržalka",
     "rooms": 2,
-    "floor": 4,
+    "floor": 5,
     "balcony": true,
     "condition": "renovated",
     "rent": 818.0,
@@ -4646,7 +4769,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2",
+   "structured_floor": "5/6 + výťah"
   },
   "nehnutelnosti:Ju_LSqs_YB-": {
    "id": "nehnutelnosti:Ju_LSqs_YB-",
@@ -4696,7 +4821,8 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2"
   },
   "nehnutelnosti:JuBntWBr6_c": {
    "id": "nehnutelnosti:JuBntWBr6_c",
@@ -4749,8 +4875,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 200.0
+   "parser_version": 6,
+   "structured_energy": 200.0,
+   "list_category": "2",
+   "structured_floor": "1/4"
   },
   "nehnutelnosti:JuX16eI2fxr": {
    "id": "nehnutelnosti:JuX16eI2fxr",
@@ -4797,8 +4925,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 200.0
+   "parser_version": 6,
+   "structured_energy": 200.0,
+   "list_category": "2",
+   "structured_floor": "13/15 + výťah"
   },
   "nehnutelnosti:JuyzJVoagrf": {
    "id": "nehnutelnosti:JuyzJVoagrf",
@@ -4815,7 +4945,7 @@
     "status": "excluded",
     "district": "Ružinov",
     "rooms": 2,
-    "floor": 2,
+    "floor": 5,
     "balcony": true,
     "condition": "new",
     "rent": 800.0,
@@ -4847,7 +4977,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2",
+   "structured_floor": "5/7 + výťah"
   },
   "nehnutelnosti:Ju3myBHJVna": {
    "id": "nehnutelnosti:Ju3myBHJVna",
@@ -4864,7 +4996,7 @@
     "status": "excluded",
     "district": "Nové Mesto",
     "rooms": 2,
-    "floor": null,
+    "floor": 3,
     "balcony": true,
     "condition": "renovated",
     "rent": 630.0,
@@ -4878,9 +5010,7 @@
      "reserved or no longer available",
      "too expensive (882 €/month)"
     ],
-    "unknown": [
-     "floor"
-    ],
+    "unknown": [],
     "flags": [
      "provision assumed 1× rent"
     ]
@@ -4899,8 +5029,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 200.0
+   "parser_version": 6,
+   "structured_energy": 200.0,
+   "list_category": "2",
+   "structured_floor": "3/12 + výťah"
   },
   "nehnutelnosti:JuQN_J1VgcA": {
    "id": "nehnutelnosti:JuQN_J1VgcA",
@@ -4949,7 +5081,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2",
+   "structured_floor": "6/7"
   },
   "nehnutelnosti:JuBfkPwCw7W": {
    "id": "nehnutelnosti:JuBfkPwCw7W",
@@ -4998,8 +5132,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 150.0
+   "parser_version": 6,
+   "structured_energy": 150.0,
+   "list_category": "2",
+   "structured_floor": "7/8"
   },
   "nehnutelnosti:JuR-gvrTtmb": {
    "id": "nehnutelnosti:JuR-gvrTtmb",
@@ -5048,8 +5184,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 200.0
+   "parser_version": 6,
+   "structured_energy": 200.0,
+   "list_category": "2",
+   "structured_floor": "5/7 + výťah"
   },
   "nehnutelnosti:Jue2wrzjScL": {
    "id": "nehnutelnosti:Jue2wrzjScL",
@@ -5100,7 +5238,8 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2"
   },
   "nehnutelnosti:JuiHMceJhyl": {
    "id": "nehnutelnosti:JuiHMceJhyl",
@@ -5117,7 +5256,7 @@
     "status": "excluded",
     "district": "Nové Mesto",
     "rooms": 2.5,
-    "floor": null,
+    "floor": 2,
     "balcony": null,
     "condition": "new",
     "rent": 800.0,
@@ -5132,7 +5271,6 @@
      "too expensive (1117 €/month)"
     ],
     "unknown": [
-     "floor",
      "balcony"
     ],
     "flags": [
@@ -5153,8 +5291,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 250.0
+   "parser_version": 6,
+   "structured_energy": 250.0,
+   "list_category": "2",
+   "structured_floor": "2/5 + výťah"
   },
   "nehnutelnosti:Ju_P40YB87x": {
    "id": "nehnutelnosti:Ju_P40YB87x",
@@ -5203,8 +5343,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 300.0
+   "parser_version": 6,
+   "structured_energy": 300.0,
+   "list_category": "2",
+   "structured_floor": "3/5 + výťah"
   },
   "nehnutelnosti:JuUPFTqzqy9": {
    "id": "nehnutelnosti:JuUPFTqzqy9",
@@ -5253,8 +5395,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 200.0
+   "parser_version": 6,
+   "structured_energy": 200.0,
+   "list_category": "2",
+   "structured_floor": "2/6"
   },
   "nehnutelnosti:Jue6lH1Kwmv": {
    "id": "nehnutelnosti:Jue6lH1Kwmv",
@@ -5306,8 +5450,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 150.0
+   "parser_version": 6,
+   "structured_energy": 150.0,
+   "list_category": "2",
+   "structured_floor": "Prízemie"
   },
   "nehnutelnosti:Jul36QbMgdW": {
    "id": "nehnutelnosti:Jul36QbMgdW",
@@ -5356,8 +5502,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 150.0
+   "parser_version": 6,
+   "structured_energy": 150.0,
+   "list_category": "2",
+   "structured_floor": "4 + výťah"
   },
   "nehnutelnosti:JufJajxmwzb": {
    "id": "nehnutelnosti:JufJajxmwzb",
@@ -5406,8 +5554,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 210.0
+   "parser_version": 6,
+   "structured_energy": 210.0,
+   "list_category": "2",
+   "structured_floor": "9 + výťah"
   },
   "nehnutelnosti:JujTRWnmBBK": {
    "id": "nehnutelnosti:JujTRWnmBBK",
@@ -5456,8 +5606,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 360.0
+   "parser_version": 6,
+   "structured_energy": 360.0,
+   "list_category": "2",
+   "structured_floor": "9"
   },
   "nehnutelnosti:JuD-C40fVXb": {
    "id": "nehnutelnosti:JuD-C40fVXb",
@@ -5509,8 +5661,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 150.0
+   "parser_version": 6,
+   "structured_energy": 150.0,
+   "list_category": "2"
   },
   "nehnutelnosti:Ju0xz0wfj5-": {
    "id": "nehnutelnosti:Ju0xz0wfj5-",
@@ -5527,7 +5680,7 @@
     "status": "excluded",
     "district": "Ružinov",
     "rooms": 2,
-    "floor": null,
+    "floor": 12,
     "balcony": true,
     "condition": "new",
     "rent": 650.0,
@@ -5540,9 +5693,7 @@
     "excluded": [
      "too expensive (904 €/month)"
     ],
-    "unknown": [
-     "floor"
-    ],
+    "unknown": [],
     "flags": [
      "provision assumed 1× rent"
     ]
@@ -5561,8 +5712,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 200.0
+   "parser_version": 6,
+   "structured_energy": 200.0,
+   "list_category": "2",
+   "structured_floor": "12/15"
   },
   "nehnutelnosti:JuFuDfQRFCl": {
    "id": "nehnutelnosti:JuFuDfQRFCl",
@@ -5611,7 +5764,8 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2"
   },
   "nehnutelnosti:JuLXBSIJUNu": {
    "id": "nehnutelnosti:JuLXBSIJUNu",
@@ -5661,7 +5815,8 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2"
   },
   "nehnutelnosti:JuDhEjn6PBy": {
    "id": "nehnutelnosti:JuDhEjn6PBy",
@@ -5711,7 +5866,8 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2"
   },
   "nehnutelnosti:JuVOU4GOICk": {
    "id": "nehnutelnosti:JuVOU4GOICk",
@@ -5761,7 +5917,8 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2"
   },
   "nehnutelnosti:JuhbuKUjc19": {
    "id": "nehnutelnosti:JuhbuKUjc19",
@@ -5813,7 +5970,8 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2"
   },
   "nehnutelnosti:JuqRgOlp3Z9": {
    "id": "nehnutelnosti:JuqRgOlp3Z9",
@@ -5862,7 +6020,8 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2"
   },
   "nehnutelnosti:JurcdlIk_3I": {
    "id": "nehnutelnosti:JurcdlIk_3I",
@@ -5911,7 +6070,8 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2"
   },
   "nehnutelnosti:JufwxTXF22n": {
    "id": "nehnutelnosti:JufwxTXF22n",
@@ -5963,7 +6123,8 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2"
   },
   "nehnutelnosti:JuER3ik2o1B": {
    "id": "nehnutelnosti:JuER3ik2o1B",
@@ -5972,15 +6133,15 @@
    "title": "BOSEN | Klimatizovaný 2 izbový byt s garážovým parkovacím miestom, Budatínska 57m2",
    "location": "Byty Bratislava-Petržalka",
    "rent": 700.0,
-   "card_text": "BOSEN | Klimatizovaný 2 izbový byt s garážovým parkovacím miestom, Budatínska 57m2\nBudatínska, Bratislava-Petržalka, okres Bratislava V\n2 izbový byt\n53.67 m²\n700 €/mes.\n13,04 €/m²/mes.\nBOSEN | Klimatizovaný 2 izbový byt s garážovým parkovacím miestom, Budatínska 57m2\nBudatínska, Bratislava-Petržalka, okres Bratislava V\n2 izbový byt\n53.67 m²\nBosen Group Vám ponúka moderný 2 izbový byt  v obľúbenom rezidenčnom projekte SOLAR na Budatínskej ulici v Petržalke.\nBYT: Celková plocha bytu a príslušenstva je 56,59 m² z čoho je pivnica 3 m² a loggia 2,92 m². Nachádza sa na 4./11. poschodí s dvomi výžahmi. Byt ponúka moderné bývanie s kompletným zariadením, klimatizáciou, murovanou pivnicou a možnosťou prenajatia vnútorného parkovacieho státia. \nDISPOZÍCIA:  Byt ponúka veľmi praktické dispozičné riešenie. Zo vstupnej chodby sa dostanete do kúpeľne spojenej s WC, ďalej do samostatnej spálne a do priestrannej dennej časti, ktorú tvorí obývacia izba prepojená s kuchyňou. Z obývacej izby je vstup na loggiu, kde si môžete vychutnať rannú kávu alebo príjemné posedenie počas letných večerov.\nZARIADENIE: Byt sa prenajíma kompletne zariadený : vstavaný nábytok v chodbe vrátane priestoru na sedenie, vešiakovej steny, skríň a botníka, vstavaná skriňa v spálni po celej dĺžke steny, sedacia súprava, TV stolík, jedálenský stôl so stoličkami, kuchynská linka so vstavanými spotrebičmi (elektrická varná doska, digestor, umývačka riadu, mikrovlnná rúra a teplovzdušná elektrická rúra chladnička), klimatizácia.\nPARKOVANIE: K bytu je možné prenajať vnútorné parkovacie miesto v objekte za 70€/mesiac\nCENA za BYT: 700 €/mesiac + 200 € energie (pre dve osoby) + vratný depozit 900€ + provízia RK 900€\nCENA za PARKING: 50 €/mesiac + 20 € energie + vratný depozit 70€ \nCENA za PIVNICU: 30 €/mesiac\nVoľný od 01.10.2026\nLOKALITA:  Projekt SOLAR na Budatínskej ulici patrí medzi obľúbené adresy v Petržalke. Spája výbornú občiansku vybavenosť s množstvom zelene a výbornou dostupnosťou do centra Bratislavy. Samotný projekt bol skolaudovaný v roku 2014 a ponúka moderné bývanie s obchodnými prevádzkami priamo v parteri budovy.\nPriamo v bytovom dome nájdete potraviny Malina a Packeta boxy. Len pár krokov od domu sa nachádza zastávka MHD s pravidelnými spojmi do centra mesta aj ostatných častí Bratislavy.\nV okolí nájdete kompletnú občiansku vybavenosť v pešej dostupnosti:  supermarkety Lidl, Billa, Tesco, množstvo reštaurácií, kaviarní, lekární, zdravotné strediská aj banky.\nVýborné je aj dopravné napojenie. Autom sa pohodlne dostanete do centra Bratislavy približne za 10 minút, rovnako rýchlo sa napojíte na diaľničný obchvat D1, D2 aj R7, čo oceníte pri každodennom dochádzaní za prácou.\nMilovníci športu a aktívneho oddychu si prídu na svoje. Len niekoľko minút od domu sa rozprestiera jazero Veľký Draždiak, lesopark Zrkadlový háj, obľúbené cyklotrasy napojené na petržalskú hrádzu, bežecké trasy, workoutové ihriská aj športoviská. Lokalita ponúka ideálne podmienky na bicyklovanie, korčuľovanie, beh, paddleboarding, letné kúpanie či pokojné prechádzky v prírode.\nPre viac informácií ma kontaktujte:\nMgr. art. Nora Kolimárová, RSc. \n📞 0902 327 970\n📧 kolimarova@bosen.sk\nRealitná kancelária Bosen Group je členom Realitnej únie SR a riadi sa jej Realitným kódexom. Uvedená cena je konečná, zahŕňa províziu realitnej kancelárie, právny servis zabezpečovaný advokátskou kanceláriou a poradenstvo pri prenájme nehnuteľnosti.\nBosen Group s.r.o.\n2 izbový byt Slovensko Prenájom\n700 €/mes.\n13,04 €/m²/mes.",
+   "card_text": "PREMIUM\nBOSEN | Klimatizovaný 2 izbový byt s garážovým parkovacím miestom, Budatínska 57m2\nBudatínska, Bratislava-Petržalka, okres Bratislava V\n2 izbový byt\n53.67 m²\n700 €/mes.\n13,04 €/m²/mes.\nBOSEN | Klimatizovaný 2 izbový byt s garážovým parkovacím miestom, Budatínska 57m2\nBudatínska, Bratislava-Petržalka, okres Bratislava V\n2 izbový byt\n53.67 m²\nBosen Group Vám ponúka moderný 2 izbový byt  v obľúbenom rezidenčnom projekte SOLAR na Budatínskej ulici v Petržalke.\nBYT: Celková plocha bytu a príslušenstva je 56,59 m² z čoho je pivnica 3 m² a loggia 2,92 m². Nachádza sa na 4./11. poschodí s dvomi výžahmi. Byt ponúka moderné bývanie s kompletným zariadením, klimatizáciou, murovanou pivnicou a možnosťou prenajatia vnútorného parkovacieho státia. \nDISPOZÍCIA:  Byt ponúka veľmi praktické dispozičné riešenie. Zo vstupnej chodby sa dostanete do kúpeľne spojenej s WC, ďalej do samostatnej spálne a do priestrannej dennej časti, ktorú tvorí obývacia izba prepojená s kuchyňou. Z obývacej izby je vstup na loggiu, kde si môžete vychutnať rannú kávu alebo príjemné posedenie počas letných večerov.\nZARIADENIE: Byt sa prenajíma kompletne zariadený : vstavaný nábytok v chodbe vrátane priestoru na sedenie, vešiakovej steny, skríň a botníka, vstavaná skriňa v spálni po celej dĺžke steny, sedacia súprava, TV stolík, jedálenský stôl so stoličkami, kuchynská linka so vstavanými spotrebičmi (elektrická varná doska, digestor, umývačka riadu, mikrovlnná rúra a teplovzdušná elektrická rúra chladnička), klimatizácia.\nPARKOVANIE: K bytu je možné prenajať vnútorné parkovacie miesto v objekte za 70€/mesiac\nCENA za BYT: 700 €/mesiac + 200 € energie (pre dve osoby) + vratný depozit 900€ + provízia RK 900€\nCENA za PARKING: 50 €/mesiac + 20 € energie + vratný depozit 70€ \nCENA za PIVNICU: 30 €/mesiac\nByt je vhodný pre jednu až dve dospelé osoby. \nVoľný od 15.10.2026\nLOKALITA:  Projekt SOLAR na Budatínskej ulici patrí medzi obľúbené adresy v Petržalke. Spája výbornú občiansku vybavenosť s množstvom zelene a výbornou dostupnosťou do centra Bratislavy. Samotný projekt bol skolaudovaný v roku 2014 a ponúka moderné bývanie s obchodnými prevádzkami priamo v parteri budovy.\nPriamo v bytovom dome nájdete potraviny Malina a Packeta boxy. Len pár krokov od domu sa nachádza zastávka MHD s pravidelnými spojmi do centra mesta aj ostatných častí Bratislavy.\nV okolí nájdete kompletnú občiansku vybavenosť v pešej dostupnosti:  supermarkety Lidl, Billa, Tesco, množstvo reštaurácií, kaviarní, lekární, zdravotné strediská aj banky.\nVýborné je aj dopravné napojenie. Autom sa pohodlne dostanete do centra Bratislavy približne za 10 minút, rovnako rýchlo sa napojíte na diaľničný obchvat D1, D2 aj R7, čo oceníte pri každodennom dochádzaní za prácou.\nMilovníci športu a aktívneho oddychu si prídu na svoje. Len niekoľko minút od domu sa rozprestiera jazero Veľký Draždiak, lesopark Zrkadlový háj, obľúbené cyklotrasy napojené na petržalskú hrádzu, bežecké trasy, workoutové ihriská aj športoviská. Lokalita ponúka ideálne podmienky na bicyklovanie, korčuľovanie, beh, paddleboarding, letné kúpanie či pokojné prechádzky v prírode.\nPre viac informácií ma kontaktujte:\nMgr. art. Nora Kolimárová, RSc. \n📞 0902 327 970\n📧 kolimarova@bosen.sk\nRealitná kancelária Bosen Group je členom Realitnej únie SR a riadi sa jej Realitným kódexom. Uvedená cena je konečná, zahŕňa províziu realitnej kancelárie, právny servis zabezpečovaný advokátskou kanceláriou a poradenstvo pri prenájme nehnuteľnosti.\nBosen Group s.r.o.\n2 izbový byt Slovensko Prenájom\n700 €/mes.\n13,04 €/m²/mes.",
    "structured_condition": "Novostavba",
-   "detail_text": "Vlastnosti nehnuteľnosti\nVybavenie\n:\nVýťah\nPočet balkónov\n:\n1\nPočet pivníc\n:\n1\nPočet garáží\n:\n1\nRok kolaudácie\n:\n2014\nUmiestnenie\n:\nĎalšie nadzemné podlažie\nZobraziť všetky\nNahlásiť\nVšetky novostavby na jednom mieste\nZobraziť\nZobraziť všetky\n\nBosen Group Vám ponúka moderný 2 izbový byt  v obľúbenom rezidenčnom projekte SOLAR na Budatínskej ulici v Petržalke.\nBYT: Celková plocha bytu a príslušenstva je 56,59 m² z čoho je pivnica 3 m² a loggia 2,92 m². Nachádza sa na 4./11. poschodí s dvomi výžahmi. Byt ponúka moderné bývanie s kompletným zariadením, klimatizáciou, murovanou pivnicou a možnosťou prenajatia vnútorného parkovacieho státia.\nDISPOZÍCIA:  Byt ponúka veľmi praktické dispozičné riešenie. Zo vstupnej chodby sa dostanete do kúpeľne spojenej s WC, ďalej do samostatnej spálne a do priestrannej dennej časti, ktorú tvorí obývacia izba prepojená s kuchyňou. Z obývacej izby je vstup na loggiu, kde si môžete vychutnať rannú kávu alebo príjemné posedenie počas letných večerov.\nZARIADENIE: Byt sa prenajíma kompletne zariadený : vstavaný nábytok v chodbe vrátane priestoru na sedenie, vešiakovej steny, skríň a botníka, vstavaná skriňa v spálni po celej dĺžke steny, sedacia súprava, TV stolík, jedálenský stôl so stoličkami, kuchynská linka so vstavanými spotrebičmi (elektrická varná doska, digestor, umývačka riadu, mikrovlnná rúra a teplovzdušná elektrická rúra chladnička), klimatizácia.\nPARKOVANIE: K bytu je možné prenajať vnútorné parkovacie miesto v objekte za 70€/mesiac\nCENA za BYT: 700 €/mesiac + 200 € energie (pre dve osoby) + vratný depozit 900€ + provízia RK 900€\nCENA za PARKING: 50 €/mesiac + 20 € energie + vratný depozit 70€\nCENA za PIVNICU: 30 €/mesiac\nVoľný od 01.10.2026\nLOKALITA:  Projekt SOLAR na Budatínskej ulici patrí medzi obľúbené adresy v Petržalke. Spája výbornú občiansku vybavenosť s množstvom zelene a výbornou dostupnosťou do centra Bratislavy. Samotný projekt bol skolaudovaný v roku 2014 a ponúka moderné bývanie s obchodnými prevádzkami priamo v parteri budovy.\nPriamo v bytovom dome nájdete potraviny Malina a Packeta boxy. Len pár krokov od domu sa nachádza zastávka MHD s pravidelnými spojmi do centra mesta aj ostatných častí Bratislavy.\nV okolí nájdete kompletnú občiansku vybavenosť v pešej dostupnosti:  supermarkety Lidl, Billa, Tesco, množstvo reštaurácií, kaviarní, lekární, zdravotné strediská aj banky.\nVýborné je aj dopravné napojenie. Autom sa pohodlne dostanete do centra Bratislavy približne za 10 minút, rovnako rýchlo sa napojíte na diaľničný obchvat D1, D2 aj R7, čo oceníte pri každodennom dochádzaní za prácou.\nMilovníci športu a aktívneho oddychu si prídu na svoje. Len niekoľko minút od domu sa rozprestiera jazero Veľký Draždiak, lesopark Zrkadlový háj, obľúbené cyklotrasy napojené na petržalskú hrádzu, bežecké trasy, workoutové ihriská aj športoviská. Lokalita ponúka ideálne podmienky na bicyklovanie, korčuľovanie, beh, paddleboarding, letné kúpanie či pokojné prechádzky v prírode.\nPre viac informácií ma kontaktujte:\nMgr. art. Nora Kolimárová, RSc.\n📞\n...\n📧\n...\nRealitná kancelária Bosen Group je členom Realitnej únie SR a riadi sa jej Realitným kódexom. Uvedená cena je konečná, zahŕňa províziu realitnej kancelárie, právny servis zabezpečovaný advokátskou kanceláriou a poradenstvo pri prenájme nehnuteľnosti.",
+   "detail_text": "Vlastnosti nehnuteľnosti\nVybavenie\n:\nVýťah\nPočet balkónov\n:\n1\nPočet pivníc\n:\n1\nPočet garáží\n:\n1\nRok kolaudácie\n:\n2014\nUmiestnenie\n:\nĎalšie nadzemné podlažie\nZobraziť všetky\nNahlásiť\nVšetky novostavby na jednom mieste\nZobraziť\nZobraziť všetky\n\nBosen Group Vám ponúka moderný 2 izbový byt  v obľúbenom rezidenčnom projekte SOLAR na Budatínskej ulici v Petržalke.\nBYT: Celková plocha bytu a príslušenstva je 56,59 m² z čoho je pivnica 3 m² a loggia 2,92 m². Nachádza sa na 4./11. poschodí s dvomi výžahmi. Byt ponúka moderné bývanie s kompletným zariadením, klimatizáciou, murovanou pivnicou a možnosťou prenajatia vnútorného parkovacieho státia.\nDISPOZÍCIA:  Byt ponúka veľmi praktické dispozičné riešenie. Zo vstupnej chodby sa dostanete do kúpeľne spojenej s WC, ďalej do samostatnej spálne a do priestrannej dennej časti, ktorú tvorí obývacia izba prepojená s kuchyňou. Z obývacej izby je vstup na loggiu, kde si môžete vychutnať rannú kávu alebo príjemné posedenie počas letných večerov.\nZARIADENIE: Byt sa prenajíma kompletne zariadený : vstavaný nábytok v chodbe vrátane priestoru na sedenie, vešiakovej steny, skríň a botníka, vstavaná skriňa v spálni po celej dĺžke steny, sedacia súprava, TV stolík, jedálenský stôl so stoličkami, kuchynská linka so vstavanými spotrebičmi (elektrická varná doska, digestor, umývačka riadu, mikrovlnná rúra a teplovzdušná elektrická rúra chladnička), klimatizácia.\nPARKOVANIE: K bytu je možné prenajať vnútorné parkovacie miesto v objekte za 70€/mesiac\nCENA za BYT: 700 €/mesiac + 200 € energie (pre dve osoby) + vratný depozit 900€ + provízia RK 900€\nCENA za PARKING: 50 €/mesiac + 20 € energie + vratný depozit 70€\nCENA za PIVNICU: 30 €/mesiac\nByt je vhodný pre jednu až dve dospelé osoby.\nVoľný od 15.10.2026\nLOKALITA:  Projekt SOLAR na Budatínskej ulici patrí medzi obľúbené adresy v Petržalke. Spája výbornú občiansku vybavenosť s množstvom zelene a výbornou dostupnosťou do centra Bratislavy. Samotný projekt bol skolaudovaný v roku 2014 a ponúka moderné bývanie s obchodnými prevádzkami priamo v parteri budovy.\nPriamo v bytovom dome nájdete potraviny Malina a Packeta boxy. Len pár krokov od domu sa nachádza zastávka MHD s pravidelnými spojmi do centra mesta aj ostatných častí Bratislavy.\nV okolí nájdete kompletnú občiansku vybavenosť v pešej dostupnosti:  supermarkety Lidl, Billa, Tesco, množstvo reštaurácií, kaviarní, lekární, zdravotné strediská aj banky.\nVýborné je aj dopravné napojenie. Autom sa pohodlne dostanete do centra Bratislavy približne za 10 minút, rovnako rýchlo sa napojíte na diaľničný obchvat D1, D2 aj R7, čo oceníte pri každodennom dochádzaní za prácou.\nMilovníci športu a aktívneho oddychu si prídu na svoje. Len niekoľko minút od domu sa rozprestiera jazero Veľký Draždiak, lesopark Zrkadlový háj, obľúbené cyklotrasy napojené na petržalskú hrádzu, bežecké trasy, workoutové ihriská aj športoviská. Lokalita ponúka ideálne podmienky na bicyklovanie, korčuľovanie, beh, paddleboarding, letné kúpanie či pokojné prechádzky v prírode.\nPre viac informácií ma kontaktujte:\nMgr. art. Nora Kolimárová, RSc.\n📞\n...\n📧\n...\nRealitná kancelária Bosen Group je členom Realitnej únie SR a riadi sa jej Realitným kódexom. Uvedená cena je konečná, zahŕňa províziu realitnej kancelárie, právny servis zabezpečovaný advokátskou kanceláriou a poradenstvo pri prenájme nehnuteľnosti.",
    "is_agency": true,
    "eval": {
     "status": "excluded",
     "district": "Petržalka",
     "rooms": 2,
-    "floor": 11,
+    "floor": 4,
     "balcony": true,
     "condition": "new",
     "rent": 700.0,
@@ -6010,8 +6171,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 200.0
+   "parser_version": 6,
+   "structured_energy": 200.0,
+   "list_category": "2",
+   "structured_floor": "4 + výťah"
   },
   "nehnutelnosti:Ju9c2nA2yeD": {
    "id": "nehnutelnosti:Ju9c2nA2yeD",
@@ -6063,40 +6226,41 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2",
+   "structured_floor": "Zvýšené prízemie"
   },
   "nehnutelnosti:Ju_xcV_XpWj": {
    "id": "nehnutelnosti:Ju_xcV_XpWj",
    "source": "nehnutelnosti",
    "url": "https://www.nehnutelnosti.sk/detail/Ju_xcV_XpWj/bosen-2-izbovy-byt-s-lodziou-ul-csl-parasutistov-bratislava-nove-mesto",
    "title": "BOSEN | 2 izbový byt s lodžiou, ul. Čsl. Parašutistov, Bratislava - Nové Mesto",
-   "location": "BOSEN | 2 izbový byt s lodžiou, ul. Čsl. Parašutistov, Bratislava - Nové Mesto | Nehnutelnosti.sk",
+   "location": "Byty Bratislava-Nové Mesto",
    "rent": 570.0,
    "card_text": "BOSEN | 2 izbový byt s lodžiou, ul. Čsl. Parašutistov, Bratislava - Nové Mesto\nČeskoslovenských parašutistov, Bratislava-Nové Mesto, okres Bratislava III\n2 izbový byt\n65.92 m²\n570 €/mes.\n8,65 €/m²/mes.\nBOSEN | 2 izbový byt s lodžiou, ul. Čsl. Parašutistov, Bratislava - Nové Mesto\nČeskoslovenských parašutistov, Bratislava-Nové Mesto, okres Bratislava III\n2 izbový byt\n65.92 m²\nBosen Group Vám ponúka na prenájom priestranný 2 izbový byt s lodžiou na ulici Československých parašutistov v Bratislave - m.č. Nové Mesto.\nBYT: Celková rozloha bytu je 65,92 m2 (byt 62,88 m2 + lodžia 3,04 m2) a nachádza sa na 1p./6p. zatepleného panelového bytového domu s novým výťahom a vstupom na čip.\nDISPOZÍCIA: Vstupná chodba, severovýchodne orientovaná kuchyňa a izba , kúpeľňa s vaňou a toaletou a juhozápadne orientovaná obývacia izba so vstupom na lodžiu. \nZARIADENIE: Byt sa prenajíma čiastočne zariadený - kuchynská linka so vstavanými spotrebičmi (elektrická varná doska a rúra, umývačka riadu), mikrovlnka, obývacia stena a vstavaná rolldoor skriňa v izbe a na chodbe.\nPARKOVANIE: V okolí bytového domu.\nLOKALITA: Vyhľadávaná lokalita v blízkosti centra mesta. V pešej dostupnosti nájdete kompletnú občiansku vybavenosť - zastávky MHD (autobus, električka), OD Slimák, obchody, služby, školy, parky, poliklinika, nákupné centrum VIVO, jazero Kuchajda.\nCENA: 570 Eur/nájom + 230 Eur/energie = 800 Eur/mesiac + depozit 800 Eur + provízia RK\nByt je voľný od 15.9.2026 a vhodný pre jednotlivca alebo max. 2 osoby bez domácich zvierat.\nRealitný maklér:\nAlexandra Cimprichová\nTel.: 0915 733 575\nE-mail: cimprichova@bosen.sk\nRealitná kancelária BOSEN Group je členom Realitnej únie SR a NARKS a svojim klientom poskytuje profesionálny servis počas celého procesu prenájmu nehnuteľnosti. Uvedená cena zahŕňa právny servis zabezpečovaný advokátskou kanceláriou a poradenstvo pri prenájme nehnuteľnosti. \nText a fotografie sú autorským dielom a majetkom realitnej kancelárie BOSEN GROUP. Na vizualizáciách boli použité prvky umelej inteligencie (AI).\nBosen Group s.r.o.\n2 izbový byt Slovensko Prenájom\n570 €/mes.\n8,65 €/m²/mes.",
    "structured_condition": "Čiastočná rekonštrukcia",
    "detail_text": "Vlastnosti nehnuteľnosti\nVybavenie\n:\nVýťah\nPočet lodžií\n:\n1\nVlastníctvo\n:\nOsobné\nVykurovanie\n:\nÚstredné\nZariadenie\n:\nČiastočne zariadené\nPočet izieb / miestností\n:\n2\nNahlásiť\nVšetky novostavby na jednom mieste\nZobraziť\nZobraziť všetky\n\nBosen Group Vám ponúka na prenájom priestranný 2 izbový byt s lodžiou na ulici Československých parašutistov v Bratislave - m.č. Nové Mesto.\nBYT: Celková rozloha bytu je 65,92 m2 (byt 62,88 m2 + lodžia 3,04 m2) a nachádza sa na 1p./6p. zatepleného panelového bytového domu s novým výťahom a vstupom na čip.\nDISPOZÍCIA: Vstupná chodba, severovýchodne orientovaná kuchyňa a izba , kúpeľňa s vaňou a toaletou a juhozápadne orientovaná obývacia izba so vstupom na lodžiu.\nZARIADENIE: Byt sa prenajíma čiastočne zariadený - kuchynská linka so vstavanými spotrebičmi (elektrická varná doska a rúra, umývačka riadu), mikrovlnka, obývacia stena a vstavaná rolldoor skriňa v izbe a na chodbe.\nPARKOVANIE: V okolí bytového domu.\nLOKALITA: Vyhľadávaná lokalita v blízkosti centra mesta. V pešej dostupnosti nájdete kompletnú občiansku vybavenosť - zastávky MHD (autobus, električka), OD Slimák, obchody, služby, školy, parky, poliklinika, nákupné centrum VIVO, jazero Kuchajda.\nCENA: 570 Eur/nájom + 230 Eur/energie = 800 Eur/mesiac + depozit 800 Eur + provízia RK\nByt je voľný od 15.9.2026 a vhodný pre jednotlivca alebo max. 2 osoby bez domácich zvierat.\nRealitný maklér:\nAlexandra Cimprichová\nTel.:\n...\nE-mail:\n...\nRealitná kancelária BOSEN Group je členom Realitnej únie SR a NARKS a svojim klientom poskytuje profesionálny servis počas celého procesu prenájmu nehnuteľnosti. Uvedená cena zahŕňa právny servis zabezpečovaný advokátskou kanceláriou a poradenstvo pri prenájme nehnuteľnosti.\nText a fotografie sú autorským dielom a majetkom realitnej kancelárie BOSEN GROUP. Na vizualizáciách boli použité prvky umelej inteligencie (AI).",
    "is_agency": true,
    "eval": {
-    "status": "check",
+    "status": "excluded",
     "district": "Nové Mesto",
     "rooms": 2,
-    "floor": null,
+    "floor": 1,
     "balcony": true,
     "condition": "partial",
     "rent": 570.0,
-    "energy_status": "unknown",
-    "energy": null,
+    "energy_status": "separate",
+    "energy": 230,
     "provision": 570.0,
     "provision_source": "assumed",
-    "effective": 618,
+    "effective": 848,
     "area": 65.92,
-    "excluded": [],
-    "unknown": [
-     "floor",
-     "rent below 600 € and energies unknown"
+    "excluded": [
+     "1. poschodie",
+     "too expensive (848 €/month)"
     ],
+    "unknown": [],
     "flags": [
-     "energies unknown",
      "provision assumed 1× rent"
     ]
    },
@@ -6114,7 +6278,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2",
+   "structured_floor": "1/6 + výťah"
   },
   "nehnutelnosti:Jupca2Eb6qN": {
    "id": "nehnutelnosti:Jupca2Eb6qN",
@@ -6165,7 +6331,8 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2"
   },
   "nehnutelnosti:JuNowx1aJGb": {
    "id": "nehnutelnosti:JuNowx1aJGb",
@@ -6216,7 +6383,8 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2"
   },
   "nehnutelnosti:JuA4vsQOX7q": {
    "id": "nehnutelnosti:JuA4vsQOX7q",
@@ -6267,7 +6435,8 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2"
   },
   "nehnutelnosti:Ju4O66VZFgM": {
    "id": "nehnutelnosti:Ju4O66VZFgM",
@@ -6284,7 +6453,7 @@
     "status": "excluded",
     "district": "Nové Mesto",
     "rooms": 2,
-    "floor": 5,
+    "floor": 0,
     "balcony": null,
     "condition": "renovated",
     "rent": 650.0,
@@ -6295,6 +6464,7 @@
     "effective": 833,
     "area": 50.26,
     "excluded": [
+     "prízemie",
      "too expensive (833 €/month)"
     ],
     "unknown": [
@@ -6316,8 +6486,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 150.0
+   "parser_version": 6,
+   "structured_energy": 150.0,
+   "list_category": "2",
+   "structured_floor": "Zvýšené prízemie"
   },
   "nehnutelnosti:JuaWm8V5ARw": {
    "id": "nehnutelnosti:JuaWm8V5ARw",
@@ -6365,8 +6537,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 200.0
+   "parser_version": 6,
+   "structured_energy": 200.0,
+   "list_category": "2",
+   "structured_floor": "1/4 + výťah"
   },
   "nehnutelnosti:Juj-Fa3Azfo": {
    "id": "nehnutelnosti:Juj-Fa3Azfo",
@@ -6417,7 +6591,8 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2"
   },
   "nehnutelnosti:Ju1VrkfcCDI": {
    "id": "nehnutelnosti:Ju1VrkfcCDI",
@@ -6434,7 +6609,7 @@
     "status": "excluded",
     "district": "Ružinov",
     "rooms": 2,
-    "floor": null,
+    "floor": 3,
     "balcony": true,
     "condition": "original",
     "rent": 680.0,
@@ -6448,9 +6623,7 @@
      "original condition",
      "too expensive (897 €/month)"
     ],
-    "unknown": [
-     "floor"
-    ],
+    "unknown": [],
     "flags": [
      "provision assumed 1× rent"
     ]
@@ -6469,8 +6642,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 160.0
+   "parser_version": 6,
+   "structured_energy": 160.0,
+   "list_category": "2",
+   "structured_floor": "3/10"
   },
   "nehnutelnosti:JuWzNnJWpdg": {
    "id": "nehnutelnosti:JuWzNnJWpdg",
@@ -6519,8 +6694,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 150.0
+   "parser_version": 6,
+   "structured_energy": 150.0,
+   "list_category": "2",
+   "structured_floor": "4/8 + výťah"
   },
   "nehnutelnosti:JuyLp-R5-HS": {
    "id": "nehnutelnosti:JuyLp-R5-HS",
@@ -6571,8 +6748,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 180.0
+   "parser_version": 6,
+   "structured_energy": 180.0,
+   "list_category": "2",
+   "structured_floor": "1/4"
   },
   "nehnutelnosti:JuCzPUfJe5t": {
    "id": "nehnutelnosti:JuCzPUfJe5t",
@@ -6589,7 +6768,7 @@
     "status": "excluded",
     "district": "Petržalka",
     "rooms": 2,
-    "floor": null,
+    "floor": 19,
     "balcony": true,
     "condition": "new",
     "rent": 650.0,
@@ -6602,9 +6781,7 @@
     "excluded": [
      "too expensive (887 €/month)"
     ],
-    "unknown": [
-     "floor"
-    ],
+    "unknown": [],
     "flags": []
    },
    "fp": "710aac8891fbe098",
@@ -6621,8 +6798,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 170.0
+   "parser_version": 6,
+   "structured_energy": 170.0,
+   "list_category": "2",
+   "structured_floor": "19/27 + výťah"
   },
   "nehnutelnosti:JuZN6AmfwTS": {
    "id": "nehnutelnosti:JuZN6AmfwTS",
@@ -6671,8 +6850,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 240.0
+   "parser_version": 6,
+   "structured_energy": 240.0,
+   "list_category": "2",
+   "structured_floor": "3/5"
   },
   "nehnutelnosti:JuQnxPDD5jA": {
    "id": "nehnutelnosti:JuQnxPDD5jA",
@@ -6722,8 +6903,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 215.0
+   "parser_version": 6,
+   "structured_energy": 215.0,
+   "list_category": "2",
+   "structured_floor": "11/12 + výťah"
   },
   "nehnutelnosti:JuooEuSTawp": {
    "id": "nehnutelnosti:JuooEuSTawp",
@@ -6771,7 +6954,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2",
+   "structured_floor": "2/8 + výťah"
   },
   "nehnutelnosti:Ju0tOjfIiSs": {
    "id": "nehnutelnosti:Ju0tOjfIiSs",
@@ -6820,8 +7005,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 170.0
+   "parser_version": 6,
+   "structured_energy": 170.0,
+   "list_category": "2",
+   "structured_floor": "2/7"
   },
   "nehnutelnosti:Ju9whKfRBN6": {
    "id": "nehnutelnosti:Ju9whKfRBN6",
@@ -6838,7 +7025,7 @@
     "status": "excluded",
     "district": "Nové Mesto",
     "rooms": 2,
-    "floor": null,
+    "floor": 8,
     "balcony": true,
     "condition": "partial",
     "rent": 700.0,
@@ -6851,9 +7038,7 @@
     "excluded": [
      "too expensive (958 €/month)"
     ],
-    "unknown": [
-     "floor"
-    ],
+    "unknown": [],
     "flags": [
      "provision assumed 1× rent"
     ]
@@ -6872,8 +7057,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 200.0
+   "parser_version": 6,
+   "structured_energy": 200.0,
+   "list_category": "2",
+   "structured_floor": "8/8 + výťah"
   },
   "nehnutelnosti:Juxky9Mg9jFt": {
    "id": "nehnutelnosti:Juxky9Mg9jFt",
@@ -6925,7 +7112,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2",
+   "structured_floor": "1/5"
   },
   "nehnutelnosti:JuuxObl-xcG": {
    "id": "nehnutelnosti:JuuxObl-xcG",
@@ -6972,8 +7161,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 150.0
+   "parser_version": 6,
+   "structured_energy": 150.0,
+   "list_category": "2",
+   "structured_floor": "4/6 + výťah"
   },
   "nehnutelnosti:JurLJ0tjvdZ": {
    "id": "nehnutelnosti:JurLJ0tjvdZ",
@@ -7022,7 +7213,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2",
+   "structured_floor": "3/5"
   },
   "nehnutelnosti:Ju1MKabjN_D": {
    "id": "nehnutelnosti:Ju1MKabjN_D",
@@ -7072,8 +7265,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 150.0
+   "parser_version": 6,
+   "structured_energy": 150.0,
+   "list_category": "2",
+   "structured_floor": "1/7 + výťah"
   },
   "nehnutelnosti:JuKJuz5z7eB": {
    "id": "nehnutelnosti:JuKJuz5z7eB",
@@ -7123,8 +7318,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 130.0
+   "parser_version": 6,
+   "structured_energy": 130.0,
+   "list_category": "2",
+   "structured_floor": "1/5 + výťah"
   },
   "nehnutelnosti:Ju9sQFj8_qS": {
    "id": "nehnutelnosti:Ju9sQFj8_qS",
@@ -7173,8 +7370,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 200.0
+   "parser_version": 6,
+   "structured_energy": 200.0,
+   "list_category": "2",
+   "structured_floor": "6/12 + výťah"
   },
   "nehnutelnosti:JunZIZ_Pz5L": {
    "id": "nehnutelnosti:JunZIZ_Pz5L",
@@ -7225,7 +7424,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2",
+   "structured_floor": "1/6 + výťah"
   },
   "nehnutelnosti:Ju2GrBIcKYX": {
    "id": "nehnutelnosti:Ju2GrBIcKYX",
@@ -7276,7 +7477,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2",
+   "structured_floor": "1/6 + výťah"
   },
   "nehnutelnosti:JutFtXCOvjF": {
    "id": "nehnutelnosti:JutFtXCOvjF",
@@ -7323,8 +7526,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 200.0
+   "parser_version": 6,
+   "structured_energy": 200.0,
+   "list_category": "2"
   },
   "nehnutelnosti:Ju_IbFm9Tun": {
    "id": "nehnutelnosti:Ju_IbFm9Tun",
@@ -7341,7 +7545,7 @@
     "status": "excluded",
     "district": "Petržalka",
     "rooms": 2,
-    "floor": 2,
+    "floor": 9,
     "balcony": null,
     "condition": "renovated",
     "rent": 790.0,
@@ -7375,7 +7579,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2",
+   "structured_floor": "9/10 + výťah"
   },
   "nehnutelnosti:JuooM7GHYP4": {
    "id": "nehnutelnosti:JuooM7GHYP4",
@@ -7424,8 +7630,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 200.0
+   "parser_version": 6,
+   "structured_energy": 200.0,
+   "list_category": "2",
+   "structured_floor": "1/5 + výťah"
   },
   "nehnutelnosti:JunAIBo2y0X": {
    "id": "nehnutelnosti:JunAIBo2y0X",
@@ -7476,8 +7684,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 140.0
+   "parser_version": 6,
+   "structured_energy": 140.0,
+   "list_category": "2",
+   "structured_floor": "6/12 + výťah"
   },
   "nehnutelnosti:Jucks3a7TyZ": {
    "id": "nehnutelnosti:Jucks3a7TyZ",
@@ -7526,8 +7736,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 150.0
+   "parser_version": 6,
+   "structured_energy": 150.0,
+   "list_category": "2",
+   "structured_floor": "3/5"
   },
   "nehnutelnosti:JusVxWSfV2C": {
    "id": "nehnutelnosti:JusVxWSfV2C",
@@ -7576,7 +7788,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2",
+   "structured_floor": "11/25 + výťah"
   },
   "nehnutelnosti:JuqglOVB1x_": {
    "id": "nehnutelnosti:JuqglOVB1x_",
@@ -7593,7 +7807,7 @@
     "status": "excluded",
     "district": "Nové Mesto",
     "rooms": 2,
-    "floor": 0,
+    "floor": 1,
     "balcony": true,
     "condition": "new",
     "rent": 800.0,
@@ -7604,7 +7818,7 @@
     "effective": 1087,
     "area": 62.5,
     "excluded": [
-     "prízemie",
+     "1. poschodie",
      "too expensive (1087 €/month)"
     ],
     "unknown": [],
@@ -7626,8 +7840,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 220.0
+   "parser_version": 6,
+   "structured_energy": 220.0,
+   "list_category": "2",
+   "structured_floor": "1/5"
   },
   "nehnutelnosti:Jus2qdn16CS": {
    "id": "nehnutelnosti:Jus2qdn16CS",
@@ -7644,7 +7860,7 @@
     "status": "near",
     "district": "Petržalka",
     "rooms": 2,
-    "floor": 4,
+    "floor": 5,
     "balcony": true,
     "condition": "new",
     "rent": 750.0,
@@ -7675,21 +7891,23 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2",
+   "structured_floor": "5/6 + výťah"
   },
   "nehnutelnosti:JuzXsXaEBvQ": {
    "id": "nehnutelnosti:JuzXsXaEBvQ",
    "source": "nehnutelnosti",
    "url": "https://www.nehnutelnosti.sk/detail/JuzXsXaEBvQ/zariadeny-2i-byt-na-zaciatku-petrzalky",
-   "title": "Zariadený 2i byt na začiatku Petržalky",
+   "title": "REZERVOVANÉ Zariadený 2i byt na začiatku Petržalky",
    "location": "Byty Bratislava-Petržalka",
    "rent": 650.0,
-   "card_text": "Zariadený 2i byt na začiatku Petržalky\nNámestie Hraničiarov, Bratislava-Petržalka, okres Bratislava V\n2 izbový byt\n57 m²\n650 €/mes.\n11,4 €/m²/mes.\nZariadený 2i byt na začiatku Petržalky\nNámestie Hraničiarov, Bratislava-Petržalka, okres Bratislava V\n2 izbový byt\n57 m²\nPonúkame na prenájom svetlý a kompletne zariadený 2-izbový byt na Námestí Hraničiarov na začiatku Petržalky. Byt je orientovaný na západ do tichej časti dvora. Poloha ponúka rýchlu dostupnosť do centra mesta električkou aj autom, pričom pár minút od domu nájdete les a cyklotrasu.\nParametre nehnuteľnosti\nByt má úžitkovú plochu 57 m2 a nachádza sa na 6. poschodí z 12 v zateplenom bytovom dome s dvoma novými výťahmi (osobný aj nákladný, vymenené v roku 2018). Dispozične pozostáva zo vstupnej haly, samostatnej kúpeľne s WC, priestrannej obývacej miestnosti, spálne a kuchyne. Byt je kompletne zariadený – chladnička s mrazničkou, umývačka riadu, šporák, práčka, digestor, TV a internet na WiFi. Sedačka do obývacej izby bude dodaná. Parkovanie je bezproblémové priamo pri dome.\nLokalita\nNámestie Hraničiarov patrí medzi najobľúbenejšie lokality Petržalky vďaka vynikajúcej občianskej vybavenosti a rýchlej dostupnosti do centra. V bezprostrednom okolí nájdete supermarket, potraviny, lekáreň, poštu, banku, bankomaty, reštaurácie a kaviarne. Zastávka MHD (autobus aj električka) je hneď pred vchodom do domu, čo umožňuje rýchle spojenie do centra mesta za pár minút. Zároveň je byt ideálne napojený na diaľničné obchvaty, takže autom sa rýchlo dostanete do ktorejkoľvek časti Bratislavy. Pre aktívny život je veľkým benefitom blízkosť lesa a hrádze – cyklotrasa vedie priamo pri vchode do domu a do lesa či k Dunajskej hrádzi sa dostanete za pár minút pešo alebo na bicykli. Lokalita je tichá s orientáciou do dvora.\nPlatobné podmienky\nMesačný nájom: 650 €\nNáklady na bývanie: 140 €\nDepozit a provízia pre RK: vo výške 1-mesačného nájmu\nByt voľný ihneď a je vhodný pre pár alebo jednotlivca (max. 2 osoby). Malý psík je možný po dohode.\nBroker Consulting, a.s.\n2 izbový byt Slovensko Prenájom\n650 €/mes.\n11,4 €/m²/mes.",
+   "card_text": "REZERVOVANÉ Zariadený 2i byt na začiatku Petržalky\nNámestie Hraničiarov, Bratislava-Petržalka, okres Bratislava V\n2 izbový byt\n57 m²\n650 €/mes.\n11,4 €/m²/mes.\nREZERVOVANÉ Zariadený 2i byt na začiatku Petržalky\nNámestie Hraničiarov, Bratislava-Petržalka, okres Bratislava V\n2 izbový byt\n57 m²\nPonúkame na prenájom svetlý a kompletne zariadený 2-izbový byt na Námestí Hraničiarov na začiatku Petržalky. Byt je orientovaný na západ do tichej časti dvora. Poloha ponúka rýchlu dostupnosť do centra mesta električkou aj autom, pričom pár minút od domu nájdete les a cyklotrasu.\nParametre nehnuteľnosti\nByt má úžitkovú plochu 57 m2 a nachádza sa na 6. poschodí z 12 v zateplenom bytovom dome s dvoma novými výťahmi (osobný aj nákladný, vymenené v roku 2018). Dispozične pozostáva zo vstupnej haly, samostatnej kúpeľne s WC, priestrannej obývacej miestnosti, spálne a kuchyne. Byt je kompletne zariadený – chladnička s mrazničkou, umývačka riadu, šporák, práčka, digestor, TV a internet na WiFi. Sedačka do obývacej izby bude dodaná. Parkovanie je bezproblémové priamo pri dome.\nLokalita\nNámestie Hraničiarov patrí medzi najobľúbenejšie lokality Petržalky vďaka vynikajúcej občianskej vybavenosti a rýchlej dostupnosti do centra. V bezprostrednom okolí nájdete supermarket, potraviny, lekáreň, poštu, banku, bankomaty, reštaurácie a kaviarne. Zastávka MHD (autobus aj električka) je hneď pred vchodom do domu, čo umožňuje rýchle spojenie do centra mesta za pár minút. Zároveň je byt ideálne napojený na diaľničné obchvaty, takže autom sa rýchlo dostanete do ktorejkoľvek časti Bratislavy. Pre aktívny život je veľkým benefitom blízkosť lesa a hrádze – cyklotrasa vedie priamo pri vchode do domu a do lesa či k Dunajskej hrádzi sa dostanete za pár minút pešo alebo na bicykli. Lokalita je tichá s orientáciou do dvora.\nPlatobné podmienky\nMesačný nájom: 650 €\nNáklady na bývanie: 140 €\nDepozit a provízia pre RK: vo výške 1-mesačného nájmu\nByt voľný ihneď a je vhodný pre pár alebo jednotlivca (max. 2 osoby). Malý psík je možný po dohode.\nBroker Consulting, a.s.\n2 izbový byt Slovensko Prenájom\n650 €/mes.\n11,4 €/m²/mes.",
    "structured_condition": "Čiastočná rekonštrukcia",
    "detail_text": "Vlastnosti nehnuteľnosti\nVybavenie\n:\nVýťah\nVlastníctvo\n:\nOsobné\nVoda\n:\nNedostupné\nElektrina\n:\nNedostupné\nPlyn\n:\nNedostupné\nOdpadové vody\n:\nNedostupné\nZobraziť všetky\nNahlásiť\nVšetky novostavby na jednom mieste\nZobraziť\nZobraziť všetky\n\nPonúkame na prenájom svetlý a kompletne zariadený 2-izbový byt na Námestí Hraničiarov na začiatku Petržalky. Byt je orientovaný na západ do tichej časti dvora. Poloha ponúka rýchlu dostupnosť do centra mesta električkou aj autom, pričom pár minút od domu nájdete les a cyklotrasu.\nParametre nehnuteľnosti\nByt má úžitkovú plochu 57 m2 a nachádza sa na 6. poschodí z 12 v zateplenom bytovom dome s dvoma novými výťahmi (osobný aj nákladný, vymenené v roku 2018). Dispozične pozostáva zo vstupnej haly, samostatnej kúpeľne s WC, priestrannej obývacej miestnosti, spálne a kuchyne. Byt je kompletne zariadený – chladnička s mrazničkou, umývačka riadu, šporák, práčka, digestor, TV a internet na WiFi. Sedačka do obývacej izby bude dodaná. Parkovanie je bezproblémové priamo pri dome.",
    "is_agency": true,
    "eval": {
-    "status": "check",
+    "status": "excluded",
     "district": "Petržalka",
     "rooms": 2,
     "floor": 6,
@@ -7702,7 +7920,9 @@
     "provision_source": "assumed",
     "effective": 704,
     "area": 57.0,
-    "excluded": [],
+    "excluded": [
+     "reserved or no longer available"
+    ],
     "unknown": [
      "balcony"
     ],
@@ -7725,7 +7945,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2",
+   "structured_floor": "6/12 + výťah"
   },
   "nehnutelnosti:JuBKRRky1uy": {
    "id": "nehnutelnosti:JuBKRRky1uy",
@@ -7776,8 +7998,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 220.0
+   "parser_version": 6,
+   "structured_energy": 220.0,
+   "list_category": "2"
   },
   "nehnutelnosti:JuhgW_U1Sct": {
    "id": "nehnutelnosti:JuhgW_U1Sct",
@@ -7826,8 +8049,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 230.0
+   "parser_version": 6,
+   "structured_energy": 230.0,
+   "list_category": "2"
   },
   "nehnutelnosti:JuATl8MLuVk": {
    "id": "nehnutelnosti:JuATl8MLuVk",
@@ -7876,8 +8100,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 150.0
+   "parser_version": 6,
+   "structured_energy": 150.0,
+   "list_category": "2",
+   "structured_floor": "3/6 + výťah"
   },
   "nehnutelnosti:JuPTsG8tksh": {
    "id": "nehnutelnosti:JuPTsG8tksh",
@@ -7925,8 +8151,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 210.0
+   "parser_version": 6,
+   "structured_energy": 210.0,
+   "list_category": "2",
+   "structured_floor": "1/8 + výťah"
   },
   "nehnutelnosti:Juh8lhUEDf0": {
    "id": "nehnutelnosti:Juh8lhUEDf0",
@@ -7978,7 +8206,8 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2"
   },
   "nehnutelnosti:JuERUx3ZWuF": {
    "id": "nehnutelnosti:JuERUx3ZWuF",
@@ -7995,7 +8224,7 @@
     "status": "match",
     "district": "Petržalka",
     "rooms": 2,
-    "floor": 12,
+    "floor": 10,
     "balcony": true,
     "condition": "renovated",
     "rent": 799.0,
@@ -8023,7 +8252,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2",
+   "structured_floor": "10/12 + výťah"
   },
   "nehnutelnosti:JuzvhmkFxZk": {
    "id": "nehnutelnosti:JuzvhmkFxZk",
@@ -8072,14 +8303,16 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2",
+   "structured_floor": "4/7 + výťah"
   },
   "nehnutelnosti:JuVd8KJDcyX": {
    "id": "nehnutelnosti:JuVd8KJDcyX",
    "source": "nehnutelnosti",
    "url": "https://www.nehnutelnosti.sk/detail/JuVd8KJDcyX/volny-od-01112026-2-izbovy-byt-na-prenajom-astrova-ruzinov-bratislava",
    "title": "VOĽNÝ od 01.11.2026 - 2-izbový byt na prenájom Astrova, Ružinov, Bratislava",
-   "location": "Byty Bratislava-Ružinov",
+   "location": "VOĽNÝ od 01.11.2026 - 2-izbový byt na prenájom Astrova, Ružinov, Bratislava | Nehnutelnosti.sk",
    "rent": 720.0,
    "card_text": "VOĽNÝ od 01.11.2026 - 2-izbový byt na prenájom Astrova, Ružinov, Bratislava\nAstrova, Bratislava-Ružinov, okres Bratislava II\n2 izbový byt\n42 m²\n720 €/mes.\n17,14 €/m²/mes.\nVOĽNÝ od 01.11.2026 - 2-izbový byt na prenájom Astrova, Ružinov, Bratislava\nAstrova, Bratislava-Ružinov, okres Bratislava II\n2 izbový byt\n42 m²\nRealitná kancelária ViaReality Vám ponúka na prenájom 2-izbový priestranný a nadštandardný byt na Astrovej ulici v Ružinove - Bratislava. Byt má rozlohu 42 m2 s výborným dispozičným riešením pre komfortné bývanie. Byt sa nachádza na 3.poschodí v 3-podlažnom novovybudovanom dome z roku 2024 bez výťahu.\nByt je k dispozícií na bývanie od 01.11.2026 s možnosťou obhliadok po vzájomnej dohode od začiatku 10 mesiaca. Bývanie je možné v byte s domácim miláčikom po dohode s majiteľom. Akceptovaný vychovaný psík. \nZariadenie bytu je nové, minimálne používané a je zladené s maximálnou precíznosťou.\nŠTANDARD:\n- hliníkové okná\n- stropné chladenie v celom byte\n- odhlučnené izby (štyri vrstvy akustického sadrokartónu, plus sklená vata) \nZARIADENIE:\n- vstavané skrine na mieru, šatníkové aj na topánky\n- kuchynská linka na mieru so vstavanými spotrebičmi (varná doska, elektrická a mikrovlnná rúra)\n- práčka v kuchyni\n- chladnička s mrazničkou\n- manželská posteľ a nočné stolíky, komoda\n- konferenčný stolík \n- sedačka \n- závesy black out a mnoho iného\nBytový dom ma zavedený internet od UPC základné pripojenie na Wifi je v cene nájmu. \nParkovanie po dohode možné v okolí bytového domu. Upresnené priamo na obhliadke.\nLOKALITA:\nLokalita poskytuje množstvo zelene (jazero Rohlík) s výbornou dostupnosťou pre peších do centra mesta prípadne na nákupy do OC RETRO, prípadne neďalekého OC Centrál. Priamo pri dome sa nachádza mimoriadne obľúbený park Andreja Hlinku, ktorý prešiel revitalizáciou a priamo pri parku sa nachádza obľúbená reštaurácia Štrngáč, prípadne kaviarničky alebo „raňajkárne“.\nCena za prenájom bytu je 720,-€/mesiac plus energie vo výške 125,-€/mesiac pri jednej osobe a pri dvoch osobách 175,-€/mesiac. Pri prenájme sa hradia dva depozity a odmena pre sprostredkovateľa vo výške 700,-/€. Nájom sa platí až v priebehu mesiaca, k 20 dňu aktuálneho mesiaca.\nZodpovedný maklér: kontakt 0948 291 840, email: makler@via-reality.sk\nText a fotodokumentácia sú majetkom a autorským dielom spoločnosti ViaReality s.r.o. © Copyright\nViaReality s.r.o.\n2 izbový byt Slovensko Prenájom\n720 €/mes.\n17,14 €/m²/mes.",
    "structured_condition": "Novostavba",
@@ -8087,9 +8320,9 @@
    "is_agency": true,
    "eval": {
     "status": "excluded",
-    "district": "Ružinov",
+    "district": null,
     "rooms": 2,
-    "floor": 3,
+    "floor": 2,
     "balcony": null,
     "condition": "new",
     "rent": 720.0,
@@ -8100,6 +8333,7 @@
     "effective": 905,
     "area": 42.0,
     "excluded": [
+     "district not on your list",
      "too expensive (905 €/month)"
     ],
     "unknown": [
@@ -8123,8 +8357,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 125.0
+   "parser_version": 6,
+   "structured_energy": 125.0,
+   "list_category": "2",
+   "structured_floor": "2"
   },
   "nehnutelnosti:Jul0b-OTAPf": {
    "id": "nehnutelnosti:Jul0b-OTAPf",
@@ -8141,7 +8377,7 @@
     "status": "excluded",
     "district": "Ružinov",
     "rooms": 2,
-    "floor": null,
+    "floor": 2,
     "balcony": true,
     "condition": "new",
     "rent": 800.0,
@@ -8154,9 +8390,7 @@
     "excluded": [
      "too expensive (1017 €/month)"
     ],
-    "unknown": [
-     "floor"
-    ],
+    "unknown": [],
     "flags": [
      "provision assumed 1× rent"
     ]
@@ -8175,8 +8409,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 150.0
+   "parser_version": 6,
+   "structured_energy": 150.0,
+   "list_category": "2",
+   "structured_floor": "2/13 + výťah"
   },
   "nehnutelnosti:JuW3uJD1qlo": {
    "id": "nehnutelnosti:JuW3uJD1qlo",
@@ -8193,7 +8429,7 @@
     "status": "excluded",
     "district": "Ružinov",
     "rooms": 2,
-    "floor": null,
+    "floor": 3,
     "balcony": true,
     "condition": "new",
     "rent": 700.0,
@@ -8206,9 +8442,7 @@
     "excluded": [
      "too expensive (943 €/month)"
     ],
-    "unknown": [
-     "floor"
-    ],
+    "unknown": [],
     "flags": []
    },
    "fp": "b949eb9e1dba29e5",
@@ -8225,8 +8459,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 185.0
+   "parser_version": 6,
+   "structured_energy": 185.0,
+   "list_category": "2",
+   "structured_floor": "3/8 + výťah"
   },
   "nehnutelnosti:JuJfy3nLQh9": {
    "id": "nehnutelnosti:JuJfy3nLQh9",
@@ -8274,8 +8510,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 250.0
+   "parser_version": 6,
+   "structured_energy": 250.0,
+   "list_category": "2",
+   "structured_floor": "2/3 + výťah"
   },
   "nehnutelnosti:JuKVQjs7oPR": {
    "id": "nehnutelnosti:JuKVQjs7oPR",
@@ -8292,7 +8530,7 @@
     "status": "check",
     "district": "Nové Mesto",
     "rooms": 2,
-    "floor": null,
+    "floor": 2,
     "balcony": null,
     "condition": "partial",
     "rent": 590.0,
@@ -8304,7 +8542,6 @@
     "area": 46.0,
     "excluded": [],
     "unknown": [
-     "floor",
      "balcony"
     ],
     "flags": [
@@ -8325,8 +8562,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 120.0
+   "parser_version": 6,
+   "structured_energy": 120.0,
+   "list_category": "2",
+   "structured_floor": "2/3"
   },
   "nehnutelnosti:JupP64qzjnb": {
    "id": "nehnutelnosti:JupP64qzjnb",
@@ -8373,8 +8612,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 160.0
+   "parser_version": 6,
+   "structured_energy": 160.0,
+   "list_category": "2",
+   "structured_floor": "2/12"
   },
   "nehnutelnosti:JuduicVfhM5": {
    "id": "nehnutelnosti:JuduicVfhM5",
@@ -8424,7 +8665,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2",
+   "structured_floor": "2/7 + výťah"
   },
   "nehnutelnosti:Jux8huEhJ4m": {
    "id": "nehnutelnosti:Jux8huEhJ4m",
@@ -8441,7 +8684,7 @@
     "status": "excluded",
     "district": "Nové Mesto",
     "rooms": 2,
-    "floor": 22,
+    "floor": 18,
     "balcony": true,
     "condition": "new",
     "rent": 800.0,
@@ -8471,8 +8714,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 330.0
+   "parser_version": 6,
+   "structured_energy": 330.0,
+   "list_category": "2",
+   "structured_floor": "18/22 + výťah"
   },
   "nehnutelnosti:JunYyrzKZvB": {
    "id": "nehnutelnosti:JunYyrzKZvB",
@@ -8521,8 +8766,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 130.0
+   "parser_version": 6,
+   "structured_energy": 130.0,
+   "list_category": "2",
+   "structured_floor": "5 + výťah"
   },
   "nehnutelnosti:JuwC8j1JF0J": {
    "id": "nehnutelnosti:JuwC8j1JF0J",
@@ -8574,7 +8821,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2",
+   "structured_floor": "5/6"
   },
   "nehnutelnosti:JuCeAfIHCS-": {
    "id": "nehnutelnosti:JuCeAfIHCS-",
@@ -8591,7 +8840,7 @@
     "status": "excluded",
     "district": "Ružinov",
     "rooms": 2,
-    "floor": 2,
+    "floor": 3,
     "balcony": true,
     "condition": "partial",
     "rent": null,
@@ -8625,7 +8874,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2",
+   "structured_floor": "3/5"
   },
   "nehnutelnosti:Ju8lMlk5hPk": {
    "id": "nehnutelnosti:Ju8lMlk5hPk",
@@ -8674,8 +8925,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 270.0
+   "parser_version": 6,
+   "structured_energy": 270.0,
+   "list_category": "2",
+   "structured_floor": "10/23 + výťah"
   },
   "nehnutelnosti:Ju7nIvzdYp8": {
    "id": "nehnutelnosti:Ju7nIvzdYp8",
@@ -8724,8 +8977,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 250.0
+   "parser_version": 6,
+   "structured_energy": 250.0,
+   "list_category": "2",
+   "structured_floor": "11/19"
   },
   "nehnutelnosti:Ju8YbtNvjOz": {
    "id": "nehnutelnosti:Ju8YbtNvjOz",
@@ -8742,7 +8997,7 @@
     "status": "excluded",
     "district": "Ružinov",
     "rooms": 2,
-    "floor": 13,
+    "floor": 10,
     "balcony": true,
     "condition": "original",
     "rent": 660.0,
@@ -8772,8 +9027,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 130.0
+   "parser_version": 6,
+   "structured_energy": 130.0,
+   "list_category": "2",
+   "structured_floor": "10/13 + výťah"
   },
   "nehnutelnosti:Jus20BbCQBa": {
    "id": "nehnutelnosti:Jus20BbCQBa",
@@ -8790,7 +9047,7 @@
     "status": "excluded",
     "district": "Nové Mesto",
     "rooms": 2,
-    "floor": 7,
+    "floor": 3,
     "balcony": true,
     "condition": "new",
     "rent": 800.0,
@@ -8822,8 +9079,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 150.0
+   "parser_version": 6,
+   "structured_energy": 150.0,
+   "list_category": "2",
+   "structured_floor": "3/7 + výťah"
   },
   "nehnutelnosti:JuSbw2jR7Mt": {
    "id": "nehnutelnosti:JuSbw2jR7Mt",
@@ -8840,7 +9099,7 @@
     "status": "excluded",
     "district": "Ružinov",
     "rooms": 2,
-    "floor": 7,
+    "floor": 5,
     "balcony": true,
     "condition": "new",
     "rent": 800.0,
@@ -8872,8 +9131,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 160.0
+   "parser_version": 6,
+   "structured_energy": 160.0,
+   "list_category": "2",
+   "structured_floor": "5/7"
   },
   "nehnutelnosti:JurGQf8tlT7": {
    "id": "nehnutelnosti:JurGQf8tlT7",
@@ -8920,8 +9181,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 200.0
+   "parser_version": 6,
+   "structured_energy": 200.0,
+   "list_category": "2"
   },
   "nehnutelnosti:JuJfOEZC1-Z": {
    "id": "nehnutelnosti:JuJfOEZC1-Z",
@@ -8938,7 +9200,7 @@
     "status": "excluded",
     "district": "Ružinov",
     "rooms": 2,
-    "floor": null,
+    "floor": 2,
     "balcony": true,
     "condition": "new",
     "rent": 750.0,
@@ -8951,9 +9213,7 @@
     "excluded": [
      "too expensive (1112 €/month)"
     ],
-    "unknown": [
-     "floor"
-    ],
+    "unknown": [],
     "flags": [
      "provision assumed 1× rent"
     ]
@@ -8972,8 +9232,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 300.0
+   "parser_version": 6,
+   "structured_energy": 300.0,
+   "list_category": "2",
+   "structured_floor": "2 + výťah"
   },
   "nehnutelnosti:JuGcmIgB_ko": {
    "id": "nehnutelnosti:JuGcmIgB_ko",
@@ -9020,8 +9282,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 150.0
+   "parser_version": 6,
+   "structured_energy": 150.0,
+   "list_category": "2",
+   "structured_floor": "5/7 + výťah"
   },
   "nehnutelnosti:JuoD1vAaefF": {
    "id": "nehnutelnosti:JuoD1vAaefF",
@@ -9069,7 +9333,8 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2"
   },
   "nehnutelnosti:JulJTOxh7jl": {
    "id": "nehnutelnosti:JulJTOxh7jl",
@@ -9119,8 +9384,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 180.0
+   "parser_version": 6,
+   "structured_energy": 180.0,
+   "list_category": "2",
+   "structured_floor": "6/6 + výťah"
   },
   "nehnutelnosti:JuOi_7I5B6x": {
    "id": "nehnutelnosti:JuOi_7I5B6x",
@@ -9137,7 +9404,7 @@
     "status": "excluded",
     "district": "Ružinov",
     "rooms": 2,
-    "floor": 0,
+    "floor": 1,
     "balcony": null,
     "condition": "renovated",
     "rent": 800.0,
@@ -9148,7 +9415,7 @@
     "effective": 1078,
     "area": 55.0,
     "excluded": [
-     "prízemie",
+     "1. poschodie",
      "too expensive (1078 €/month)"
     ],
     "unknown": [
@@ -9172,7 +9439,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2",
+   "structured_floor": "1/7 + výťah"
   },
   "nehnutelnosti:Ju-QKIEbkFF": {
    "id": "nehnutelnosti:Ju-QKIEbkFF",
@@ -9221,8 +9490,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 180.0
+   "parser_version": 6,
+   "structured_energy": 180.0,
+   "list_category": "2"
   },
   "nehnutelnosti:JuDLKASzqKZ": {
    "id": "nehnutelnosti:JuDLKASzqKZ",
@@ -9271,8 +9541,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 200.0
+   "parser_version": 6,
+   "structured_energy": 200.0,
+   "list_category": "2",
+   "structured_floor": "2/12"
   },
   "nehnutelnosti:JugcTpgIFfW": {
    "id": "nehnutelnosti:JugcTpgIFfW",
@@ -9322,7 +9594,8 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2"
   },
   "nehnutelnosti:JuPX0i6gNGV": {
    "id": "nehnutelnosti:JuPX0i6gNGV",
@@ -9421,8 +9694,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 195.0
+   "parser_version": 6,
+   "structured_energy": 195.0,
+   "list_category": "2",
+   "structured_floor": "3/5"
   },
   "nehnutelnosti:JunsrY1Dolq": {
    "id": "nehnutelnosti:JunsrY1Dolq",
@@ -9469,8 +9744,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 185.0
+   "parser_version": 6,
+   "structured_energy": 185.0,
+   "list_category": "2",
+   "structured_floor": "6/6 + výťah"
   },
   "nehnutelnosti:JuN7GrP8UGm": {
    "id": "nehnutelnosti:JuN7GrP8UGm",
@@ -9521,7 +9798,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2",
+   "structured_floor": "3/8"
   },
   "nehnutelnosti:JuftI_auJ1V": {
    "id": "nehnutelnosti:JuftI_auJ1V",
@@ -9538,7 +9817,7 @@
     "status": "excluded",
     "district": "Ružinov",
     "rooms": 2,
-    "floor": 5,
+    "floor": 6,
     "balcony": true,
     "condition": "new",
     "rent": 790.0,
@@ -9570,8 +9849,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 310.0
+   "parser_version": 6,
+   "structured_energy": 310.0,
+   "list_category": "2",
+   "structured_floor": "6/9 + výťah"
   },
   "nehnutelnosti:JufSpti7lDH": {
    "id": "nehnutelnosti:JufSpti7lDH",
@@ -9620,8 +9901,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 100.0
+   "parser_version": 6,
+   "structured_energy": 100.0,
+   "list_category": "2",
+   "structured_floor": "2/4"
   },
   "nehnutelnosti:JuvZuYO1f9l": {
    "id": "nehnutelnosti:JuvZuYO1f9l",
@@ -9671,7 +9954,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2",
+   "structured_floor": "7/12 + výťah"
   },
   "nehnutelnosti:JuDnTukgExD": {
    "id": "nehnutelnosti:JuDnTukgExD",
@@ -9719,8 +10004,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 250.0
+   "parser_version": 6,
+   "structured_energy": 250.0,
+   "list_category": "2"
   },
   "nehnutelnosti:JuPC-eOsj_G": {
    "id": "nehnutelnosti:JuPC-eOsj_G",
@@ -9737,7 +10023,7 @@
     "status": "check",
     "district": "Rača",
     "rooms": 2,
-    "floor": 2,
+    "floor": 5,
     "balcony": null,
     "condition": "renovated",
     "rent": 690.0,
@@ -9767,7 +10053,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2",
+   "structured_floor": "5 + výťah"
   },
   "nehnutelnosti:JumZkuuhVAX": {
    "id": "nehnutelnosti:JumZkuuhVAX",
@@ -9863,8 +10151,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 250.0
+   "parser_version": 6,
+   "structured_energy": 250.0,
+   "list_category": "2",
+   "structured_floor": "3/5"
   },
   "nehnutelnosti:JueTmQJMS_j": {
    "id": "nehnutelnosti:JueTmQJMS_j",
@@ -9881,7 +10171,7 @@
     "status": "excluded",
     "district": "Ružinov",
     "rooms": 2,
-    "floor": 0,
+    "floor": 1,
     "balcony": true,
     "condition": "renovated",
     "rent": 800.0,
@@ -9892,7 +10182,7 @@
     "effective": 1067,
     "area": 50.0,
     "excluded": [
-     "prízemie",
+     "1. poschodie",
      "too expensive (1067 €/month)"
     ],
     "unknown": [],
@@ -9914,8 +10204,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 200.0
+   "parser_version": 6,
+   "structured_energy": 200.0,
+   "list_category": "2",
+   "structured_floor": "1/8"
   },
   "nehnutelnosti:JuN29idwwj5": {
    "id": "nehnutelnosti:JuN29idwwj5",
@@ -9964,8 +10256,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 150.0
+   "parser_version": 6,
+   "structured_energy": 150.0,
+   "list_category": "2",
+   "structured_floor": "3/5"
   },
   "nehnutelnosti:JuD-vImTVZo": {
    "id": "nehnutelnosti:JuD-vImTVZo",
@@ -10014,8 +10308,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 200.0
+   "parser_version": 6,
+   "structured_energy": 200.0,
+   "list_category": "2",
+   "structured_floor": "2/7"
   },
   "nehnutelnosti:JuXWpUTGDVA": {
    "id": "nehnutelnosti:JuXWpUTGDVA",
@@ -10066,8 +10362,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 170.0
+   "parser_version": 6,
+   "structured_energy": 170.0,
+   "list_category": "2",
+   "structured_floor": "9/9"
   },
   "nehnutelnosti:JuEz34ESjC2": {
    "id": "nehnutelnosti:JuEz34ESjC2",
@@ -10084,7 +10382,7 @@
     "status": "excluded",
     "district": "Ružinov",
     "rooms": 2.5,
-    "floor": 3,
+    "floor": 4,
     "balcony": null,
     "condition": "original",
     "rent": 700.0,
@@ -10118,8 +10416,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 200.0
+   "parser_version": 6,
+   "structured_energy": 200.0,
+   "list_category": "2",
+   "structured_floor": "4/6 + výťah"
   },
   "nehnutelnosti:Ju-KPvfIkoh": {
    "id": "nehnutelnosti:Ju-KPvfIkoh",
@@ -10169,8 +10469,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 200.0
+   "parser_version": 6,
+   "structured_energy": 200.0,
+   "list_category": "2",
+   "structured_floor": "4/7 + výťah"
   },
   "nehnutelnosti:JuU23BtsAiP": {
    "id": "nehnutelnosti:JuU23BtsAiP",
@@ -10187,7 +10489,7 @@
     "status": "excluded",
     "district": "Nové Mesto",
     "rooms": 2,
-    "floor": null,
+    "floor": 2,
     "balcony": true,
     "condition": "new",
     "rent": 800.0,
@@ -10200,9 +10502,7 @@
     "excluded": [
      "too expensive (1203 €/month)"
     ],
-    "unknown": [
-     "floor"
-    ],
+    "unknown": [],
     "flags": []
    },
    "fp": "33a5f5a176f26dbf",
@@ -10219,8 +10519,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 220.0
+   "parser_version": 6,
+   "structured_energy": 220.0,
+   "list_category": "2",
+   "structured_floor": "2/5 + výťah"
   },
   "nehnutelnosti:Jufr0459UM0": {
    "id": "nehnutelnosti:Jufr0459UM0",
@@ -10267,7 +10569,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2",
+   "structured_floor": "3/13"
   },
   "nehnutelnosti:Juvj9IcS7Ng": {
    "id": "nehnutelnosti:Juvj9IcS7Ng",
@@ -10317,8 +10621,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 220.0
+   "parser_version": 6,
+   "structured_energy": 220.0,
+   "list_category": "2",
+   "structured_floor": "Prízemie"
   },
   "nehnutelnosti:JuA6U5kFrVG": {
    "id": "nehnutelnosti:JuA6U5kFrVG",
@@ -10335,7 +10641,7 @@
     "status": "excluded",
     "district": "Rača",
     "rooms": 2,
-    "floor": 6,
+    "floor": 2,
     "balcony": true,
     "condition": "original",
     "rent": 750.0,
@@ -10367,7 +10673,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2",
+   "structured_floor": "2/6"
   },
   "nehnutelnosti:JuxysmDb1JC": {
    "id": "nehnutelnosti:JuxysmDb1JC",
@@ -10416,8 +10724,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 280.0
+   "parser_version": 6,
+   "structured_energy": 280.0,
+   "list_category": "2",
+   "structured_floor": "4/4"
   },
   "nehnutelnosti:JuVifFymrnF": {
    "id": "nehnutelnosti:JuVifFymrnF",
@@ -10434,7 +10744,7 @@
     "status": "excluded",
     "district": "Nové Mesto",
     "rooms": 2,
-    "floor": 0,
+    "floor": 2,
     "balcony": true,
     "condition": "partial",
     "rent": 540.0,
@@ -10445,8 +10755,7 @@
     "effective": 815,
     "area": 56.0,
     "excluded": [
-     "reserved or no longer available",
-     "prízemie"
+     "reserved or no longer available"
     ],
     "unknown": [],
     "flags": [
@@ -10467,7 +10776,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2",
+   "structured_floor": "2/6 + výťah"
   },
   "nehnutelnosti:JusZ3YxxkXA": {
    "id": "nehnutelnosti:JusZ3YxxkXA",
@@ -10484,7 +10795,7 @@
     "status": "excluded",
     "district": "Ružinov",
     "rooms": 2,
-    "floor": 3,
+    "floor": 2,
     "balcony": true,
     "condition": "original",
     "rent": 700.0,
@@ -10517,7 +10828,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2",
+   "structured_floor": "2/3"
   },
   "nehnutelnosti:JusYTIQWagj": {
    "id": "nehnutelnosti:JusYTIQWagj",
@@ -10614,8 +10927,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 170.0
+   "parser_version": 6,
+   "structured_energy": 170.0,
+   "list_category": "2",
+   "structured_floor": "9 + výťah"
   },
   "nehnutelnosti:JuoICwlSRir": {
    "id": "nehnutelnosti:JuoICwlSRir",
@@ -10632,7 +10947,7 @@
     "status": "excluded",
     "district": "Nové Mesto",
     "rooms": 2,
-    "floor": 0,
+    "floor": 1,
     "balcony": null,
     "condition": "renovated",
     "rent": 700.0,
@@ -10643,7 +10958,7 @@
     "effective": 1208,
     "area": 95.0,
     "excluded": [
-     "prízemie",
+     "1. poschodie",
      "too expensive (1208 €/month)"
     ],
     "unknown": [
@@ -10667,8 +10982,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 450.0
+   "parser_version": 6,
+   "structured_energy": 450.0,
+   "list_category": "2",
+   "structured_floor": "1/4"
   },
   "nehnutelnosti:Jug6xX0rzXC": {
    "id": "nehnutelnosti:Jug6xX0rzXC",
@@ -10685,7 +11002,7 @@
     "status": "excluded",
     "district": "Ružinov",
     "rooms": 2,
-    "floor": 7,
+    "floor": 8,
     "balcony": true,
     "condition": "new",
     "rent": 690.0,
@@ -10717,8 +11034,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 210.0
+   "parser_version": 6,
+   "structured_energy": 210.0,
+   "list_category": "2",
+   "structured_floor": "8/9"
   },
   "nehnutelnosti:Ju-dYDHmfSQ": {
    "id": "nehnutelnosti:Ju-dYDHmfSQ",
@@ -10735,7 +11054,7 @@
     "status": "excluded",
     "district": "Nové Mesto",
     "rooms": 2,
-    "floor": 0,
+    "floor": 1,
     "balcony": null,
     "condition": "new",
     "rent": 820.0,
@@ -10746,7 +11065,7 @@
     "effective": 1088,
     "area": 90.0,
     "excluded": [
-     "prízemie",
+     "1. poschodie",
      "too expensive (1088 €/month)"
     ],
     "unknown": [
@@ -10770,8 +11089,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 200.0
+   "parser_version": 6,
+   "structured_energy": 200.0,
+   "list_category": "2",
+   "structured_floor": "1/3"
   },
   "nehnutelnosti:JuIF6pGPslo": {
    "id": "nehnutelnosti:JuIF6pGPslo",
@@ -10822,7 +11143,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2",
+   "structured_floor": "4/5 + výťah"
   },
   "nehnutelnosti:JuRjYt1o92r": {
    "id": "nehnutelnosti:JuRjYt1o92r",
@@ -10839,7 +11162,7 @@
     "status": "excluded",
     "district": "Nové Mesto",
     "rooms": 2,
-    "floor": null,
+    "floor": 4,
     "balcony": true,
     "condition": "new",
     "rent": 800.0,
@@ -10852,9 +11175,7 @@
     "excluded": [
      "too expensive (1067 €/month)"
     ],
-    "unknown": [
-     "floor"
-    ],
+    "unknown": [],
     "flags": [
      "provision assumed 1× rent"
     ]
@@ -10873,8 +11194,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 200.0
+   "parser_version": 6,
+   "structured_energy": 200.0,
+   "list_category": "2",
+   "structured_floor": "4/9 + výťah"
   },
   "nehnutelnosti:JuZELBih7RD": {
    "id": "nehnutelnosti:JuZELBih7RD",
@@ -10891,7 +11214,7 @@
     "status": "excluded",
     "district": "Nové Mesto",
     "rooms": 2,
-    "floor": null,
+    "floor": 11,
     "balcony": true,
     "condition": "new",
     "rent": null,
@@ -10905,7 +11228,6 @@
      "reserved or no longer available"
     ],
     "unknown": [
-     "floor",
      "rent"
     ],
     "flags": [
@@ -10926,7 +11248,9 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2",
+   "structured_floor": "11 + výťah"
   },
   "nehnutelnosti:Juu2UwKIGCx": {
    "id": "nehnutelnosti:Juu2UwKIGCx",
@@ -10943,7 +11267,7 @@
     "status": "excluded",
     "district": "Petržalka",
     "rooms": 2,
-    "floor": null,
+    "floor": 10,
     "balcony": false,
     "condition": "renovated",
     "rent": 580.0,
@@ -10956,9 +11280,7 @@
     "excluded": [
      "no balcony"
     ],
-    "unknown": [
-     "floor"
-    ],
+    "unknown": [],
     "flags": []
    },
    "fp": "f9655ad871aa94e1",
@@ -10975,8 +11297,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 150.0
+   "parser_version": 6,
+   "structured_energy": 150.0,
+   "list_category": "2",
+   "structured_floor": "10/12 + výťah"
   },
   "nehnutelnosti:JuZvryhbuQj": {
    "id": "nehnutelnosti:JuZvryhbuQj",
@@ -11026,7 +11350,8 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5
+   "parser_version": 6,
+   "list_category": "2"
   },
   "nehnutelnosti:JuP-VqAYsSt": {
    "id": "nehnutelnosti:JuP-VqAYsSt",
@@ -11043,7 +11368,7 @@
     "status": "excluded",
     "district": "Karlova Ves",
     "rooms": 2,
-    "floor": null,
+    "floor": 6,
     "balcony": true,
     "condition": "new",
     "rent": 750.0,
@@ -11056,9 +11381,7 @@
     "excluded": [
      "too expensive (962 €/month)"
     ],
-    "unknown": [
-     "floor"
-    ],
+    "unknown": [],
     "flags": [
      "provision assumed 1× rent"
     ]
@@ -11077,8 +11400,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 150.0
+   "parser_version": 6,
+   "structured_energy": 150.0,
+   "list_category": "2",
+   "structured_floor": "6/6 + výťah"
   },
   "nehnutelnosti:JuZRFJ4UBal": {
    "id": "nehnutelnosti:JuZRFJ4UBal",
@@ -11095,7 +11420,7 @@
     "status": "excluded",
     "district": "Nové Mesto",
     "rooms": 2,
-    "floor": 1,
+    "floor": 2,
     "balcony": null,
     "condition": "renovated",
     "rent": 770.0,
@@ -11106,7 +11431,6 @@
     "effective": 1034,
     "area": 76.0,
     "excluded": [
-     "1. poschodie",
      "too expensive (1034 €/month)"
     ],
     "unknown": [
@@ -11130,8 +11454,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 200.0
+   "parser_version": 6,
+   "structured_energy": 200.0,
+   "list_category": "2",
+   "structured_floor": "2/5"
   },
   "nehnutelnosti:JusO6GaVQZ4": {
    "id": "nehnutelnosti:JusO6GaVQZ4",
@@ -11180,8 +11506,10 @@
    "active": true,
    "removed_on": null,
    "inactive": false,
-   "parser_version": 5,
-   "structured_energy": 280.0
+   "parser_version": 6,
+   "structured_energy": 280.0,
+   "list_category": "2",
+   "structured_floor": "4/4"
   },
   "bazos:195341493": {
    "id": "bazos:195341493",
@@ -11231,7 +11559,7 @@
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
-   "parser_version": 5
+   "parser_version": 6
   },
   "bazos:195407688": {
    "id": "bazos:195407688",
@@ -11278,7 +11606,7 @@
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
-   "parser_version": 5
+   "parser_version": 6
   },
   "bazos:195587815": {
    "id": "bazos:195587815",
@@ -11294,7 +11622,7 @@
     "status": "check",
     "district": "Rača",
     "rooms": 2,
-    "floor": null,
+    "floor": 2,
     "balcony": true,
     "condition": null,
     "rent": 760.0,
@@ -11306,7 +11634,6 @@
     "area": 62.0,
     "excluded": [],
     "unknown": [
-     "floor",
      "condition"
     ],
     "flags": [
@@ -11326,7 +11653,7 @@
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
-   "parser_version": 5
+   "parser_version": 6
   },
   "bazos:195998899": {
    "id": "bazos:195998899",
@@ -11342,7 +11669,7 @@
     "status": "check",
     "district": "Ružinov",
     "rooms": 2,
-    "floor": 7,
+    "floor": 4,
     "balcony": true,
     "condition": null,
     "rent": 750.0,
@@ -11373,7 +11700,7 @@
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
-   "parser_version": 5
+   "parser_version": 6
   },
   "bazos:195670816": {
    "id": "bazos:195670816",
@@ -11422,7 +11749,7 @@
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
-   "parser_version": 5
+   "parser_version": 6
   },
   "bazos:195280892": {
    "id": "bazos:195280892",
@@ -11470,7 +11797,7 @@
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
-   "parser_version": 5
+   "parser_version": 6
   },
   "bazos:195890069": {
    "id": "bazos:195890069",
@@ -11519,7 +11846,7 @@
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
-   "parser_version": 5
+   "parser_version": 6
   },
   "bazos:195874964": {
    "id": "bazos:195874964",
@@ -11571,7 +11898,7 @@
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
-   "parser_version": 5
+   "parser_version": 6
   },
   "nehnutelnosti:JuFaqpKsrgt": {
    "id": "nehnutelnosti:JuFaqpKsrgt",
@@ -11586,7 +11913,7 @@
    "detail_text": "Vlastnosti nehnuteľnosti\nUmiestnenie\n:\nĎalšie nadzemné podlažie\nOrientácia\n:\nJužná\nVlastníctvo\n:\nOsobné\nZariadenie\n:\nZariadené kompletne\nPočet izieb / miestností\n:\n2\nNahlásiť\nVšetky novostavby na jednom mieste\nZobraziť\nZobraziť všetky\n\nMETROPOLITAN │Moderný 2i byt s balkónom a parkingom, NUPPU\nModerný a kompletne zariadený 2-izbový byt sa nachádza na 5. poschodí zo 7 v novostavbe NUPPU na Hraničnej ulici v Ružinove, skolaudovanej v roku 2023.\nByt má výmeru 44 m² a balkón s rozlohou 2,4 m². Je orientovaný na juh.\nByt sa prenajíma kompletne zariadený a vybavený klimatizáciou, TV, práčkou, umývačkou riadu, chladničkou s mrazničkou, teplovzdušnou rúrou, mikrovlnnou rúrou, digestorom a kávovarom. K dispozícii je aj vysokorýchlostný internet.\nK bytu je možné prenajať vlastné parkovacie miesto v podzemnej garáži za 100 €/mesiac.\nEnergie vrátane internetu vo výške 200 €/mesiac sa pripočítavajú k nájmu.",
    "is_agency": true,
    "inactive": false,
-   "parser_version": 5,
+   "parser_version": 6,
    "eval": {
     "status": "excluded",
     "district": "Ružinov",
@@ -11621,7 +11948,9 @@
    "last_seen": "2026-09-30",
    "missed_runs": 0,
    "active": true,
-   "removed_on": null
+   "removed_on": null,
+   "list_category": "2",
+   "structured_floor": "5/7"
   },
   "nehnutelnosti:JuL9GESMbRZ": {
    "id": "nehnutelnosti:JuL9GESMbRZ",
@@ -11630,15 +11959,15 @@
    "title": "Apartim sro prenajme nadštandardný, plne zariadený 1,5 izb. byt s loggiou na ul. Zuzany Chalupovej",
    "location": "Byty Bratislava-Petržalka",
    "rent": 550.0,
-   "card_text": "Apartim sro prenajme nadštandardný, plne zariadený 1,5 izb. byt s loggiou na ul. Zuzany Chalupovej\nZuzany Chalupovej, Bratislava-Petržalka, okres Bratislava V\n2 izbový byt\n35 m²\n550 €/mes.\n15,71 €/m²/mes.\nApartim sro prenajme nadštandardný, plne zariadený 1,5 izb. byt s loggiou na ul. Zuzany Chalupovej\nZuzany Chalupovej, Bratislava-Petržalka, okres Bratislava V\n2 izbový byt\n35 m²\nApartim sro prenajme nadštandardný, plne zariadený 1,5 izb. byt s loggiou na ul. Zuzany Chalupovej v novej, vyhľadávanej časti Petržalky. Nachádza sa na 5.poschodí bytového domu s výťahom.\nByt je kompletne zariadený, kuchynská linka s barovým pultom je vybavená základným riadom, sklokeramickou varnou doskou, elektrickou teplovzdušnou rúrou, mikrovlnnou rúrou a chladničkou s mrazničkou. V obývacej časti je pohodlná sedačka s konferenčným stolíkom, komodou na TV a knižnicovou policou, ktorá oddeľuje izbu od menšej pracovne. Spací kút bol vytvorený predelením obývacej izby veľkou vstavanou šatníkovou skriňou vyrobenou na mieru . Kúpeľňa je spojená s WC, je v nej sprchový kút, umývadlo, práčka a úložná skrinka.  Aj napriek menšej rozlohe bytu, je jeho dispozícia výborne rozdelená, vhodná ideálne pre jednu osobu alebo pár.. V byte je veľké množstvo úložného priestoru.\nByt je ponúkaný na dlhodobý prenájom  bez detí a domácich zvierat. Voľný ihneď.\nCena prenájmu vrátane všetkých energií okrem internetu je 700 EUR/mesiac. (550,-EUR nájom + 150,-EUR energie)\nPri podpise zmluvy sa hradí jedno mesačné nájomné, depozit vo výške jedného nájomného a sprostredkovateľská provízia vo výške 600 EUR.\nKontakt:\np.Herceg\n0903 408 815\nwww.apartim.sk\napartim@apartim.sk\nAPARTIM, s.r.o.\n2 izbový byt Slovensko Prenájom\n550 €/mes.\n15,71 €/m²/mes.",
+   "card_text": "PREMIUM\nApartim sro prenajme nadštandardný, plne zariadený 1,5 izb. byt s loggiou na ul. Zuzany Chalupovej\nZuzany Chalupovej, Bratislava-Petržalka, okres Bratislava V\n2 izbový byt\n35 m²\n550 €/mes.\n15,71 €/m²/mes.\nApartim sro prenajme nadštandardný, plne zariadený 1,5 izb. byt s loggiou na ul. Zuzany Chalupovej\nZuzany Chalupovej, Bratislava-Petržalka, okres Bratislava V\n2 izbový byt\n35 m²\nApartim sro prenajme nadštandardný, plne zariadený 1,5 izb. byt s loggiou na ul. Zuzany Chalupovej v novej, vyhľadávanej časti Petržalky. Nachádza sa na 5.poschodí bytového domu s výťahom.\nByt je kompletne zariadený, kuchynská linka s barovým pultom je vybavená základným riadom, sklokeramickou varnou doskou, elektrickou teplovzdušnou rúrou, mikrovlnnou rúrou a chladničkou s mrazničkou. V obývacej časti je pohodlná sedačka s konferenčným stolíkom, komodou na TV a knižnicovou policou, ktorá oddeľuje izbu od menšej pracovne. Spací kút bol vytvorený predelením obývacej izby veľkou vstavanou šatníkovou skriňou vyrobenou na mieru . Kúpeľňa je spojená s WC, je v nej sprchový kút, umývadlo, práčka a úložná skrinka.  Aj napriek menšej rozlohe bytu, je jeho dispozícia výborne rozdelená, vhodná ideálne pre jednu osobu alebo pár.. V byte je veľké množstvo úložného priestoru.\nByt je ponúkaný na dlhodobý prenájom  bez detí a domácich zvierat. Voľný ihneď.\nCena prenájmu vrátane všetkých energií okrem internetu je 700 EUR/mesiac. (550,-EUR nájom + 150,-EUR energie)\nPri podpise zmluvy sa hradí jedno mesačné nájomné, depozit vo výške jedného nájomného a sprostredkovateľská provízia vo výške 600 EUR.\nKontakt:\np.Herceg\n0903 408 815\nwww.apartim.sk\napartim@apartim.sk\nAPARTIM, s.r.o.\n2 izbový byt Slovensko Prenájom\n550 €/mes.\n15,71 €/m²/mes.",
    "structured_condition": "Novostavba",
    "structured_energy": 150.0,
    "detail_text": "Apartim sro prenajme nadštandardný, plne zariadený 1,5 izb. byt s loggiou na ul. Zuzany Chalupovej v novej, vyhľadávanej časti Petržalky. Nachádza sa na 5.poschodí bytového domu s výťahom.\nByt je kompletne zariadený, kuchynská linka s barovým pultom je vybavená základným riadom, sklokeramickou varnou doskou, elektrickou teplovzdušnou rúrou, mikrovlnnou rúrou a chladničkou s mrazničkou. V obývacej časti je pohodlná sedačka s konferenčným stolíkom, komodou na TV a knižnicovou policou, ktorá oddeľuje izbu od menšej pracovne. Spací kút bol vytvorený predelením obývacej izby veľkou vstavanou šatníkovou skriňou vyrobenou na mieru . Kúpeľňa je spojená s WC, je v nej sprchový kút, umývadlo, práčka a úložná skrinka.  Aj napriek menšej rozlohe bytu, je jeho dispozícia výborne rozdelená, vhodná ideálne pre jednu osobu alebo pár.. V byte je veľké množstvo úložného priestoru.\nByt je ponúkaný na dlhodobý prenájom  bez detí a domácich zvierat. Voľný ihneď.\nCena prenájmu vrátane všetkých energií okrem internetu je 700 EUR/mesiac. (550,-EUR nájom + 150,-EUR energie)\nPri podpise zmluvy sa hradí jedno mesačné nájomné, depozit vo výške jedného nájomného a sprostredkovateľská provízia vo výške 600 EUR.\nKontakt:\np.Herceg\n...\nwww.apartim.sk\n...",
    "is_agency": true,
    "inactive": false,
-   "parser_version": 5,
+   "parser_version": 6,
    "eval": {
-    "status": "excluded",
+    "status": "rooms15",
     "district": "Petržalka",
     "rooms": 1.5,
     "floor": 5,
@@ -11651,9 +11980,7 @@
     "provision_source": "stated",
     "effective": 750,
     "area": null,
-    "excluded": [
-     "1.5 rooms"
-    ],
+    "excluded": [],
     "unknown": [],
     "flags": []
    },
@@ -11669,7 +11996,9 @@
    "last_seen": "2026-09-30",
    "missed_runs": 0,
    "active": true,
-   "removed_on": null
+   "removed_on": null,
+   "list_category": "2",
+   "structured_floor": "5/7"
   },
   "nehnutelnosti:JuwYxq8UVrC": {
    "id": "nehnutelnosti:JuwYxq8UVrC",
@@ -11684,12 +12013,12 @@
    "detail_text": "Vlastnosti nehnuteľnosti\nVybavenie\n:\nVýťah\nVlastníctvo\n:\nOsobné\nZariadenie\n:\nZariadené kompletne\nPočet izieb / miestností\n:\n2\nNahlásiť\nVšetky novostavby na jednom mieste\nZobraziť\nZobraziť všetky\n\nRealitná kancelária Pegas real Vám exkluzívne ponúka na prenájom 2 izbový  byt v obľúbenej mestskej časti Ružinov v Bratislave na Haburskej  ulici. Byt v novostavbe s výťahom, s terasou, pivničnou kobkou a parkingom v garáži je nanovo vymaľovaný. Kompletne zariadený byt má výborné dispozičné riešenie a jeho rozloha je 55m2 + terasa 10m2\nDISPOZÍCIA\n-vstupná chodba s priestrannou vstavanou skriňou\n-kúpeľňa s vaňou a WC\n-obývacia izba spojená s kuchyňou, ktorá je vybavená všetkými spotrebičmi\n-terasa\n-spálňa\nLOKALITA\n-Ružinov je jedna z najobľúbenejších lokalít v Bratislave aj vďaka kompletnej občianskej vybavenosti, množstvom zelene a výbornej dostupnosti do centra mesta a diaľničný obchvat\n-do 5 minút pešou chôdzou sa nachádza jazero Kuchajda a taktiež Fresh market\n-tichá a kľudná časť s udržiavaným parkom priamo pred domom\nVIDEO\nhttps://www.youtube.com/watch?v=A_cofPw0SrU\nBližšie informácie  Vám radi poskytneme pri osobnej obhliadke\nKontakt: Michal Hulík, RSc.\nMobil:\n...\nMail:\n...\nCena: 790,-Eur/ mesiac + 200,- Eur energie + možnosť parkovacieho státia v garáži",
    "is_agency": true,
    "inactive": false,
-   "parser_version": 5,
+   "parser_version": 6,
    "eval": {
     "status": "excluded",
     "district": "Ružinov",
     "rooms": 2,
-    "floor": null,
+    "floor": 5,
     "balcony": true,
     "condition": "new",
     "rent": 790.0,
@@ -11702,9 +12031,7 @@
     "excluded": [
      "too expensive (1056 €/month)"
     ],
-    "unknown": [
-     "floor"
-    ],
+    "unknown": [],
     "flags": [
      "provision assumed 1× rent"
     ]
@@ -11721,7 +12048,9 @@
    "last_seen": "2026-09-30",
    "missed_runs": 0,
    "active": true,
-   "removed_on": null
+   "removed_on": null,
+   "list_category": "2",
+   "structured_floor": "5/7 + výťah"
   },
   "nehnutelnosti:Jul1Sur4Ibm": {
    "id": "nehnutelnosti:Jul1Sur4Ibm",
@@ -11736,7 +12065,7 @@
    "detail_text": "Vlastnosti nehnuteľnosti\nVybavenie\n:\nVýťah\nVlastníctvo\n:\nOsobné\nTelekomunikácie\n:\nInternet\nZariadenie\n:\nZariadené kompletne\nPočet izieb / miestností\n:\n2\nNahlásiť\nVšetky novostavby na jednom mieste\nZobraziť\nZobraziť všetky\n\nPOPIS BYTU:\nRealitná kancelária AXIS REAL ponúka na prenájom 2-ateliér o celkovej rozlohe 100 m2 v lokalite Bratislava III. Nové Mesto - Koliba. Byt sa nachádza na prízemí 5- poschodového komplexu s názvom PARK pod KOLIBOU skolaudovanom v roku 2019. K bytu je podmienkou za poplatok 80,- euro / 1 mesiac prenájom parkovacieho státia v areáli alebo za 120,- euro miesto v garáži. Dispozične byt pozostáva zo vstupnej chodby, priestrannej obývacej izby s jedálenskou a kuchynskou časťou, samostatnej spálne a spoločnej kúpeľne s WC.\nSTAV BYTU:\nV KLIMATIZOVANOM ateliéri s veľkorysým priestorom sa na podlahách nachádza plávajúca podlaha alebo dlažba, okná sú hliníkové so žalúziami, vstupné dvere sú bezpečnostné. Vstupná chodba je zariadená vešiakovou stenou so zrkadlom, v obývacej izbe nájdete sedaciu súpravu s konferenčným stolíkom a nábytkovú zostavu s TV a audio aparatúrou. K dispozícií je stolovanie pre 6 osôb, elektrický krb, kávovar a kuchynská linka s elektrickou rúrou, umývačkou riadu, sklokeramickou varnou doskou, digestorom, chladničkou s mrazničkou a mikrovlnnou rúrou. Spálňa je zariadená dvojlôžkom s nočnými stolíkmi a šatníkovou skriňou. V kúpeľni nájdete sprchovací kút, umývadlo so zrkadlom, WC a práčku so sušičkou. Vykurovanie je podlahové s možnosťou regulácie intenzity v každej izbe zvlášť, voda je zohrievaná vlastným bojlerom. Byt je k dispozícií od 1.10.2026\nPLATBY:\nPri podpise zmluvy sa platí jeden mesačný nájom s KTV, internetom a vonkajším parkovacím státím 730,- euro ( alebo 770,- euro s garážovým státím ) + záloha za energie 100,- euro + vratný depozit 830,- euro + provízia pre realitnú kanceláriu vo výške 700,- euro.\nLOKALITA:\nDaná lokalita patrí medzi vyhľadávané v rámci hlavného mesta, ponúka skvelé kľudné bývanie s kompletnou občianskou vybavenosťou. Veľkou výhodou je uzatvorený park s detským ihriskom v rámci areálu.\n/ 2 - IZBOVÝ ATELIÉR / NOVOSTAVBA / KLIMATIZÁCIA / ELEKTRICKÝ KRB / VLASTNÉ KÚRENIE / ZARIADENÝ / PARK / BRATISLAVA III. NOVÉ MESTO - KOLIBA / ULICA POD VTÁČNIKOM /\n© Text a fotografie sú autorským dielom a vlastníctvom realitnej kancelárie Axis real.",
    "is_agency": true,
    "inactive": false,
-   "parser_version": 5,
+   "parser_version": 6,
    "eval": {
     "status": "excluded",
     "district": "Nové Mesto",
@@ -11767,6 +12096,457 @@
     ]
    ],
    "group": "nehnutelnosti:Jul1Sur4Ibm",
+   "last_seen": "2026-09-30",
+   "missed_runs": 0,
+   "active": true,
+   "removed_on": null,
+   "list_category": "2"
+  },
+  "nehnutelnosti:JuXQJQRWMUL": {
+   "id": "nehnutelnosti:JuXQJQRWMUL",
+   "source": "nehnutelnosti",
+   "url": "https://www.nehnutelnosti.sk/detail/JuXQJQRWMUL/kompletne-zariadeny-2-izbovy-byt-bez-provizie-rk",
+   "title": "Kompletne zariadený 2-izbový byt bez provízie RK",
+   "location": "Byty Bratislava-Ružinov",
+   "rent": 670.0,
+   "card_text": "TOP\nKompletne zariadený 2-izbový byt bez provízie RK\nSúmračná, Bratislava-Ružinov, okres Bratislava II\n2 izbový byt\n43 m²\n670 €/mes.\n15,58 €/m²/mes.\nKompletne zariadený 2-izbový byt bez provízie RK\nSúmračná, Bratislava-Ružinov, okres Bratislava II\n2 izbový byt\n43 m²\nPonúkam na prenájom kompletne zariadený a vybavený 2-izbový byt v lokalite Ružinov, Ostredky s podlahovou plochou 43 m². Byt je pripravený na nasťahovanie a je vhodný pre jednotlivca alebo pár.\nSúčasťou vybavenia je klimatizácia, TV a internet. K bytu prislúcha aj pivnica. Parkovanie je bezproblémové prostredníctvom rezidentskej karty PAAS.\nLokalita ponúka výbornú dostupnosť MHD a kompletnú občiansku vybavenosť v blízkom okolí sa nachádzajú supermarkety, škôlka, škola a ďalšie služby.\nByt je k dispozícii ihneď. Uprednostňujeme dlhodobý prenájom. Prenájom bez domácich zvierat.\nNájomné je 670 € / mesiac\nEnergie, TV a internet 200 € / mesiac\nPri podpise nájomnej zmluvy sa uhrádza 1-mesačné nájomné a vratný depozit vo výške 1 000 €. RK nevolať!\nV prípade záujmu alebo otázok ma neváhajte kontaktovať.\nPriamo od majiteľa\n2 izbový byt Slovensko Prenájom\n670 €/mes.\n15,58 €/m²/mes.",
+   "structured_condition": "Kompletná rekonštrukcia",
+   "structured_energy": 200.0,
+   "list_category": "2",
+   "detail_text": "Ponúkam na prenájom kompletne zariadený a vybavený 2-izbový byt v lokalite Ružinov, Ostredky s podlahovou plochou 43 m². Byt je pripravený na nasťahovanie a je vhodný pre jednotlivca alebo pár.\nSúčasťou vybavenia je klimatizácia, TV a internet. K bytu prislúcha aj pivnica. Parkovanie je bezproblémové prostredníctvom rezidentskej karty PAAS.\nLokalita ponúka výbornú dostupnosť MHD a kompletnú občiansku vybavenosť v blízkom okolí sa nachádzajú supermarkety, škôlka, škola a ďalšie služby.\nByt je k dispozícii ihneď. Uprednostňujeme dlhodobý prenájom. Prenájom bez domácich zvierat.\nNájomné je 670 € / mesiac\nEnergie, TV a internet 200 € / mesiac\nPri podpise nájomnej zmluvy sa uhrádza 1-mesačné nájomné a vratný depozit vo výške 1 000 €. RK nevolať!\nV prípade záujmu alebo otázok ma neváhajte kontaktovať.",
+   "is_agency": false,
+   "inactive": false,
+   "parser_version": 6,
+   "eval": {
+    "status": "excluded",
+    "district": "Ružinov",
+    "rooms": 2,
+    "floor": null,
+    "balcony": null,
+    "condition": "renovated",
+    "rent": 670.0,
+    "energy_status": "portal",
+    "energy": 200.0,
+    "provision": 0.0,
+    "provision_source": "none",
+    "effective": 870,
+    "area": 43.0,
+    "excluded": [
+     "too expensive (870 €/month)"
+    ],
+    "unknown": [
+     "floor",
+     "balcony"
+    ],
+    "flags": []
+   },
+   "fp": "7f645bfc013326b0",
+   "first_seen": "2026-09-30",
+   "price_history": [
+    [
+     "2026-09-30",
+     670.0
+    ]
+   ],
+   "group": "nehnutelnosti:JuXQJQRWMUL",
+   "last_seen": "2026-09-30",
+   "missed_runs": 0,
+   "active": true,
+   "removed_on": null
+  },
+  "nehnutelnosti:JuXcwqTIII3": {
+   "id": "nehnutelnosti:JuXcwqTIII3",
+   "source": "nehnutelnosti",
+   "url": "https://www.nehnutelnosti.sk/detail/JuXcwqTIII3/na-prenajom-kompletne-zariadeny-krasny-2-izbovy-byt-s-dokonalym-vyhladom-spieszova-ba-iv",
+   "title": "NA PRENÁJOM: Kompletne zariadený, krásny 2-izbový byt s dokonalým výhľadom, Špieszova BA IV.",
+   "location": "Byty Bratislava-Karlova Ves",
+   "rent": 690.0,
+   "card_text": "NA PRENÁJOM: Kompletne zariadený, krásny 2-izbový byt s dokonalým výhľadom, Špieszova BA IV.\nŠpieszova, Bratislava-Karlova Ves, okres Bratislava IV\n2 izbový byt\n54 m²\n690 €/mes.\n12,78 €/m²/mes.\nNA PRENÁJOM: Kompletne zariadený, krásny 2-izbový byt s dokonalým výhľadom, Špieszova BA IV.\nŠpieszova, Bratislava-Karlova Ves, okres Bratislava IV\n2 izbový byt\n54 m²\nRealitná kancelária REMAX ponúka na prenájom moderný, 2-izbový byt nachádzajúci sa na ulici Špieszova v mestskej časti Bratislava-Karlova Ves. Tento byt s celkovou plochou 54 m², je umiestnený na 7. poschodí s balkónom a ponúka nádherný výhľad na okolie. \nBytový dom je novostavbou, čo zabezpečuje vysokú úroveň komfortu, kvality bývania či susedských vzťahov. :)\nNa tejto adrese, na ktorej sa v mestskej časti Karlova Ves naša ponuka nachádza, je najlepšia - tak čo sa týka dostupnosti, ako aj z hľadiska občianskej vybavenosti. \nSamotný byt je plne zariadený, pričom ponúka priestrannú obývaciu izbu s bohatou dávkou denného svetla, príjemnú, útulnú spálňu, kuchyňu pocitovo odčlenenú od obývacej izby a modernú kúpeľňu. Byt svojou výmerou 54m2 ponúka priestor pre pokojné bývanie a komfortné umiestnenie dostatku osobných vecí. Bývanie je ideálne pre jednotlivca alebo pre pár bez domácich zvieratiek. \nLokalita je ideálna pre tých, ktorí preferujú kombináciu pokojného bývania a blízku dostupnosť využívania mestských služieb. \nV okolí sa nachádzajú obchody, reštaurácie, v pešej dostupnosti Námestie sv. Františka, Gym, či Park SNP. \nPotravinový reťazec známej značky tak isto \"na peši\" a pokiaľ sa potrebujete presúvať mimo svojho bydliska, cesta, či električková trať na Karloveskej ulici je v dosahu pár metrov.. :) \nVýška mesačného prenájmu je 690,-EUR + 150,- EUR energie, čiže 840,-EUR. \nPri podpise zmluvy sa platí jedno-mesačné nájomné za prvý mesiac bývania (840,- EUR) + depozit vo výške 840,- EUR a odmena za sprostredkovanie prenájmu vo výške jedno-mesačného nájmu (840,-EUR). \nAk Vás táto ponuka zaujala, neváhajte ma kontaktovať, veľmi rada Vám túto nehnuteľnosť predstavím. :)\nREMAX Slovakia\n2 izbový byt Slovensko Prenájom\n690 €/mes.\n12,78 €/m²/mes.",
+   "structured_condition": "Novostavba",
+   "structured_energy": null,
+   "list_category": "2",
+   "detail_text": "Vlastnosti nehnuteľnosti\nSkladový priestor\n:\nNie\nUmiestnenie\n:\nVstavba podkrovia\nZastavaná plocha\n:\n54 m²\nVlastníctvo\n:\nOsobné\nTerén pozemku\n:\nIný\nPrechodová izba\n:\nNie\nNahlásiť\nVšetky novostavby na jednom mieste\nZobraziť\nZobraziť všetky\n\nRealitná kancelária REMAX ponúka na prenájom moderný, 2-izbový byt nachádzajúci sa na ulici Špieszova v mestskej časti Bratislava-Karlova Ves. Tento byt s celkovou plochou 54 m², je umiestnený na 7. poschodí s balkónom a ponúka nádherný výhľad na okolie.\nBytový dom je novostavbou, čo zabezpečuje vysokú úroveň komfortu, kvality bývania či susedských vzťahov. :)\nNa tejto adrese, na ktorej sa v mestskej časti Karlova Ves naša ponuka nachádza, je najlepšia - tak čo sa týka dostupnosti, ako aj z hľadiska občianskej vybavenosti.\nSamotný byt je plne zariadený, pričom ponúka priestrannú obývaciu izbu s bohatou dávkou denného svetla, príjemnú, útulnú spálňu, kuchyňu pocitovo odčlenenú od obývacej izby a modernú kúpeľňu. Byt svojou výmerou 54m2 ponúka priestor pre pokojné bývanie a komfortné umiestnenie dostatku osobných vecí. Bývanie je ideálne pre jednotlivca alebo pre pár bez domácich zvieratiek.\nLokalita je ideálna pre tých, ktorí preferujú kombináciu pokojného bývania a blízku dostupnosť využívania mestských služieb.\nV okolí sa nachádzajú obchody, reštaurácie, v pešej dostupnosti Námestie sv. Františka, Gym, či Park SNP.\nPotravinový reťazec známej značky tak isto \"na peši\" a pokiaľ sa potrebujete presúvať mimo svojho bydliska, cesta, či električková trať na Karloveskej ulici je v dosahu pár metrov.. :)\nVýška mesačného prenájmu je 690,-EUR + 150,- EUR energie, čiže 840,-EUR.\nPri podpise zmluvy sa platí jedno-mesačné nájomné za prvý mesiac bývania (840,- EUR) + depozit vo výške 840,- EUR a odmena za sprostredkovanie prenájmu vo výške jedno-mesačného nájmu (840,-EUR).\nAk Vás táto ponuka zaujala, neváhajte ma kontaktovať, veľmi rada Vám túto nehnuteľnosť predstavím. :)",
+   "is_agency": true,
+   "structured_floor": "7/7",
+   "inactive": false,
+   "parser_version": 6,
+   "eval": {
+    "status": "excluded",
+    "district": "Karlova Ves",
+    "rooms": 2,
+    "floor": 7,
+    "balcony": true,
+    "condition": "new",
+    "rent": 690.0,
+    "energy_status": "separate",
+    "energy": 150,
+    "provision": 690.0,
+    "provision_source": "assumed",
+    "effective": 898,
+    "area": 54.0,
+    "excluded": [
+     "too expensive (898 €/month)"
+    ],
+    "unknown": [],
+    "flags": [
+     "provision assumed 1× rent"
+    ]
+   },
+   "fp": "fca5a640f08ef1d6",
+   "first_seen": "2026-09-30",
+   "price_history": [
+    [
+     "2026-09-30",
+     690.0
+    ]
+   ],
+   "group": "nehnutelnosti:JuXcwqTIII3",
+   "last_seen": "2026-09-30",
+   "missed_runs": 0,
+   "active": true,
+   "removed_on": null
+  },
+  "nehnutelnosti:Ju3a8Gkpjec": {
+   "id": "nehnutelnosti:Ju3a8Gkpjec",
+   "source": "nehnutelnosti",
+   "url": "https://www.nehnutelnosti.sk/detail/Ju3a8Gkpjec/15-izbovy-byt-v-krasnanoch",
+   "title": "1,5 izbový byt v Krasňanoch",
+   "location": "Byty Bratislava-Nové Mesto",
+   "rent": 730.0,
+   "card_text": "TOP\n1,5 izbový byt v Krasňanoch\nKrasňanská, Bratislava-Nové Mesto, okres Bratislava III\n1 izbový byt\n37 m²\n730 €/mes.\n19,73 €/m²/mes.\n1,5 izbový byt v Krasňanoch\nKrasňanská, Bratislava-Nové Mesto, okres Bratislava III\n1 izbový byt\n37 m²\nPonúkame na prenájom príjemný a moderne zariadený 1,5-izbový byt /37,28m2/ v obľúbenej lokalite Malé Krasňany. Byt sa nachádza na 6. poschodí  zo 7. a ponúka pohodlné bývanie s praktickou dispozíciou, množstvom úložného priestoru a príjemnou loggiou /6,58m2/.\nDenná časť je prepojená s modernou kuchyňou na mieru, ktorá je kompletne vybavená spotrebičmi. Obývacia izba je zariadená pohodlnou sedačkou, konferenčným stolíkom a TV skrinkou. Z obývacej časti je prístup na priestrannú loggiu.\nSpálňová časť je opticky oddelená a vybavená manželskou posteľou a veľkorysými vstavanými skriňami. Ďalší vstavaný úložný priestor sa nachádza aj na chodbe.\nByt disponuje modernou kúpeľňou so sprchovacím kútom, WC, umývadlom a práčkou.\nVýhody bytu:\n- 1,5-izbová dispozícia\n- loggia\n- kompletne zariadený\n- moderná kuchynská linka so          spotrebičmi\n- klimatizácia\n- vstavané skrine v spálni aj na chodbe\n- manželská posteľ\n- sedačka a konferenčný stolík\n- práčka\n- moderné a vkusné prevedenie\n- internet\nByt je vhodný pre jednotlivca alebo pár, bez zvieratiek, ktorí hľadajú moderné, pohodlné a bezstarostné bývanie v Bratislave.\nK bytu nie je parkovacie miesto.\nVoľný  od 1. októbra. \nPri podpise zmluvy sa hradí mesačné nájomné 730 eur, depozit vo výške nájomného a provízia RK 400 eur  /pár 750 eur/.\nPriamo od majiteľa\n1 izbový byt Slovensko Prenájom\n730 €/mes.\n19,73 €/m²/mes.",
+   "structured_condition": "Novostavba",
+   "structured_energy": null,
+   "list_category": "1",
+   "detail_text": "Vlastnosti nehnuteľnosti\nZastavaná plocha\n:\n37 m²\nNahlásiť\nVšetky novostavby na jednom mieste\nZobraziť\nZobraziť všetky\n\nPonúkame na prenájom príjemný a moderne zariadený 1,5-izbový byt /37,28m2/ v obľúbenej lokalite Malé Krasňany. Byt sa nachádza na 6. poschodí  zo 7. a ponúka pohodlné bývanie s praktickou dispozíciou, množstvom úložného priestoru a príjemnou loggiou /6,58m2/.\nDenná časť je prepojená s modernou kuchyňou na mieru, ktorá je kompletne vybavená spotrebičmi. Obývacia izba je zariadená pohodlnou sedačkou, konferenčným stolíkom a TV skrinkou. Z obývacej časti je prístup na priestrannú loggiu.\nSpálňová časť je opticky oddelená a vybavená manželskou posteľou a veľkorysými vstavanými skriňami. Ďalší vstavaný úložný priestor sa nachádza aj na chodbe.\nByt disponuje modernou kúpeľňou so sprchovacím kútom, WC, umývadlom a práčkou.\nVýhody bytu:\n- 1,5-izbová dispozícia\n- loggia\n- kompletne zariadený\n- moderná kuchynská linka so          spotrebičmi\n- klimatizácia\n- vstavané skrine v spálni aj na chodbe\n- manželská posteľ\n- sedačka a konferenčný stolík\n- práčka\n- moderné a vkusné prevedenie\n- internet\nByt je vhodný pre jednotlivca alebo pár, bez zvieratiek, ktorí hľadajú moderné, pohodlné a bezstarostné bývanie v Bratislave.\nK bytu nie je parkovacie miesto.\nVoľný  od 1. októbra.\nPri podpise zmluvy sa hradí mesačné nájomné 730 eur, depozit vo výške nájomného a provízia RK 400 eur  /pár 750 eur/.",
+   "is_agency": false,
+   "inactive": false,
+   "parser_version": 6,
+   "eval": {
+    "status": "rooms15",
+    "district": "Nové Mesto",
+    "rooms": 1.5,
+    "floor": 6,
+    "balcony": true,
+    "condition": "new",
+    "rent": 730.0,
+    "energy_status": "unknown",
+    "energy": null,
+    "provision": 400.0,
+    "provision_source": "stated",
+    "effective": 763,
+    "area": 37.0,
+    "excluded": [],
+    "unknown": [],
+    "flags": [
+     "energies unknown"
+    ]
+   },
+   "fp": "739d7b788879b051",
+   "first_seen": "2026-09-30",
+   "price_history": [
+    [
+     "2026-09-30",
+     730.0
+    ]
+   ],
+   "group": "nehnutelnosti:Ju3a8Gkpjec",
+   "last_seen": "2026-09-30",
+   "missed_runs": 0,
+   "active": true,
+   "removed_on": null
+  },
+  "nehnutelnosti:Ju9rQJO3qgW": {
+   "id": "nehnutelnosti:Ju9rQJO3qgW",
+   "source": "nehnutelnosti",
+   "url": "https://www.nehnutelnosti.sk/detail/Ju9rQJO3qgW/prenajom-15-izb-bytu-trnavska-c-ruzinov-bez-provizie",
+   "title": "Prenájom 1,5 izb. bytu, Trnavská c., Ružinov, BEZ PROVÍZIE",
+   "location": "Byty Bratislava-Ružinov",
+   "rent": 680.0,
+   "card_text": "TOP\nPrenájom 1,5 izb. bytu, Trnavská c., Ružinov, BEZ PROVÍZIE\nTrnavská cesta, Bratislava-Ružinov, okres Bratislava II\n1 izbový byt\n43 m²\n680 €/mes.\n15,81 €/m²/mes.\nPrenájom 1,5 izb. bytu, Trnavská c., Ružinov, BEZ PROVÍZIE\nTrnavská cesta, Bratislava-Ružinov, okres Bratislava II\n1 izbový byt\n43 m²\nPrenájom 1,5 izbového bytu v novostavbe Danubius One, Trnavská cesta na 10. poschodí priamo od MAJITEĽA\nVýhody:\n- kompletne zariadený v NOVOSTAVBE v Ružinove\n- ideálny pre 1, max. 2 osoby bez detí a zvierat\n- podlahová plocha 43m2 s lodžiou\n- 3 výťahy a 24 hodinová NONSTOP recepcia\nDispozícia bytu:\n- vstavaná kuchynská linka so zabudovanými novými spotrebičmi (mikrovlnka, rúra, sporák, chladnička s mrazničkou, umývačka riadu a pračka), kuchynský stôl s 2 stoličkami\n- obývacia zostava s vysokou skriňou, horné a dolné skrinky s úložným priestorom\n- sedačka v tvare L\n- spálňa s posteľou BOXPRING s TOPPER-om\n- kúpeľňa s WALK IN sprchovým kútom, zrkadlová skrinka nad umývadlom, skrinka pod umývadlom, toaleta, radiátor\n- hala so šatníkovou skriňou s veľkým úložným priestorom\n- veľká lodžia 4,6 m v rámci interiéru\nLokalita:\n-atraktívna lokalita v obľúbenej štvrti Ružinov\n-Obchodné centrum CENTRAL s fitness a bazénom, Zimný štadión, SLOVAN futbalový štadión, kúpalisko Tehelné pole, krytý bazén Pasienky, jazero Kuchajda a Štrkovecké jazero, trhovisko Miletičova, Nemocnica Ružinov, lekáreň, školy, škôlky, obchody, kaviarne\n-výborné dopravné napojenie MHD (dopravný uzol Trnavské Mýto)\nCena nájmu: 680 €/mesiac + energie 195€/mesiac\n- možnosť prenajať garážové státie za poplatok\nPri podpise nájomnej zmluvy sa uhrádza 1x nájom, 1x vratný depozit vo výške nájmu.\nNeplatíte províziu RK.\nRK prosím nekontaktovať.\nPriamo od majiteľa\n1 izbový byt Slovensko Prenájom\n680 €/mes.\n15,81 €/m²/mes.",
+   "structured_condition": "Novostavba",
+   "structured_energy": 195.0,
+   "list_category": "1",
+   "detail_text": "Prenájom 1,5 izbového bytu v novostavbe Danubius One, Trnavská cesta na 10. poschodí priamo od MAJITEĽA\nVýhody:\n- kompletne zariadený v NOVOSTAVBE v Ružinove\n- ideálny pre 1, max. 2 osoby bez detí a zvierat\n- podlahová plocha 43m2 s lodžiou\n- 3 výťahy a 24 hodinová NONSTOP recepcia\nDispozícia bytu:\n- vstavaná kuchynská linka so zabudovanými novými spotrebičmi (mikrovlnka, rúra, sporák, chladnička s mrazničkou, umývačka riadu a pračka), kuchynský stôl s 2 stoličkami\n- obývacia zostava s vysokou skriňou, horné a dolné skrinky s úložným priestorom\n- sedačka v tvare L\n- spálňa s posteľou BOXPRING s TOPPER-om\n- kúpeľňa s WALK IN sprchovým kútom, zrkadlová skrinka nad umývadlom, skrinka pod umývadlom, toaleta, radiátor\n- hala so šatníkovou skriňou s veľkým úložným priestorom\n- veľká lodžia 4,6 m v rámci interiéru\nLokalita:\n-atraktívna lokalita v obľúbenej štvrti Ružinov\n-Obchodné centrum CENTRAL s fitness a bazénom, Zimný štadión, SLOVAN futbalový štadión, kúpalisko Tehelné pole, krytý bazén Pasienky, jazero Kuchajda a Štrkovecké jazero, trhovisko Miletičova, Nemocnica Ružinov, lekáreň, školy, škôlky, obchody, kaviarne\n-výborné dopravné napojenie MHD (dopravný uzol Trnavské Mýto)\nCena nájmu: 680 €/mesiac + energie 195€/mesiac\n- možnosť prenajať garážové státie za poplatok\nPri podpise nájomnej zmluvy sa uhrádza 1x nájom, 1x vratný depozit vo výške nájmu.\nNeplatíte províziu RK.\nRK prosím nekontaktovať.",
+   "is_agency": false,
+   "inactive": false,
+   "parser_version": 6,
+   "eval": {
+    "status": "excluded",
+    "district": "Ružinov",
+    "rooms": 1.5,
+    "floor": 10,
+    "balcony": true,
+    "condition": "new",
+    "rent": 680.0,
+    "energy_status": "portal",
+    "energy": 195.0,
+    "provision": 0.0,
+    "provision_source": "none",
+    "effective": 875,
+    "area": 43.0,
+    "excluded": [
+     "too expensive (875 €/month)"
+    ],
+    "unknown": [],
+    "flags": []
+   },
+   "fp": "2597be130618ca51",
+   "first_seen": "2026-09-30",
+   "price_history": [
+    [
+     "2026-09-30",
+     680.0
+    ]
+   ],
+   "group": "nehnutelnosti:Ju9rQJO3qgW",
+   "last_seen": "2026-09-30",
+   "missed_runs": 0,
+   "active": true,
+   "removed_on": null
+  },
+  "nehnutelnosti:Ju915Xgq2TH": {
+   "id": "nehnutelnosti:Ju915Xgq2TH",
+   "source": "nehnutelnosti",
+   "url": "https://www.nehnutelnosti.sk/detail/Ju915Xgq2TH/prijemny-15i-byt-40-m2-s-lodziou-skvela-lokalita-tehelne-pole",
+   "title": "Príjemný 1,5i byt 40 m2, s lodžiou, skvelá lokalita, TEHELNÉ POLE",
+   "location": "Byty Bratislava-Nové Mesto",
+   "rent": 740.0,
+   "card_text": "Príjemný 1,5i byt 40 m2, s lodžiou, skvelá lokalita, TEHELNÉ POLE\nBajkalská, Bratislava-Nové Mesto, okres Bratislava III\n1 izbový byt\n40 m²\n740 €/mes.\n18,5 €/m²/mes.\nPríjemný 1,5i byt 40 m2, s lodžiou, skvelá lokalita, TEHELNÉ POLE\nBajkalská, Bratislava-Nové Mesto, okres Bratislava III\n1 izbový byt\n40 m²\nEXPAT EXPERTS | Príjemný 1,5i byt 40 m2, s lodžiou, skvelá lokalita, TEHELNÉ POLE\nDispozícia:\ncelková rozloha 39,89 m2 + lodžia 8,17 m2; situovaný na 13. poschodí (24) v novostavbe TEHELNÉ POLE;\nVstupná chodba s úložným priestorom, kúpeľňa vybavená sprchovacím kútom a toaletou, priestranná miestnosť, ktorá pozostáva z dennej časti (obývačka s plne vybavenou kuchyňou s jedálenskou časťou) a spacej časti. \nVybavenie: \nByt sa prenajíma plne zariadený, vybavený elektrospotrebičmi; podlahové kúrenie, stropné chladenie, automatická pračka so sušičkou.\nPopis lokality:\nProjekt Tehelné pole je situovaný na strategickom mieste – nachádzate sa pár minút od historického centra Bratislavy v časti Nové mesto - nadväzuje priamo na existujúcu, perfektne vybavenú infraštruktúru – obchodné centrum Vivo, jazero Kuchajda či letné kúpalisko Tehelné pole.\nAktívny oddych v blízkej plavárni, športovej hale alebo tenisovom centre.\nVýhodné napojenie na diaľničný obchvat a perfektná dostupnosť aj verejnou dopravou.\nBalkón ponúka výhľad na časť plochy Národného futbalového štadióna počas futbalových zápasov, podujatí, alebo koncertov. \nCena a doplňujúce info:\nCena 740€ + energie a služby 60€/1 osoba; 2 osoby/ 120€/mes. \nV cene nie je zahrnuté internetové pripojenie.\nK dispozícii od 01.12.2026, obhliadky možné.\nTešíme sa na Vás pri obhliadke!\nexpat.sk\n1 izbový byt Bratislava-Nové Mesto Prenájom\n740 €/mes.\n18,5 €/m²/mes.",
+   "structured_condition": "Novostavba",
+   "structured_energy": null,
+   "list_category": "1",
+   "detail_text": "Vlastnosti nehnuteľnosti\nZastavaná plocha\n:\n48 m²\nVlastníctvo\n:\nOsobné\nNahlásiť\nVšetky novostavby na jednom mieste\nZobraziť\nZobraziť všetky\n\nEXPAT EXPERTS | Príjemný 1,5i byt 40 m2, s lodžiou, skvelá lokalita, TEHELNÉ POLE\nDispozícia:\ncelková rozloha 39,89 m2 + lodžia 8,17 m2; situovaný na 13. poschodí (24) v novostavbe TEHELNÉ POLE;\nVstupná chodba s úložným priestorom, kúpeľňa vybavená sprchovacím kútom a toaletou, priestranná miestnosť, ktorá pozostáva z dennej časti (obývačka s plne vybavenou kuchyňou s jedálenskou časťou) a spacej časti.\nVybavenie:\nByt sa prenajíma plne zariadený, vybavený elektrospotrebičmi; podlahové kúrenie, stropné chladenie, automatická pračka so sušičkou.\nPopis lokality:\nProjekt Tehelné pole je situovaný na strategickom mieste – nachádzate sa pár minút od historického centra Bratislavy v časti Nové mesto - nadväzuje priamo na existujúcu, perfektne vybavenú infraštruktúru – obchodné centrum Vivo, jazero Kuchajda či letné kúpalisko Tehelné pole.\nAktívny oddych v blízkej plavárni, športovej hale alebo tenisovom centre.\nVýhodné napojenie na diaľničný obchvat a perfektná dostupnosť aj verejnou dopravou.\nBalkón ponúka výhľad na časť plochy Národného futbalového štadióna počas futbalových zápasov, podujatí, alebo koncertov.\nCena a doplňujúce info:\nCena 740€ + energie a služby 60€/1 osoba; 2 osoby/ 120€/mes.\nV cene nie je zahrnuté internetové pripojenie.\nK dispozícii od 01.12.2026, obhliadky možné.\nTešíme sa na Vás pri obhliadke!",
+   "is_agency": true,
+   "inactive": false,
+   "parser_version": 6,
+   "eval": {
+    "status": "excluded",
+    "district": "Nové Mesto",
+    "rooms": 1.5,
+    "floor": 13,
+    "balcony": true,
+    "condition": "new",
+    "rent": 740.0,
+    "energy_status": "separate",
+    "energy": 60,
+    "provision": 740.0,
+    "provision_source": "assumed",
+    "effective": 862,
+    "area": 40.0,
+    "excluded": [
+     "too expensive (862 €/month)"
+    ],
+    "unknown": [],
+    "flags": [
+     "provision assumed 1× rent"
+    ]
+   },
+   "fp": "6666b89e35a94153",
+   "first_seen": "2026-09-30",
+   "price_history": [
+    [
+     "2026-09-30",
+     740.0
+    ]
+   ],
+   "group": "nehnutelnosti:Ju915Xgq2TH",
+   "last_seen": "2026-09-30",
+   "missed_runs": 0,
+   "active": true,
+   "removed_on": null
+  },
+  "nehnutelnosti:JuYOoPeceQZ": {
+   "id": "nehnutelnosti:JuYOoPeceQZ",
+   "source": "nehnutelnosti",
+   "url": "https://www.nehnutelnosti.sk/detail/JuYOoPeceQZ/dahleh-na-prenajom-15-izbovy-byt-s-balkonom-v-tichej-lokalite-v-ruzinove",
+   "title": "DAHLEH-Na prenájom 1,5 izbový byt s balkónom v tichej lokalite v Ružinove.",
+   "location": "Byty Bratislava-Ružinov",
+   "rent": 700.0,
+   "card_text": "DAHLEH-Na prenájom 1,5 izbový byt s balkónom v tichej lokalite v Ružinove.\nOstredková 6, Bratislava-Ružinov, okres Bratislava II\n1 izbový byt\n44 m²\n700 €/mes.\n15,91 €/m²/mes.\nDAHLEH-Na prenájom 1,5 izbový byt s balkónom v tichej lokalite v Ružinove.\nOstredková 6, Bratislava-Ružinov, okres Bratislava II\n1 izbový byt\n44 m²\nDAHLEH ponúka na prenájom  1,5- izbový byt o výmere 44 m2 + balkón 4,5 m2 na Ostredkovej ulici v Bratislave - Ružinove. Byt je obklopený zeleňou, orientovaný na juh a nachádza sa na 5/6 p. s výťahom. Byt je určený pre nefajčiarov a bez domácich zvierat, pripravený na okamžité nasťahovanie. \t\nNEHNUTEĽNOSŤ:\npočet izieb:  1,5\t\t\t\t\t\nvýmera:        44 m2\nlodžia:           4,5 m2\t\t\nparkovanie:  verejné\nposchodie:   5/6  \npivnica:         nie\t\t\t\t\nvýťah:           áno\nstav:             čiastočná rekonštrukcia\nen.certif.:    nie\nLOKALITA: \n-MHD v bezprostrednej blízkosti \n-Široký výber reštaurácií a kaviarní v okolí\n-v pešej dostupnosti lekáreň\n-Billa a Lidl len pár minút od domu\n-Park Ostredky ideálny na oddych, šport či prechádzky\n-Nákupné centrum Avion dostupné už za 5 minút autom\nBENEFITY:\n-výborná dostupnosť do mesta a aj na dialničný obchvat\n-vynikajúca občianska vybavenosť\n-Zelená a pokojná lokalita\n-Skvelé spojenie MHD\nPrenájom\nCENA:\n700 EUR / 750 EUR 2 osoby nájom bez internetu a TV\n Text a fotografie sú autorským dielom a majetkom spoločnosti DAHLEH Real Estate\nDahleh Real Estate s.r.o.\n1 izbový byt Slovensko Prenájom\n700 €/mes.\n15,91 €/m²/mes.",
+   "structured_condition": "Čiastočná rekonštrukcia",
+   "structured_energy": null,
+   "list_category": "1",
+   "detail_text": "Vlastnosti nehnuteľnosti\nDomáce zvieratá\n:\nNie\nK dispozícii od\n:\n15.07.2026\nPlatba pri podpise zmluvy\n:\n700€\nDepozit / Peňažná zábezpeka\n:\n750€\nVýhľad\n:\nPríroda\nVybavenie\n:\nVýťah\nZobraziť všetky\nNahlásiť\nVšetky novostavby na jednom mieste\nZobraziť\nZobraziť všetky\n\nDAHLEH ponúka na prenájom  1,5- izbový byt o výmere 44 m2 + balkón 4,5 m2 na Ostredkovej ulici v Bratislave - Ružinove. Byt je obklopený zeleňou, orientovaný na juh a nachádza sa na 5/6 p. s výťahom. Byt je určený pre nefajčiarov a bez domácich zvierat, pripravený na okamžité nasťahovanie.\nNEHNUTEĽNOSŤ:\npočet izieb:  1,5\nvýmera:        44 m2\nlodžia:           4,5 m2\nparkovanie:  verejné\nposchodie:   5/6\npivnica:         nie\nvýťah:           áno\nstav:             čiastočná rekonštrukcia\nen.certif.:    nie\nLOKALITA:\n-MHD v bezprostrednej blízkosti\n-Široký výber reštaurácií a kaviarní v okolí\n-v pešej dostupnosti lekáreň\n-Billa a Lidl len pár minút od domu\n-Park Ostredky ideálny na oddych, šport či prechádzky\n-Nákupné centrum Avion dostupné už za 5 minút autom\nBENEFITY:\n-výborná dostupnosť do mesta a aj na dialničný obchvat\n-vynikajúca občianska vybavenosť\n-Zelená a pokojná lokalita\n-Skvelé spojenie MHD\nPrenájom\nCENA:\n700 EUR / 750 EUR 2 osoby nájom bez internetu a TV\nText a fotografie sú autorským dielom a majetkom spoločnosti DAHLEH Real Estate",
+   "is_agency": true,
+   "structured_floor": "5/6 + výťah",
+   "inactive": false,
+   "parser_version": 6,
+   "eval": {
+    "status": "rooms15",
+    "district": "Ružinov",
+    "rooms": 1.5,
+    "floor": 5,
+    "balcony": true,
+    "condition": "partial",
+    "rent": 700.0,
+    "energy_status": "unknown",
+    "energy": null,
+    "provision": 700.0,
+    "provision_source": "assumed",
+    "effective": 758,
+    "area": 44.0,
+    "excluded": [],
+    "unknown": [],
+    "flags": [
+     "energies unknown",
+     "provision assumed 1× rent"
+    ]
+   },
+   "fp": "fccb3ea6d4ed6b91",
+   "first_seen": "2026-09-30",
+   "price_history": [
+    [
+     "2026-09-30",
+     700.0
+    ]
+   ],
+   "group": "nehnutelnosti:JuYOoPeceQZ",
+   "last_seen": "2026-09-30",
+   "missed_runs": 0,
+   "active": true,
+   "removed_on": null
+  },
+  "nehnutelnosti:Ju-BjQb2j0T": {
+   "id": "nehnutelnosti:Ju-BjQb2j0T",
+   "source": "nehnutelnosti",
+   "url": "https://www.nehnutelnosti.sk/detail/Ju-BjQb2j0T/bez-provizie-prenajom15-izbovy-apartman-v-rezidencnom-projekte-olivia-residence",
+   "title": "BEZ PROVÍZIE︱1,5-izbový apartmán | OLIVIA Residence",
+   "location": "Byty Bratislava-Nové Mesto",
+   "rent": 730.0,
+   "card_text": "BEZ PROVÍZIE︱1,5-izbový apartmán | OLIVIA Residence\nRožňavská 1/B, Bratislava-Nové Mesto, okres Bratislava III\n1 izbový byt\n48.57 m²\n730 €/mes.\n15,03 €/m²/mes.\nBEZ PROVÍZIE︱1,5-izbový apartmán | OLIVIA Residence\nRožňavská 1/B, Bratislava-Nové Mesto, okres Bratislava III\n1 izbový byt\n48.57 m²\nEnzo Real Estate ponúka jedinečnú možnosť bývania v úplne novom projekte OLIVIA Residence na Rožňavskej ulici v Bratislave. \nHLAVNÉ VÝHODY:\n- novostavba: apartmány úplne nové, zatiaľ neobývané,\n- apartmány zariadené novým nábytkom,\n- úspora: neplatíte províziu realitnej kancelárii.\nAPARTMÁN:\nCelková plocha apartmánu je 48,57 m² (interiér 44,09 m², exteriér 4,48 m²). \nApartmán pozostáva z:\n- kuchyne: plne vybavená moderná kuchyňa vrátane vstavaných spotrebičov (elektrická rúra, varná doska, umývačka riadu, chladnička s mrazničkou), jedálenský stôl so stoličkami\n- obývacej izby: sedačka v tvare L (nerozkladacia), konferenčný stolík, TV, TV skrinka, závesy, klimatizačná jednotka\n- spacieho kúta: manželská posteľ, nočný stolík a lampa\n- samostatného šatníka\n- vstupnej haly: botník\n- kúpeľne: vaňa, umývadlo so skrinkou, zrkadlo, práčka so sušičkou, wc\n- loggie: stolík s exteriérovými kreslami,\nVYBAVENIE APARTMÁNU:\n- klimatizácia v každej obytnej miestnosti,\n- ústredné kúrenie s rádiátormi,\n- plastové okná s exteriérovým tienením,\n- inteligentný vrátnik,\n- stropné svietidlá do každej miestnosti,\nLOKALITA:\nProjekt OLIVIA Residence ponúka ideálnu kombináciu pokojného bývania a výbornej dostupnosti do centra mesta. Vďaka rýchlemu napojeniu na obchvat a kompletnej občianskej vybavenosti priamo v rezidenčnej budove aj v jej okolí je každodenný život maximálne pohodlný. V bezprostrednej blízkosti nájdete: Fresh Market, Yeme potraviny, DM drogériu, notára, kaderníctvo, kaviarne, reštaurácie, zastávky MHD, fitness centrá, nákupné možnosti.\nPARKOVANIE:\nK bytu je možné si doprenajať parkovacie státie v podzemnej garáži za 120 EUR/mesiac s pohodlným vstupom „suchou nohou“ priamo do bytového domu.\nPIVNICA: \nK bytu je možné si doprenajať aj pivnicu na rovnakom poschodí za 60 EUR/mesiac. \nCENA:\n- Nájom: 730 €/mes.,\n- Energie a správa: 180 €/mes.,\n- Depozit: vo výške 2 mesačných nájmov,\n- Zmluva: 2 roky,\n- BEZ PROVÍZIE PRE NÁJOMCU\nDôležité: Ide o nebytový priestor (apartmán), preto nie je možné nahlásiť trvalý pobyt. Ponuka nie je vhodná pre cudzincov, ktorí potrebujú doklad o pobyte pre Cudzineckú políciu.\nKontaktná osoba: Mgr. Adrian Poljak: 📞: 0917 058 855 ✉️: adrian@enzoreal.sk\nTexty a fotografie sú majetkom realitnej kancelárie Enzo Real Estate FR, s.r.o.\nEnzo Real Estate, s. r. o.\n1 izbový byt Bratislava-Nové Mesto Prenájom\n730 €/mes.\n15,03 €/m²/mes.",
+   "structured_condition": "Novostavba",
+   "structured_energy": 180.0,
+   "list_category": "1",
+   "detail_text": "Vlastnosti nehnuteľnosti\nVybavenie\n:\nVýťah\nPočet balkónov\n:\n1\nRok kolaudácie\n:\n2025\nUmiestnenie\n:\nĎalšie nadzemné podlažie\nZastavaná plocha\n:\n44,1 m²\nVlastníctvo\n:\nIné\nZobraziť všetky\nNahlásiť\nVšetky novostavby na jednom mieste\nZobraziť\nZobraziť všetky\n\nEnzo Real Estate ponúka jedinečnú možnosť bývania v úplne novom projekte OLIVIA Residence na Rožňavskej ulici v Bratislave.\nHLAVNÉ VÝHODY:\n- novostavba: apartmány úplne nové, zatiaľ neobývané,\n- apartmány zariadené novým nábytkom,\n- úspora: neplatíte províziu realitnej kancelárii.\nAPARTMÁN:\nCelková plocha apartmánu je 48,57 m² (interiér 44,09 m², exteriér 4,48 m²).\nApartmán pozostáva z:\n- kuchyne: plne vybavená moderná kuchyňa vrátane vstavaných spotrebičov (elektrická rúra, varná doska, umývačka riadu, chladnička s mrazničkou), jedálenský stôl so stoličkami\n- obývacej izby: sedačka v tvare L (nerozkladacia), konferenčný stolík, TV, TV skrinka, závesy, klimatizačná jednotka\n- spacieho kúta: manželská posteľ, nočný stolík a lampa\n- samostatného šatníka\n- vstupnej haly: botník\n- kúpeľne: vaňa, umývadlo so skrinkou, zrkadlo, práčka so sušičkou, wc\n- loggie: stolík s exteriérovými kreslami,\nVYBAVENIE APARTMÁNU:\n- klimatizácia v každej obytnej miestnosti,\n- ústredné kúrenie s rádiátormi,\n- plastové okná s exteriérovým tienením,\n- inteligentný vrátnik,\n- stropné svietidlá do každej miestnosti,\nLOKALITA:\nProjekt OLIVIA Residence ponúka ideálnu kombináciu pokojného bývania a výbornej dostupnosti do centra mesta. Vďaka rýchlemu napojeniu na obchvat a kompletnej občianskej vybavenosti priamo v rezidenčnej budove aj v jej okolí je každodenný život maximálne pohodlný. V bezprostrednej blízkosti nájdete: Fresh Market, Yeme potraviny, DM drogériu, notára, kaderníctvo, kaviarne, reštaurácie, zastávky MHD, fitness centrá, nákupné možnosti.\nPARKOVANIE:\nK bytu je možné si doprenajať parkovacie státie v podzemnej garáži za 120 EUR/mesiac s pohodlným vstupom „suchou nohou“ priamo do bytového domu.\nPIVNICA:\nK bytu je možné si doprenajať aj pivnicu na rovnakom poschodí za 60 EUR/mesiac.\nCENA:\n- Nájom: 730 €/mes.,\n- Energie a správa: 180 €/mes.,\n- Depozit: vo výške 2 mesačných nájmov,\n- Zmluva: 2 roky,\n- BEZ PROVÍZIE PRE NÁJOMCU\nDôležité: Ide o nebytový priestor (apartmán), preto nie je možné nahlásiť trvalý pobyt. Ponuka nie je vhodná pre cudzincov, ktorí potrebujú doklad o pobyte pre Cudzineckú políciu.\nKontaktná osoba: Mgr. Adrian Poljak: 📞:\n...\n✉️:\n...\nTexty a fotografie sú majetkom realitnej kancelárie Enzo Real Estate FR, s.r.o.",
+   "is_agency": true,
+   "structured_floor": "11/14 + výťah",
+   "inactive": false,
+   "parser_version": 6,
+   "eval": {
+    "status": "excluded",
+    "district": "Nové Mesto",
+    "rooms": 1.5,
+    "floor": 11,
+    "balcony": true,
+    "condition": "new",
+    "rent": 730.0,
+    "energy_status": "portal",
+    "energy": 180.0,
+    "provision": 0.0,
+    "provision_source": "none",
+    "effective": 910,
+    "area": 44.1,
+    "excluded": [
+     "too expensive (910 €/month)"
+    ],
+    "unknown": [],
+    "flags": []
+   },
+   "fp": "f42944928682f009",
+   "first_seen": "2026-09-30",
+   "price_history": [
+    [
+     "2026-09-30",
+     730.0
+    ]
+   ],
+   "group": "nehnutelnosti:Ju-BjQb2j0T",
+   "last_seen": "2026-09-30",
+   "missed_runs": 0,
+   "active": true,
+   "removed_on": null
+  },
+  "bazos:196016626": {
+   "id": "bazos:196016626",
+   "source": "bazos",
+   "url": "/inzerat/196016626/realitny-kancelaria-realadr-sro.php",
+   "title": "Realitný kancelária REALADR s.r.o.",
+   "location": "Bratislava 821 04",
+   "postcode": "82104",
+   "rent": 600.0,
+   "card_text": "🏡 PRENÁJOM – 1,5-IZBOVÝ BYT PO REKONŠTRUKCII S VEĽKOU LOGGIOU | OSTREDKOVÁ – RUŽINOV\n📍 Ostredková ulica, Bratislava – Ružinov\nByt je voľný ihneď.\n\nVhodný pre 1 až 2 osoby. Z dôvodu bezproblémovej komunikácie s prenajímateľom preferujeme záujemcov hovoriacich po slovensky alebo česky.\n\n🏢 5. pos ...",
+   "portal_date": "2026-09-30",
+   "parser_version": 6,
+   "eval": {
+    "status": "rooms15",
+    "district": "Ružinov",
+    "rooms": 1.5,
+    "floor": null,
+    "balcony": true,
+    "condition": "renovated",
+    "rent": 600.0,
+    "energy_status": "unknown",
+    "energy": null,
+    "provision": 600.0,
+    "provision_source": "assumed",
+    "effective": 650,
+    "area": null,
+    "excluded": [],
+    "unknown": [
+     "floor"
+    ],
+    "flags": [
+     "energies unknown",
+     "provision assumed 1× rent"
+    ]
+   },
+   "fp": null,
+   "first_seen": "2026-09-30",
+   "price_history": [
+    [
+     "2026-09-30",
+     600.0
+    ]
+   ],
+   "group": "bazos:196016626",
+   "last_seen": "2026-09-30",
+   "missed_runs": 0,
+   "active": true,
+   "removed_on": null
+  },
+  "bazos:195567149": {
+   "id": "bazos:195567149",
+   "source": "bazos",
+   "url": "/inzerat/195567149/ponukam-na-prenajom-15-izbovi-byt-na-sumracnej-ulici.php",
+   "title": "Ponúkam na prenájom 1,5 izbový byt na Súmračnej ulici",
+   "location": "Bratislava 821 03",
+   "postcode": "82103",
+   "rent": 570.0,
+   "card_text": "Ponúkam na prenájom 1,5-izbový byt na Súmračnej ulici v Ružinove.\n\nByt prešiel kompletnou rekonštrukciou s profesionálnym návrhom a vybavením interiéru.\n\nVeľmi príjemnou súčasťou bytu je loggia so zasklením so stromami priamo pred oknami, vďaka čomu je byt pekne prepojený so zeleňou. Na oknách s ...",
+   "portal_date": "2026-09-30",
+   "parser_version": 6,
+   "eval": {
+    "status": "rooms15",
+    "district": "Ružinov",
+    "rooms": 1.5,
+    "floor": null,
+    "balcony": true,
+    "condition": "renovated",
+    "rent": 570.0,
+    "energy_status": "unknown",
+    "energy": null,
+    "provision": 0.0,
+    "provision_source": "private",
+    "effective": 570,
+    "area": null,
+    "excluded": [],
+    "unknown": [
+     "floor",
+     "rent below 600 € and energies unknown"
+    ],
+    "flags": [
+     "energies unknown"
+    ]
+   },
+   "fp": null,
+   "first_seen": "2026-09-30",
+   "price_history": [
+    [
+     "2026-09-30",
+     570.0
+    ]
+   ],
+   "group": "bazos:195567149",
    "last_seen": "2026-09-30",
    "missed_runs": 0,
    "active": true,
@@ -11833,6 +12613,21 @@
      "details": 8
     }
    }
+  },
+  {
+   "date": "2026-09-30",
+   "sources": {
+    "nehnutelnosti": {
+     "cards": 872,
+     "complete": true,
+     "details": 227
+    },
+    "bazos": {
+     "cards": 20,
+     "complete": true,
+     "details": 10
+    }
+   }
   }
  ],
  "notified": [
@@ -11881,6 +12676,7 @@
   "nehnutelnosti:JuhgW_U1Sct",
   "nehnutelnosti:JuiA9Ab-i5K:check",
   "nehnutelnosti:Jumgtje9FFB",
+  "nehnutelnosti:JuoFsUsJtrK",
   "nehnutelnosti:JuoFsUsJtrK:check",
   "nehnutelnosti:JuooEuSTawp",
   "nehnutelnosti:Jupca2Eb6qN:check",
