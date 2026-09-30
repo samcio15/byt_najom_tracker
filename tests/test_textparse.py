@@ -222,3 +222,63 @@ def test_portal_field_overrules_included_wording():
                   "structured_condition": "Kompletná rekonštrukcia", "is_agency": False,
                   "detail_text": "3. poschodie, balkón. Cena 750 € vrátane energií."})
     assert (e["energy_status"], e["energy"], e["effective"]) == ("portal", 150, 900)
+
+
+@pytest.mark.parametrize("text,rent,status,amount", [
+    # Ju_xcV_XpWj (BOSEN, Čsl. parašutistov): no portal field, slash form in text
+    ("CENA: 570 Eur/nájom + 230 Eur/energie = 800 Eur/mesiac + depozit 800 Eur + provízia RK",
+     570, "separate", 230),
+    ("nájom 600 €/mes. + 200 €/energie", 600, "separate", 200),
+    ("Cena 650 € + 180€/mes./energie", 650, "separate", 180),
+])
+def test_energies_slash_form(text, rent, status, amount):
+    e = tp.energies(text, rent)
+    assert (e["status"], e["amount"]) == (status, amount)
+
+
+# --------------------------------------------------------------------------- #
+# Floor: "X/Y" forms and the portal field
+# --------------------------------------------------------------------------- #
+
+@pytest.mark.parametrize("text,expected", [
+    ("nachádza sa na 1p./6p. zatepleného domu", 1),        # Ju_xcV_XpWj
+    ("Ružinov - Trávniky, 5. p. / 7 p. , výťah", 5),
+    ("v panelovom dome, 12/12 posch., v blízkosti", 12),
+    ("ulici Klenová, 3/4 posch. s výťahom", 3),
+    ("nachádza sa na 3p/4., s výťahom", 3),
+    ("12/21 p.", 12),
+    ("na 3posch./10 s výťahom", 3),
+    ("byt je situovaný na 8/8posch. bytového domu", 8),
+    ("byt má 46m2, je na 2/4p. bez výťahu.", 2),
+    ("poschodie 1/5 s výťahom", 1),
+    ("Poschodie: 10 / 13 (zateplený dom)", 10),
+    ("Poschodie: 5. zo 7 poschodí", 5),
+    ("byt sa nachádza na 10-tom poschodí", 10),
+    # must not be read as a floor
+    ("bytový dom s 24/7 recepciou", None),
+    ("pobočka Tallerova 6/1, Bratislava", None),
+])
+def test_floor_of_total(text, expected):
+    assert tp.floor(text)[0] == expected
+
+
+@pytest.mark.parametrize("value,expected", [
+    ("1/6 + výťah", 1), ("4/5", 4), ("3", 3), ("Prízemie", 0),
+    ("Ďalšie nadzemné podlažie", None), ("Posledné podlažie", None), (None, None),
+])
+def test_portal_floor(value, expected):
+    assert tp.portal_floor(value) == expected
+
+
+def test_portal_floor_beats_text():
+    assert tp.floor("byt na 5. poschodí", "1/6 + výťah")[0] == 1
+    assert tp.floor("byt na 5. poschodí", "Ďalšie nadzemné podlažie")[0] == 5
+
+
+@pytest.mark.parametrize("title,expected", [
+    ("Krásny presvetlený 1,5i byt s parkovaním", 1.5),
+    ("1.5 izbový byt", 1.5),
+    ("3.5 km od centra, 2-izbový byt", 2),
+])
+def test_rooms_one_and_half_variants(title, expected):
+    assert tp.rooms(title) == expected

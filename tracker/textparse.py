@@ -46,7 +46,7 @@ def _first(patterns, text):
 
 _ROOM_PATTERNS = [
     (r"dvoj\s*-?\s*gars[oa]n|dvojgarz[oa]n|\b2\s*-?\s*gars[oa]n", lambda m: 1.9),
-    (r"\b([1-4])\s*,\s*5\s*[-–]?\s*izb", lambda m: float(m.group(1)) + 0.5),
+    (r"\b([1-4])\s*[,.]\s*5\s*[-–]?\s*(?:izb|i\b)", lambda m: float(m.group(1)) + 0.5),
     (r"\bgars[oa]n|\bgarz[oa]n|\bstudio\b", lambda m: 1),
     (r"\bjedno\s*izb", lambda m: 1),
     (r"\bdvoj\s*izb|\bdvojka\b", lambda m: 2),
@@ -77,14 +77,55 @@ _ORDINALS = {"prv": 1, "druh": 2, "tret": 3, "stvrt": 4, "piat": 5, "siest": 6,
              "siedm": 7, "osm": 8, "devat": 9, "desiat": 10}
 
 
-def floor(text: str) -> tuple[int | None, str]:
-    """Return (poschodie, note). note explains ambiguity."""
+_FLOOR_OF_TOTAL = [
+    r"poschodi\w*\s*:?\s*(\d{1,2})\s*/\s*(\d{1,2})(?!\d)",
+    r"\b(\d{1,2})\s*\.?\s*p\s*\.?\s*/\s*(\d{1,2})(?!\d)",
+    r"\b(\d{1,2})\s*/\s*(\d{1,2})\s*\.?\s*(?:posch\w*|p\b)",
+    r"\b(\d{1,2})\s*\.?\s*posch\w*\s*\.?\s*/\s*(\d{1,2})(?!\d)",
+    r"\b(\d{1,2})\s*\.?\s*z[o]?\s+(\d{1,2})\s*\.?\s*(?:poschod|nadzemn)",
+]
+
+
+def portal_floor(value: str | None) -> int | None:
+    """nehnutelnosti.sk 'Podlažie' / 'Umiestnenie' field -> poschodie.
+
+    '1/6 + výťah' -> 1, '4/5' -> 4, 'Prízemie' -> 0. The portal field counts
+    like 'poschodie' (the ads' own text, e.g. '1p./6p.', agrees with it).
+    'Ďalšie nadzemné podlažie' / 'Posledné podlažie' don't give a number -> None.
+    """
+    v = norm(value).strip()
+    if not v:
+        return None
+    if re.search(r"\bprizem|\bsuteren", v):
+        return 0
+    m = re.match(r"(-?\d{1,2})\s*(?:/\s*\d{1,2})?\b", v)
+    return int(m.group(1)) if m else None
+
+
+def floor(text: str, structured: str | None = None) -> tuple[int | None, str]:
+    """Return (poschodie, note). note explains ambiguity.
+
+    `structured` is the portal's own floor field; when it gives a number it wins.
+    """
+    pf = portal_floor(structured)
+    if pf is not None:
+        return pf, ""
     t = norm(text)
     candidates = []  # (position, value, note)
 
     for m in re.finditer(r"(\d{1,2})\s*\.\s*(?:poschod|posch\b)|(\d{1,2})\s+poschod(?!ov)", t):
         candidates.append((m.start(), int(m.group(1) or m.group(2)), ""))
     for m in re.finditer(r"poschodie\s*:\s*(\d{1,2})", t):
+        candidates.append((m.start(), int(m.group(1)), ""))
+    # "X/Y" forms, where the first number is the floor:
+    #   "poschodie 1/5", "poschodie: 10 / 13", "1p./6p.", "5. p. / 7 p.", "3p/4.",
+    #   "12/12 posch.", "8/8posch.", "2/4p.", "12/21 p.", "3posch./10", "5. zo 7 poschodí"
+    for pat in _FLOOR_OF_TOTAL:
+        for m in re.finditer(pat, t):
+            fl, total = int(m.group(1)), int(m.group(2))
+            if fl <= total <= 40:
+                candidates.append((m.start(), fl, ""))
+    for m in re.finditer(r"\b(\d{1,2})\s*-?\s*(?:tom|om|ho)\s+poschod", t):   # "10-tom poschodí"
         candidates.append((m.start(), int(m.group(1)), ""))
     for m in re.finditer(r"(\d{1,2})\s*\.?\s*np\b", t):          # nadzemne podlazie
         candidates.append((m.start(), int(m.group(1)) - 1, ""))
@@ -174,14 +215,17 @@ _KW = (r"(?:sluzb\w*\s+a\s+energi\w*|energi\w*|zaloh\w*|sluzb\w* spojen\w*"
        r"|mesacn\w* poplat\w*|poplatk\w* za (?:energie|sluzby|byt))")
 _NUM = r"(\d{2,3})(?:\s*[-–]\s*(\d{2,3}))?\s*€"
 _PER = r"(?:\s*/\s*mes\w*\.?|\s*mesacne|\s*mes\.)?"
+# Between the amount and the keyword: "230 € energie", "230 € na energie",
+# and the slash form "230 Eur/energie" or "180 €/mes./energie".
+_SEP = r"\s*/?\s*(?:na\s+|za\s+)?"
 
 _ENERGY_PLUS = [
-    r"\+\s*(?:cca\s*|priblizne\s*|okolo\s*)?" + _NUM + r"\w*" + _PER + r"\s*(?:na\s+|za\s+)?" + _KW,
+    r"\+\s*(?:cca\s*|priblizne\s*|okolo\s*)?" + _NUM + r"\w*" + _PER + _SEP + _KW,
     r"\+\s*" + _KW + r"[^\d.]{0,20}?" + _NUM,
 ]
 _ENERGY_PLAIN = [
     _KW + r"[^\d.+]{0,25}?" + _NUM,
-    _NUM + r"\w*" + _PER + r"\s*(?:na\s+|za\s+)?" + _KW,
+    _NUM + r"\w*" + _PER + _SEP + _KW,
 ]
 _ENERGY_INCLUDED = (
     r"vrat(?:ane|\.)\s+(?:vsetk\w*\s+)?(?:energi|poplatk|sluzieb|zaloh)"

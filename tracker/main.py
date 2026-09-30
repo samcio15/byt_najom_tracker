@@ -31,11 +31,20 @@ def prefilter(card: dict) -> bool:
     rent = card.get("rent")
     if rent is not None and rent > config.NEAR_MISS_MAX:
         return False
+    wanted_rooms = {config.ROOMS, 1.9, None}
+    if config.ONE_AND_HALF_ROOMS == "separate":
+        wanted_rooms.add(1.5)
     if card["source"] == nehnutelnosti.SOURCE:
-        return nehnutelnosti.district_of(card) is not None
+        if nehnutelnosti.district_of(card) is None:
+            return False
+        if card.get("list_category", "2") != "2":
+            # 1-room search: keep only flats that say 1,5 room.
+            return (config.ONE_AND_HALF_ROOMS == "separate"
+                    and tp.rooms(card["title"], card.get("card_text", "")) == 1.5)
+        return True
     if not tp.is_wanted_ad(card["title"]) or tp.is_unavailable(card["title"]):
         return False
-    if tp.rooms(card["title"], card.get("card_text", "")) not in (config.ROOMS, 1.9, None):
+    if tp.rooms(card["title"], card.get("card_text", "")) not in wanted_rooms:
         return False
     pc = card.get("postcode") or ""
     return not pc or pc[:2] in ("81", "82", "83", "84", "85")
@@ -66,7 +75,7 @@ class FixtureFetcher:
 # View model for page + alerts
 # --------------------------------------------------------------------------- #
 
-RANK = {"match": 0, "near": 1, "check": 2, "excluded": 3}
+RANK = {"match": 0, "near": 1, "check": 2, "rooms15": 3, "excluded": 4}
 
 
 def build_rows(state: dict, today: str) -> list[dict]:
@@ -159,7 +168,7 @@ def run(fetcher, today: str, send_alerts: bool = True) -> dict:
                     rec.update({k: v for k, v in d.items() if v not in (None, "")})
             elif old:
                 for k in ("detail_text", "is_agency", "structured_condition", "structured_energy",
-                          "inactive", "postcode", "portal_date"):
+                          "structured_floor", "inactive", "postcode", "portal_date"):
                     rec.setdefault(k, old.get(k))
                     if rec.get(k) in (None, ""):
                         rec[k] = old.get(k)

@@ -36,19 +36,22 @@ def evaluate(rec: dict) -> dict:
 
     rooms = tp.rooms(title, body)
     if rec["source"] == nehnutelnosti.SOURCE and rooms is None:
-        rooms = 2  # the search URL is the 2-room category
+        # fall back to the portal category the card came from
+        rooms = 1 if rec.get("list_category") == "1" else 2
     if rooms == 1.9:  # dvojgarsonka
         if config.DVOJGARSONKA == "exclude":
             excluded.append("dvojgarsónka")
         elif config.DVOJGARSONKA == "flag":
             flags.append("dvojgarsónka (two small rooms)")
         rooms = 2
+    one_and_half = rooms == 1.5 and config.ONE_AND_HALF_ROOMS == "separate"
     if rooms is None:
         unknown.append("rooms")
-    elif rooms != config.ROOMS:
+    elif rooms != config.ROOMS and not one_and_half:
         excluded.append(f"{rooms:g} rooms")
 
-    fl, fl_note = tp.floor(full)
+    # Portal floor field (nehnutelnosti "Podlažie: 1/6") first, then the text.
+    fl, fl_note = tp.floor(full, rec.get("structured_floor"))
     if fl is None:
         unknown.append("floor" + (f" ({fl_note})" if fl_note else ""))
     elif fl < config.MIN_FLOOR:
@@ -99,6 +102,8 @@ def evaluate(rec: dict) -> dict:
 
     if excluded:
         status = "excluded"
+    elif one_and_half:
+        status = "rooms15"   # own section, whatever else is unknown
     elif unknown:
         status = "check"
     elif effective <= config.MAX_EFFECTIVE:

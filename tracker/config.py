@@ -19,9 +19,12 @@ MIN_FLOOR = 2                # 2. poschodie and higher (prizemie = 0)
 # Dvojgarsonka = two small rooms. Portals list it as 2-room.
 # "flag" = keep it but mark it, "exclude" = drop it, "accept" = treat as normal 2-room.
 DVOJGARSONKA = "accept"
+# 1,5-room flats: "separate" = own section on the page (same price/flat rules,
+# no Telegram alerts), "exclude" = treat as the wrong size.
+ONE_AND_HALF_ROOMS = "separate"
 
 # Bump when parsing changes, so stored listings get their detail page re-read once.
-PARSER_VERSION = 5
+PARSER_VERSION = 6
 
 # ---- Districts --------------------------------------------------------------
 # Regexes run on lowercase text with diacritics removed.
@@ -48,6 +51,12 @@ POSTCODES = {
 
 # ---- Sources ----------------------------------------------------------------
 NEHNUTELNOSTI_LIST = "https://www.nehnutelnosti.sk/vysledky/2-izbove-byty/bratislava/prenajom"
+# category -> search URL. "1" is crawled only to catch 1,5-room flats, which the
+# portal files as 1-room; plain 1-room flats from it are dropped before any detail fetch.
+NEHNUTELNOSTI_LISTS = {
+    "2": NEHNUTELNOSTI_LIST,
+    "1": "https://www.nehnutelnosti.sk/vysledky/1-izbove-byty/bratislava/prenajom",
+}
 NEHNUTELNOSTI_MAX_PAGES = 40
 
 # Bazos: flats for rent within 15 km of Bratislava center, price <= near-miss cap.

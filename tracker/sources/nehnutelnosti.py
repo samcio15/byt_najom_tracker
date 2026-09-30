@@ -50,6 +50,24 @@ def _structured_energy(lines: list[str]) -> float | None:
     return None
 
 
+def _field(lines: list[str], label: str) -> str | None:
+    """Value of a 'Label:' parameter. The site renders it as 'Label:' + value,
+    or 'Label' + ':' + value on separate lines."""
+    for i, ln in enumerate(lines):
+        if ln.rstrip(":").strip() == label:
+            j = i + 1
+            if j < len(lines) and lines[j].strip() == ":":
+                j += 1
+            if j < len(lines):
+                return lines[j].strip()
+    return None
+
+
+def _structured_floor(lines: list[str]) -> str | None:
+    """'Podlažie' ('1/6 + výťah'); falls back to 'Umiestnenie' ('Prízemie')."""
+    return _field(lines, "Podlažie") or _field(lines, "Umiestnenie")
+
+
 def _location(lines: list[str]) -> str:
     for ln in lines:
         if re.search(r"Bratislava[- ]", ln) or "okres" in ln:
@@ -141,29 +159,48 @@ def parse_detail(html: str) -> dict:
         "location": _location(lines[:60]),
         "rent": _price(head),
         "structured_energy": _structured_energy(head_lines),
+        "structured_floor": _structured_floor(head_lines + params.split("\n")),
         "inactive": "Tento inzerát už nie je aktuálny." in text or "už nie je aktuálny" in text,
     }
 
 
 def fetch_all(fetcher) -> tuple[list[dict], bool]:
-    """Return (cards, complete). complete=False if any page failed."""
-    first = fetcher.get(config.NEHNUTELNOSTI_LIST)
-    if first is None:
-        return [], False
-    cards = parse_list(first)
-    complete = bool(cards)
-    for page in range(2, last_page(first) + 1):
-        html = fetcher.get(config.NEHNUTELNOSTI_LIST, params={"page": page})
-        if html is None:
+    """Return (cards, complete). complete=False if any page failed.
+
+    Crawls every search in config.NEHNUTELNOSTI_LISTS. The portal has no
+    1,5-room category (those flats are filed as 1- or 2-room), so the 1-room
+    search is crawled too; main.prefilter keeps only its 1,5-room cards.
+    """
+    cards, complete = [], True
+    for category, url in config.NEHNUTELNOSTI_LISTS.items():
+        first = fetcher.get(url)
+        if first is None:
             complete = False
-            break
-        batch = parse_list(html)
+            continue
+        batch = parse_list(first)
         if not batch:
-            break
-        cards.extend(batch)
-    uniq = {c["id"]: c for c in cards}
+            complete = False
+        pages = [batch]
+        for page in range(2, last_page(first) + 1):
+            html = fetcher.get(url, params={"page": page})
+            if html is None:
+                complete = False
+                break
+            b = parse_list(html)
+            if not b:
+                break
+            pages.append(b)
+        for b in pages:
+            for c in b:
+                c["list_category"] = category
+                cards.append(c)
+    # A flat found in both searches keeps the 2-room entry.
+    uniq: dict[str, dict] = {}
+    for c in cards:
+        if c["id"] not in uniq or c["list_category"] == "2":
+            uniq[c["id"]] = c
     log.info("nehnutelnosti: %d cards (complete=%s)", len(uniq), complete)
-    return list(uniq.values()), complete
+    return list(uniq.values()), complete and bool(uniq)
 
 
 def district_of(card: dict) -> str | None:

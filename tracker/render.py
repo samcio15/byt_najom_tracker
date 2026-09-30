@@ -13,6 +13,8 @@ SECTIONS = [
      "Worth a negotiation attempt, especially if listed for weeks."),
     ("check", "Needs a manual check", "to check",
      "Price fits, but the ad doesn't say something we need. The missing facts are listed per row."),
+    ("rooms15", "1,5-room flats", "1,5-room",
+     "Smaller than you asked for, but passing every other rule. Missing facts are listed per row."),
     ("removed", "Recently removed", "recently removed",
      "Gone from the portal, most likely rented. Shows how long good offers last."),
     ("excluded", "Excluded", "excluded",

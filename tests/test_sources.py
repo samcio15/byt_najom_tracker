@@ -119,3 +119,88 @@ def test_bazos_uses_text_only():
            "detail_text": "3. poschodie, balkón, po rekonštrukcii. Nájom 700 € + 160 € energie."}
     e = evaluate(rec)
     assert (e["energy_status"], e["energy"]) == ("separate", 160)
+
+
+# --------------------------------------------------------------------------- #
+# Portal floor field and 1,5-room section
+# --------------------------------------------------------------------------- #
+
+BOSEN_HTML = """<html><body><h1>BOSEN | 2 izbový byt s lodžiou, ul. Čsl. Parašutistov</h1>
+  <p>Československých parašutistov, Bratislava-Nové Mesto, okres Bratislava III</p>
+  <span>2 izbový byt</span><span>66 m²</span><span>Čiastočná rekonštrukcia</span>
+  <p>570 €/mes.</p><p>8,65 €/m²/mes.</p>
+  <h2>2 izbový byt na prenájom</h2>
+  <dl><dt>Plocha bytu:</dt><dd>66 m²</dd><dt>Podlažie:</dt><dd>1/6 + výťah</dd></dl>
+  <h3>Vlastnosti nehnuteľnosti</h3><dl><dt>Počet lodžií:</dt><dd>1</dd></dl>
+  <h3>Popis nehnuteľnosti</h3>
+  <p>nachádza sa na 1p./6p. CENA: 570 Eur/nájom + 230 Eur/energie = 800 Eur/mesiac + provízia RK</p>
+  <p>Čítať ďalej</p></body></html>"""
+
+
+def test_parse_detail_reads_portal_floor():
+    from tracker.sources import nehnutelnosti
+    d = nehnutelnosti.parse_detail(BOSEN_HTML)
+    assert d["structured_floor"] == "1/6 + výťah"
+
+
+def test_parse_detail_umiestnenie_fallback():
+    from tracker.sources import nehnutelnosti
+    html = BOSEN_HTML.replace("<dt>Podlažie:</dt><dd>1/6 + výťah</dd>", "").replace(
+        "<dt>Počet lodžií:</dt><dd>1</dd>", "<dt>Umiestnenie</dt><dd>:</dd><dd>Prízemie</dd>")
+    assert nehnutelnosti.parse_detail(html)["structured_floor"] == "Prízemie"
+
+
+def test_bosen_end_to_end():
+    from tracker.sources import nehnutelnosti
+    from tracker.evaluate import evaluate
+    d = nehnutelnosti.parse_detail(BOSEN_HTML)
+    rec = {"source": "nehnutelnosti", "title": "BOSEN | 2 izbový byt s lodžiou", **d}
+    e = evaluate(rec)
+    assert (e["floor"], e["energy"], e["energy_status"]) == (1, 230, "separate")
+    assert "1. poschodie" in e["excluded"] and "floor" not in e["unknown"]
+
+
+def _one_half(**kw):
+    rec = {"source": "nehnutelnosti", "title": "Prenájom 1,5-izbový byt s balkónom",
+           "location": "Bratislava-Nové Mesto", "rent": 600, "structured_energy": 150,
+           "structured_condition": "Kompletná rekonštrukcia", "is_agency": False,
+           "structured_floor": "3/5", "detail_text": "Pekný byt s balkónom."}
+    rec.update(kw)
+    return rec
+
+
+def test_one_and_half_rooms_go_to_own_section():
+    from tracker.evaluate import evaluate
+    e = evaluate(_one_half())
+    assert e["status"] == "rooms15" and e["rooms"] == 1.5 and e["effective"] == 750
+    # still subject to the other rules
+    assert evaluate(_one_half(structured_floor="Prízemie"))["status"] == "excluded"
+    assert evaluate(_one_half(rent=900))["status"] == "excluded"
+    # unknown facts keep it in its own section (listed per row)
+    e = evaluate(_one_half(structured_floor=None))
+    assert e["status"] == "rooms15" and "floor" in e["unknown"]
+
+
+def test_one_and_half_rooms_can_be_switched_off(monkeypatch):
+    from tracker import config
+    from tracker.evaluate import evaluate
+    monkeypatch.setattr(config, "ONE_AND_HALF_ROOMS", "exclude")
+    e = evaluate(_one_half())
+    assert e["status"] == "excluded" and "1.5 rooms" in e["excluded"]
+
+
+def test_prefilter_one_room_search_keeps_only_one_and_half():
+    from tracker.main import prefilter
+    base = {"source": "nehnutelnosti", "location": "Bratislava-Ružinov", "rent": 600,
+            "list_category": "1", "card_text": ""}
+    assert prefilter({**base, "title": "Prenájom 1,5-izbový byt Ružinov"})
+    assert not prefilter({**base, "title": "Prenájom 1-izbový byt Ružinov"})
+    assert not prefilter({**base, "title": "Garsónka Ružinov"})
+    assert prefilter({**base, "list_category": "2", "title": "2-izbový byt"})
+
+
+def test_prefilter_bazos_keeps_one_and_half():
+    from tracker.main import prefilter
+    card = {"source": "bazos", "title": "Prenájom 1,5 izbový byt", "rent": 600,
+            "postcode": "82101", "card_text": ""}
+    assert prefilter(card)
