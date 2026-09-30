@@ -1,0 +1,61 @@
+name: Track flats
+
+on:
+  schedule:
+    - cron: "0 5 * * *"   # daily, 07:00 Bratislava summer time (06:00 in winter)
+  workflow_dispatch:       # "Run workflow" button for manual runs
+
+permissions:
+  contents: write          # lets the job commit data/state.json and docs/index.html
+
+concurrency:
+  group: track
+  cancel-in-progress: false
+
+jobs:
+  track:
+    runs-on: ubuntu-latest
+    env:
+      TZ: Europe/Bratislava
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Unit tests
+        run: pytest -q
+
+      - name: Crawl, evaluate, alert, render
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          PAGE_URL: ${{ vars.PAGE_URL }}
+        run: python -m tracker.main
+
+      - name: Save history and page
+        run: |
+          git config user.name "flat-tracker"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/state.json docs/index.html
+          git commit -m "Update $(date +%F)" || echo "No changes"
+          git push
+
+      - name: Keep unparseable pages for debugging
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-pages
+          path: data/debug
+          if-no-files-found: ignore
+
+      - name: Tell me if the run failed
+        if: failure()
+        run: |
+          curl -s "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
+            -d chat_id="${{ secrets.TELEGRAM_CHAT_ID }}" \
+            -d text="❌ Flat tracker run failed. Open the Actions tab on GitHub to see why."
