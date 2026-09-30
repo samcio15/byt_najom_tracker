@@ -42,3 +42,20 @@ def test_bazos_detail():
     d = bazos.parse_detail(read("bazos_detail.html"))
     assert "vrátané energií" in d["detail_text"]
     assert d["postcode"] == "08005" and d["rent"] == 650
+
+
+def test_nehnutelnosti_structured_energy_line():
+    from tracker.sources.nehnutelnosti import _structured_energy
+    assert _structured_energy(["700 €/mes.", "+ 200 €/mes. energie", "13,46 €/m²/mes."]) == 200
+    assert _structured_energy(["800 €/mes.", "14,81 €/m²/mes."]) is None
+
+
+def test_evaluate_uses_portal_energy_field_and_reserved():
+    from tracker.evaluate import evaluate
+    base = {"source": "nehnutelnosti", "location": "Bosákova 7, Bratislava-Petržalka",
+            "rent": 700, "structured_condition": "Novostavba", "is_agency": False,
+            "detail_text": "2-izbový byt s balkónom na 13. poschodí. 700 € / mesiac + služby"}
+    e = evaluate({**base, "title": "Príjemný 2-izbový byt", "structured_energy": 200})
+    assert (e["energy"], e["effective"], e["status"]) == (200, 900, "excluded")
+    e = evaluate({**base, "title": "Rezervované 2-izbový byt", "structured_energy": 50})
+    assert "reserved or no longer available" in e["excluded"]

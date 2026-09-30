@@ -25,6 +25,9 @@ def evaluate(rec: dict) -> dict:
 
     excluded, unknown, flags = [], [], []
 
+    if rec.get("inactive") or tp.is_unavailable(title):
+        excluded.append("reserved or no longer available")
+
     dist, how = district(rec)
     if not dist:
         excluded.append("district not on your list")
@@ -34,6 +37,12 @@ def evaluate(rec: dict) -> dict:
     rooms = tp.rooms(title, body)
     if rec["source"] == nehnutelnosti.SOURCE and rooms is None:
         rooms = 2  # the search URL is the 2-room category
+    if rooms == 1.9:  # dvojgarsonka
+        if config.DVOJGARSONKA == "exclude":
+            excluded.append("dvojgarsónka")
+        elif config.DVOJGARSONKA == "flag":
+            flags.append("dvojgarsónka (two small rooms)")
+        rooms = 2
     if rooms is None:
         unknown.append("rooms")
     elif rooms != config.ROOMS:
@@ -58,7 +67,10 @@ def evaluate(rec: dict) -> dict:
         unknown.append("condition")
 
     rent = rec.get("rent") or tp.rent_from_text(full)
-    en = tp.energies(full, rent)
+    if rec.get("structured_energy") is not None:
+        en = {"status": "separate", "amount": rec["structured_energy"]}
+    else:
+        en = tp.energies(full, rent)
     if en["status"] == "unknown":
         flags.append("energies unknown")
     elif en["status"] == "ambiguous":

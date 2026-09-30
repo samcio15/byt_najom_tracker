@@ -45,6 +45,7 @@ def _first(patterns, text):
 # --------------------------------------------------------------------------- #
 
 _ROOM_PATTERNS = [
+    (r"dvoj\s*-?\s*gars[oa]n|dvojgarz[oa]n|\b2\s*-?\s*gars[oa]n", lambda m: 1.9),
     (r"\b([1-4])\s*,\s*5\s*[-–]?\s*izb", lambda m: float(m.group(1)) + 0.5),
     (r"\bgars[oa]n|\bgarz[oa]n|\bstudio\b", lambda m: 1),
     (r"\bjedno\s*izb", lambda m: 1),
@@ -169,7 +170,8 @@ def condition(text: str, structured: str | None = None) -> str | None:
 # Energies
 # --------------------------------------------------------------------------- #
 
-_KW = r"(?:energi\w*|zaloh\w*|sluzb\w* spojen\w*|mesacn\w* poplat\w*|poplatk\w* za (?:energie|sluzby|byt))"
+_KW = (r"(?:sluzb\w*\s+a\s+energi\w*|energi\w*|zaloh\w*|sluzb\w* spojen\w*"
+       r"|mesacn\w* poplat\w*|poplatk\w* za (?:energie|sluzby|byt))")
 _NUM = r"(\d{2,3})(?:\s*[-–]\s*(\d{2,3}))?\s*€"
 _PER = r"(?:\s*/\s*mes\w*\.?|\s*mesacne|\s*mes\.)?"
 
@@ -210,8 +212,15 @@ def energies(text: str, rent: float | None = None) -> dict:
     the amount is then counted on top of rent (conservative) and flagged.
     """
     t = norm(text)
-    if rent and re.search(rf"\b{int(rent)}\s*€[^.\d]{{0,30}}(?:{_ENERGY_INCLUDED})", t):
-        return {"status": "included", "amount": 0}
+    if rent:
+        # "850 € / mesiac vrátane energií" while the listed rent is 700:
+        # the text states a total, so energies = total - rent.
+        for m in re.finditer(r"\b(\d{3,4})\s*€[^.\d]{0,30}(?:" + _ENERGY_INCLUDED + ")", t):
+            total = int(m.group(1))
+            if total == int(rent):
+                return {"status": "included", "amount": 0}
+            if config.ENERGY_MIN <= total - rent <= config.ENERGY_MAX:
+                return {"status": "separate", "amount": total - int(rent)}
     plus = _energy_amount(_ENERGY_PLUS, t)
     amount = plus if plus is not None else _energy_amount(_ENERGY_PLAIN, t)
     included = re.search(_ENERGY_INCLUDED, t) is not None
@@ -309,6 +318,11 @@ def district_from_postcode(pc: str | None) -> str | None:
 # --------------------------------------------------------------------------- #
 # Misc
 # --------------------------------------------------------------------------- #
+
+def is_unavailable(title: str) -> bool:
+    """Title marks the flat as already reserved or rented."""
+    return re.search(r"\b(rezervovan\w*|prenajat\w*|obsaden\w*)\b", norm(title)) is not None
+
 
 def is_wanted_ad(title: str) -> bool:
     """False for 'looking for a flat' posts on Bazos."""

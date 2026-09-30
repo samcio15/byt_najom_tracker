@@ -26,6 +26,15 @@ def _price(text: str) -> float | None:
     return float(re.sub(r"\D", "", m.group(1))) if m else None
 
 
+def _structured_energy(lines: list[str]) -> float | None:
+    """The portal's own field, shown under the price as '+ 200 €/mes. energie'."""
+    for ln in lines:
+        m = re.match(r"^\+\s*(\d[\d\s\u00a0]*)\s*€\s*/\s*mes\.?\s*energi", ln.strip())
+        if m:
+            return float(re.sub(r"\D", "", m.group(1)))
+    return None
+
+
 def _location(lines: list[str]) -> str:
     for ln in lines:
         if re.search(r"Bratislava[- ]", ln) or "okres" in ln:
@@ -67,6 +76,7 @@ def parse_list(html: str) -> list[dict]:
             "rent": _price(text),
             "card_text": text,
             "structured_condition": next((c for c in _CONDITIONS if c in lines), None),
+            "structured_energy": _structured_energy(lines),
         })
     if not out:
         dump_debug("nehnutelnosti_list_empty.html", html)
@@ -100,7 +110,8 @@ def parse_detail(html: str) -> dict:
         s = lines.index("Vlastnosti nehnuteľnosti")
         params = "\n".join(lines[s:s + 40]).split("Popis nehnuteľnosti")[0]
 
-    head = "\n".join(lines[:80])
+    head_lines = lines[:80]
+    head = "\n".join(head_lines)
     agency = ("Profil realitnej kancelárie" in text) or ("MAKLÉR" in lines)
     private = bool(re.search(r"súkromn\w+ (?:inzerent|osoba|predajca)", text, re.I))
     if not desc:
@@ -111,6 +122,8 @@ def parse_detail(html: str) -> dict:
         "is_agency": True if agency else (False if private else None),
         "location": _location(lines[:60]),
         "rent": _price(head),
+        "structured_energy": _structured_energy(head_lines),
+        "inactive": "Tento inzerát už nie je aktuálny." in text or "už nie je aktuálny" in text,
     }
 
 

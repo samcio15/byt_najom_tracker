@@ -136,7 +136,7 @@ def test_wanted_ad():
      800, "separate", 250),
     ("Cena prenájmu: 750 €/mesiac + 350 € energie vrátane parkovacieho státia.", 750, "separate", 350),
     ("Nájomné: 710 € / mesiac Energie: 190 € / mesiac Celková mesačná platba: 900 €", 710, "separate", 190),
-    ("Cena: 900€ / mesiac (vrátane energií) (nájom 580 € + 320 € energie)", 580, "ambiguous", 320),
+    ("Cena: 900€ / mesiac (vrátane energií) (nájom 580 € + 320 € energie)", 580, "separate", 320),
     ("Nájom 850 € vrátane energií, energie tvoria cca 150 €.", 850, "included", 0),
 ])
 def test_energies_real(text, rent, status, amount):
@@ -152,3 +152,30 @@ def test_energies_real(text, rent, status, amount):
 def test_provision_real(text, rent, amount, source):
     p = tp.provision(text, rent, True)
     assert (p["amount"], p["source"]) == (amount, source)
+
+
+# Cases reported from the first live run (30 Sep 2026).
+@pytest.mark.parametrize("text,rent,status,amount", [
+    # JutFtXCOvjF: "za služby a energie" was not recognised
+    ("Cena prenájmu bytu: 700 € / mesiac + 200 € / mesiac za služby a energie", 700, "separate", 200),
+    # Jumgtje9FFB: listed rent 700, text states the total with energies
+    ("CENA 850€ / mesiac vrátane energií, satelitného TV a internetu", 700, "separate", 150),
+])
+def test_energies_live(text, rent, status, amount):
+    e = tp.energies(text, rent)
+    assert (e["status"], e["amount"]) == (status, amount)
+
+
+@pytest.mark.parametrize("title,expected", [
+    ("DVOJGARSÓNKA DeLuxe | 8. poschodie", 1.9),
+    ("Zrekonštruovaná 2-garsonka, výhľad", 1.9),
+    ("Garsónka Ružinov", 1),
+])
+def test_dvojgarsonka(title, expected):
+    assert tp.rooms(title) == expected
+
+
+def test_unavailable():
+    assert tp.is_unavailable("Rezervované DVOJGARSÓNKA DeLuxe")
+    assert tp.is_unavailable("PRENAJATÉ - 2-izbový byt")
+    assert not tp.is_unavailable("2-izbový byt s balkónom")

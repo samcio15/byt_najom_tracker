@@ -33,9 +33,9 @@ def prefilter(card: dict) -> bool:
         return False
     if card["source"] == nehnutelnosti.SOURCE:
         return nehnutelnosti.district_of(card) is not None
-    if not tp.is_wanted_ad(card["title"]):
+    if not tp.is_wanted_ad(card["title"]) or tp.is_unavailable(card["title"]):
         return False
-    if tp.rooms(card["title"], card.get("card_text", "")) not in (config.ROOMS, None):
+    if tp.rooms(card["title"], card.get("card_text", "")) not in (config.ROOMS, 1.9, None):
         return False
     pc = card.get("postcode") or ""
     return not pc or pc[:2] in ("81", "82", "83", "84", "85")
@@ -148,7 +148,9 @@ def run(fetcher, today: str, send_alerts: bool = True) -> dict:
             if old is None and not prefilter(card):
                 continue
             rec = dict(card)
-            need_detail = old is None or not old.get("detail_text") or old.get("rent") != card.get("rent")
+            need_detail = (old is None or not old.get("detail_text")
+                           or old.get("rent") != card.get("rent")
+                           or old.get("parser_version") != config.PARSER_VERSION)
             if need_detail and (old is not None or prefilter(card)):
                 html = fetcher.get(card["url"])
                 details += 1
@@ -156,10 +158,13 @@ def run(fetcher, today: str, send_alerts: bool = True) -> dict:
                     d = mod.parse_detail(html)
                     rec.update({k: v for k, v in d.items() if v not in (None, "")})
             elif old:
-                for k in ("detail_text", "is_agency", "structured_condition", "postcode", "portal_date"):
+                for k in ("detail_text", "is_agency", "structured_condition", "structured_energy",
+                          "inactive", "postcode", "portal_date"):
                     rec.setdefault(k, old.get(k))
                     if rec.get(k) in (None, ""):
                         rec[k] = old.get(k)
+            if need_detail:
+                rec["parser_version"] = config.PARSER_VERSION
             rec["eval"] = evaluate(rec)
             rec["fp"] = store.fingerprint(rec.get("detail_text") or "")
             store.upsert(state, rec, today)

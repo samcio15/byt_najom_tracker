@@ -13,6 +13,12 @@ ENERGY_MIN, ENERGY_MAX = 40, 450
 # ---- Flat rules -------------------------------------------------------------
 ROOMS = 2
 MIN_FLOOR = 2                # 2. poschodie and higher (prizemie = 0)
+# Dvojgarsonka = two small rooms. Portals list it as 2-room.
+# "flag" = keep it but mark it, "exclude" = drop it, "accept" = treat as normal 2-room.
+DVOJGARSONKA = "flag"
+
+# Bump when parsing changes, so stored listings get their detail page re-read once.
+PARSER_VERSION = 2
 
 # ---- Districts --------------------------------------------------------------
 # Regexes run on lowercase text with diacritics removed.
