@@ -21,7 +21,7 @@ MIN_FLOOR = 2                # 2. poschodie and higher (prizemie = 0)
 DVOJGARSONKA = "accept"
 
 # Bump when parsing changes, so stored listings get their detail page re-read once.
-PARSER_VERSION = 4
+PARSER_VERSION = 5
 
 # ---- Districts --------------------------------------------------------------
 # Regexes run on lowercase text with diacritics removed.

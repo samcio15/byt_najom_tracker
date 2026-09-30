@@ -67,10 +67,14 @@ def evaluate(rec: dict) -> dict:
         unknown.append("condition")
 
     rent = rec.get("rent") or tp.rent_from_text(full)
-    # Priority: "vrátane energií" wording > portal field > amount in text > guess.
-    en = tp.energies(full, rent)
-    if en["status"] not in ("included", "total") and rec.get("structured_energy") is not None:
+    # Energies:
+    #   nehnutelnosti.sk -> the portal field under the rent ("+ 150 €/mes. energie")
+    #                       always wins; only if it is missing, read the text.
+    #   bazos.sk         -> text only (the portal has no energy field).
+    if rec["source"] == nehnutelnosti.SOURCE and rec.get("structured_energy") is not None:
         en = {"status": "portal", "amount": rec["structured_energy"]}
+    else:
+        en = tp.energies(full, rent)
     if en["status"] == "unknown":
         flags.append("energies unknown")
     elif en["status"] == "guessed":

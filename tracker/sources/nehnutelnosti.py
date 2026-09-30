@@ -26,12 +26,27 @@ def _price(text: str) -> float | None:
     return float(re.sub(r"\D", "", m.group(1))) if m else None
 
 
+# Main price "650 €/mes." (not the "13,83 €/m²/mes." line).
+_MAIN_PRICE_RE = re.compile(r"\d[\d\s]*€\s*/\s*mes\.?")
+# The portal's energy field directly under the price: "+ 150 €/mes. energie".
+# \s also matches newlines, so it still works when the site renders the parts
+# ("+", "150 €/mes.", "energie") in separate HTML elements.
+_ENERGY_FIELD_RE = re.compile(r"\A\s*\+\s*(\d[\d\s]*?)\s*€\s*(?:/\s*mes\w*\.?)?\s*energi", re.I)
+
+
 def _structured_energy(lines: list[str]) -> float | None:
-    """The portal's own field, shown under the price as '+ 200 €/mes. energie'."""
-    for ln in lines:
-        m = re.match(r"^\+\s*(\d[\d\s\u00a0]*)\s*€\s*/\s*mes\.?\s*energi", ln.strip())
-        if m:
-            return float(re.sub(r"\D", "", m.group(1)))
+    """The portal's own field, shown right under the rent as '+ 150 €/mes. energie'.
+
+    Only the text immediately after the main price is checked, so amounts in
+    the description or in 'similar listings' can't be picked up by mistake.
+    """
+    text = "\n".join(lines).replace("\u00a0", " ").replace("\u202f", " ").replace("\u200b", "")
+    for m in _MAIN_PRICE_RE.finditer(text):
+        after = text[m.end():m.end() + 80]
+        e = _ENERGY_FIELD_RE.match(after)
+        if e:
+            return float(re.sub(r"\D", "", e.group(1)))
+        return None  # only the first (main) price counts
     return None
 
 
@@ -110,7 +125,10 @@ def parse_detail(html: str) -> dict:
         s = lines.index("Vlastnosti nehnuteľnosti")
         params = "\n".join(lines[s:s + 40]).split("Popis nehnuteľnosti")[0]
 
-    head_lines = lines[:80]
+    # Header block (title, parameters, price, energy field) ends where the
+    # description starts; fall back to a generous fixed window.
+    head_end = lines.index("Popis nehnuteľnosti") if "Popis nehnuteľnosti" in lines else 150
+    head_lines = lines[:head_end]
     head = "\n".join(head_lines)
     agency = ("Profil realitnej kancelárie" in text) or ("MAKLÉR" in lines)
     private = bool(re.search(r"súkromn\w+ (?:inzerent|osoba|predajca)", text, re.I))

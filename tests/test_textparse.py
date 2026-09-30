@@ -214,10 +214,11 @@ def test_energy_user_rules(text, rent, status, amount):
     assert (e["status"], e["amount"]) == (status, amount)
 
 
-def test_included_overrules_portal_field():
+def test_portal_field_overrules_included_wording():
+    # Rule changed: on nehnutelnosti.sk the field under the rent always wins.
     from tracker.evaluate import evaluate
     e = evaluate({"source": "nehnutelnosti", "title": "2-izbový byt",
                   "location": "Bratislava-Ružinov", "rent": 750, "structured_energy": 150,
                   "structured_condition": "Kompletná rekonštrukcia", "is_agency": False,
                   "detail_text": "3. poschodie, balkón. Cena 750 € vrátane energií."})
-    assert (e["energy_status"], e["energy"], e["effective"]) == ("included", 0, 750)
+    assert (e["energy_status"], e["energy"], e["effective"]) == ("portal", 150, 900)

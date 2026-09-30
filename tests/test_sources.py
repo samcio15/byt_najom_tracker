@@ -59,3 +59,63 @@ def test_evaluate_uses_portal_energy_field_and_reserved():
     assert (e["energy"], e["effective"], e["status"]) == (200, 900, "excluded")
     e = evaluate({**base, "title": "Rezervované 2-izbový byt", "structured_energy": 50})
     assert "reserved or no longer available" in e["excluded"]
+
+
+# --------------------------------------------------------------------------- #
+# Energies: nehnutelnosti portal field first, text only as fallback
+# --------------------------------------------------------------------------- #
+
+def test_structured_energy_split_across_elements():
+    """JuFlppxoHTX (Astrová): the page shows '+ 150 €/mes. energie' under the
+    rent, but the parts are separate HTML elements, so they arrive as separate lines."""
+    from tracker.sources.nehnutelnosti import _structured_energy
+    assert _structured_energy(["650 €/mes.", "+", "150 €/mes.", "energie", "13,83 €/m²/mes."]) == 150
+    assert _structured_energy(["650 €/mes.", "+ 150 €/mes.", "energie"]) == 150
+    assert _structured_energy(["650\u00a0€/mes.", "+\u00a0150\u00a0€/mes. energie"]) == 150
+    assert _structured_energy(["1 050 €/mes.", "+ 250 € energie"]) == 250
+    # An amount further down (description, similar listings) is not the field.
+    assert _structured_energy(["650 €/mes.", "13,83 €/m²/mes.", "Popis", "+ 150 € energie"]) is None
+
+
+def test_parse_detail_reads_split_energy_field():
+    from tracker.sources import nehnutelnosti
+    html = """<html><body><h1>Prenajmem 2i byt na Astrovej ul.</h1>
+      <p>Astrová, Bratislava-Ružinov, okres Bratislava II</p>
+      <span>2 izbový byt</span><span>47 m²</span><span>Kompletná rekonštrukcia</span>
+      <p><strong>650 €/mes.</strong></p>
+      <p><span>+ </span><span>150 €/mes.</span> <span>energie</span></p>
+      <p>13,83 €/m²/mes.</p>
+      <h3>Popis nehnuteľnosti</h3>
+      <p>Byt na 3. poschodí, balkón. Cena: 650€/mesiac (+energie)</p>
+      <p>Čítať ďalej</p></body></html>"""
+    d = nehnutelnosti.parse_detail(html)
+    assert d["structured_energy"] == 150 and d["rent"] == 650
+
+
+def test_portal_energy_field_beats_text():
+    """No more 'vrátane energií overrules the portal field'."""
+    from tracker.evaluate import evaluate
+    rec = {"source": "nehnutelnosti", "title": "2-izbový byt", "rent": 700,
+           "location": "Bratislava-Ružinov", "structured_energy": 150,
+           "detail_text": "2-izbový byt, 3. poschodie, balkón, po rekonštrukcii. "
+                          "Cena 850 € vrátane energií."}
+    e = evaluate(rec)
+    assert (e["energy_status"], e["energy"]) == ("portal", 150)
+
+
+def test_text_used_when_portal_field_missing():
+    from tracker.evaluate import evaluate
+    rec = {"source": "nehnutelnosti", "title": "2-izbový byt", "rent": 700,
+           "location": "Bratislava-Ružinov",
+           "detail_text": "3. poschodie, balkón, po rekonštrukcii. Nájom 700 € + 180 € energie."}
+    e = evaluate(rec)
+    assert (e["energy_status"], e["energy"]) == ("separate", 180)
+
+
+def test_bazos_uses_text_only():
+    from tracker.evaluate import evaluate
+    rec = {"source": "bazos", "title": "Prenájom 2-izbový byt Ružinov", "rent": 700,
+           "postcode": "82101", "structured_energy": 999,  # must be ignored
+           "detail_text": "3. poschodie, balkón, po rekonštrukcii. Nájom 700 € + 160 € energie."}
+    e = evaluate(rec)
+    assert (e["energy_status"], e["energy"]) == ("separate", 160)

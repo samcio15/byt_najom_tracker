@@ -1,0 +1,170 @@
+diff --git a/tests/test_sources.py b/tests/test_sources.py
+index e871ba1..62e62fe 100644
+--- a/tests/test_sources.py
++++ b/tests/test_sources.py
+@@ -59,3 +59,63 @@ def test_evaluate_uses_portal_energy_field_and_reserved():
+     assert (e["energy"], e["effective"], e["status"]) == (200, 900, "excluded")
+     e = evaluate({**base, "title": "Rezervované 2-izbový byt", "structured_energy": 50})
+     assert "reserved or no longer available" in e["excluded"]
++
++
++# --------------------------------------------------------------------------- #
++# Energies: nehnutelnosti portal field first, text only as fallback
++# --------------------------------------------------------------------------- #
++
++def test_structured_energy_split_across_elements():
++    """JuFlppxoHTX (Astrová): the page shows '+ 150 €/mes. energie' under the
++    rent, but the parts are separate HTML elements, so they arrive as separate lines."""
++    from tracker.sources.nehnutelnosti import _structured_energy
++    assert _structured_energy(["650 €/mes.", "+", "150 €/mes.", "energie", "13,83 €/m²/mes."]) == 150
++    assert _structured_energy(["650 €/mes.", "+ 150 €/mes.", "energie"]) == 150
++    assert _structured_energy(["650\u00a0€/mes.", "+\u00a0150\u00a0€/mes. energie"]) == 150
++    assert _structured_energy(["1 050 €/mes.", "+ 250 € energie"]) == 250
++    # An amount further down (description, similar listings) is not the field.
++    assert _structured_energy(["650 €/mes.", "13,83 €/m²/mes.", "Popis", "+ 150 € energie"]) is None
++
++
++def test_parse_detail_reads_split_energy_field():
++    from tracker.sources import nehnutelnosti
++    html = """<html><body><h1>Prenajmem 2i byt na Astrovej ul.</h1>
++      <p>Astrová, Bratislava-Ružinov, okres Bratislava II</p>
++      <span>2 izbový byt</span><span>47 m²</span><span>Kompletná rekonštrukcia</span>
++      <p><strong>650 €/mes.</strong></p>
++      <p><span>+ </span><span>150 €/mes.</span> <span>energie</span></p>
++      <p>13,83 €/m²/mes.</p>
++      <h3>Popis nehnuteľnosti</h3>
++      <p>Byt na 3. poschodí, balkón. Cena: 650€/mesiac (+energie)</p>
++      <p>Čítať ďalej</p></body></html>"""
++    d = nehnutelnosti.parse_detail(html)
++    assert d["structured_energy"] == 150 and d["rent"] == 650
++
++
++def test_portal_energy_field_beats_text():
++    """No more 'vrátane energií overrules the portal field'."""
++    from tracker.evaluate import evaluate
++    rec = {"source": "nehnutelnosti", "title": "2-izbový byt", "rent": 700,
++           "location": "Bratislava-Ružinov", "structured_energy": 150,
++           "detail_text": "2-izbový byt, 3. poschodie, balkón, po rekonštrukcii. "
++                          "Cena 850 € vrátane energií."}
++    e = evaluate(rec)
++    assert (e["energy_status"], e["energy"]) == ("portal", 150)
++
++
++def test_text_used_when_portal_field_missing():
++    from tracker.evaluate import evaluate
++    rec = {"source": "nehnutelnosti", "title": "2-izbový byt", "rent": 700,
++           "location": "Bratislava-Ružinov",
++           "detail_text": "3. poschodie, balkón, po rekonštrukcii. Nájom 700 € + 180 € energie."}
++    e = evaluate(rec)
++    assert (e["energy_status"], e["energy"]) == ("separate", 180)
++
++
++def test_bazos_uses_text_only():
++    from tracker.evaluate import evaluate
++    rec = {"source": "bazos", "title": "Prenájom 2-izbový byt Ružinov", "rent": 700,
++           "postcode": "82101", "structured_energy": 999,  # must be ignored
++           "detail_text": "3. poschodie, balkón, po rekonštrukcii. Nájom 700 € + 160 € energie."}
++    e = evaluate(rec)
++    assert (e["energy_status"], e["energy"]) == ("separate", 160)
+diff --git a/tests/test_textparse.py b/tests/test_textparse.py
+index dbf6230..65db4ed 100644
+--- a/tests/test_textparse.py
++++ b/tests/test_textparse.py
+@@ -214,10 +214,11 @@ def test_energy_user_rules(text, rent, status, amount):
+     assert (e["status"], e["amount"]) == (status, amount)
+ 
+ 
+-def test_included_overrules_portal_field():
++def test_portal_field_overrules_included_wording():
++    # Rule changed: on nehnutelnosti.sk the field under the rent always wins.
+     from tracker.evaluate import evaluate
+     e = evaluate({"source": "nehnutelnosti", "title": "2-izbový byt",
+                   "location": "Bratislava-Ružinov", "rent": 750, "structured_energy": 150,
+                   "structured_condition": "Kompletná rekonštrukcia", "is_agency": False,
+                   "detail_text": "3. poschodie, balkón. Cena 750 € vrátane energií."})
+-    assert (e["energy_status"], e["energy"], e["effective"]) == ("included", 0, 750)
++    assert (e["energy_status"], e["energy"], e["effective"]) == ("portal", 150, 900)
+diff --git a/tracker/config.py b/tracker/config.py
+index bc02f81..5cab76d 100644
+--- a/tracker/config.py
++++ b/tracker/config.py
+@@ -21,7 +21,7 @@ MIN_FLOOR = 2                # 2. poschodie and higher (prizemie = 0)
+ DVOJGARSONKA = "accept"
+ 
+ # Bump when parsing changes, so stored listings get their detail page re-read once.
+-PARSER_VERSION = 4
++PARSER_VERSION = 5
+ 
+ # ---- Districts --------------------------------------------------------------
+ # Regexes run on lowercase text with diacritics removed.
+diff --git a/tracker/evaluate.py b/tracker/evaluate.py
+index 7da4dc3..4d9c1d7 100644
+--- a/tracker/evaluate.py
++++ b/tracker/evaluate.py
+@@ -67,10 +67,14 @@ def evaluate(rec: dict) -> dict:
+         unknown.append("condition")
+ 
+     rent = rec.get("rent") or tp.rent_from_text(full)
+-    # Priority: "vrátane energií" wording > portal field > amount in text > guess.
+-    en = tp.energies(full, rent)
+-    if en["status"] not in ("included", "total") and rec.get("structured_energy") is not None:
++    # Energies:
++    #   nehnutelnosti.sk -> the portal field under the rent ("+ 150 €/mes. energie")
++    #                       always wins; only if it is missing, read the text.
++    #   bazos.sk         -> text only (the portal has no energy field).
++    if rec["source"] == nehnutelnosti.SOURCE and rec.get("structured_energy") is not None:
+         en = {"status": "portal", "amount": rec["structured_energy"]}
++    else:
++        en = tp.energies(full, rent)
+     if en["status"] == "unknown":
+         flags.append("energies unknown")
+     elif en["status"] == "guessed":
+diff --git a/tracker/sources/nehnutelnosti.py b/tracker/sources/nehnutelnosti.py
+index 1bc2f1b..fe4143a 100644
+--- a/tracker/sources/nehnutelnosti.py
++++ b/tracker/sources/nehnutelnosti.py
+@@ -26,12 +26,27 @@ def _price(text: str) -> float | None:
+     return float(re.sub(r"\D", "", m.group(1))) if m else None
+ 
+ 
++# Main price "650 €/mes." (not the "13,83 €/m²/mes." line).
++_MAIN_PRICE_RE = re.compile(r"\d[\d\s]*€\s*/\s*mes\.?")
++# The portal's energy field directly under the price: "+ 150 €/mes. energie".
++# \s also matches newlines, so it still works when the site renders the parts
++# ("+", "150 €/mes.", "energie") in separate HTML elements.
++_ENERGY_FIELD_RE = re.compile(r"\A\s*\+\s*(\d[\d\s]*?)\s*€\s*(?:/\s*mes\w*\.?)?\s*energi", re.I)
++
++
+ def _structured_energy(lines: list[str]) -> float | None:
+-    """The portal's own field, shown under the price as '+ 200 €/mes. energie'."""
+-    for ln in lines:
+-        m = re.match(r"^\+\s*(\d[\d\s\u00a0]*)\s*€\s*/\s*mes\.?\s*energi", ln.strip())
+-        if m:
+-            return float(re.sub(r"\D", "", m.group(1)))
++    """The portal's own field, shown right under the rent as '+ 150 €/mes. energie'.
++
++    Only the text immediately after the main price is checked, so amounts in
++    the description or in 'similar listings' can't be picked up by mistake.
++    """
++    text = "\n".join(lines).replace("\u00a0", " ").replace("\u202f", " ").replace("\u200b", "")
++    for m in _MAIN_PRICE_RE.finditer(text):
++        after = text[m.end():m.end() + 80]
++        e = _ENERGY_FIELD_RE.match(after)
++        if e:
++            return float(re.sub(r"\D", "", e.group(1)))
++        return None  # only the first (main) price counts
+     return None
+ 
+ 
+@@ -110,7 +125,10 @@ def parse_detail(html: str) -> dict:
+         s = lines.index("Vlastnosti nehnuteľnosti")
+         params = "\n".join(lines[s:s + 40]).split("Popis nehnuteľnosti")[0]
+ 
+-    head_lines = lines[:80]
++    # Header block (title, parameters, price, energy field) ends where the
++    # description starts; fall back to a generous fixed window.
++    head_end = lines.index("Popis nehnuteľnosti") if "Popis nehnuteľnosti" in lines else 150
++    head_lines = lines[:head_end]
+     head = "\n".join(head_lines)
+     agency = ("Profil realitnej kancelárie" in text) or ("MAKLÉR" in lines)
+     private = bool(re.search(r"súkromn\w+ (?:inzerent|osoba|predajca)", text, re.I))
