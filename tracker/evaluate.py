@@ -1,0 +1,110 @@
+"""Turn a raw listing into a verdict: match / near / check / excluded."""
+from __future__ import annotations
+
+from . import config
+from . import textparse as tp
+from .sources import nehnutelnosti
+
+
+def district(rec: dict) -> tuple[str | None, str]:
+    """(district, how) — how is 'portal', 'postcode' or 'text'."""
+    if rec["source"] == nehnutelnosti.SOURCE:
+        return nehnutelnosti.district_of(rec), "portal"
+    by_pc = tp.district_from_postcode(rec.get("postcode"))
+    if by_pc:
+        return by_pc, "postcode"
+    by_text = tp.district_from_text(rec.get("title", ""), rec.get("location", ""),
+                                    rec.get("detail_text") or rec.get("card_text", ""))
+    return by_text, "text"
+
+
+def evaluate(rec: dict) -> dict:
+    title = rec.get("title", "")
+    body = rec.get("detail_text") or rec.get("card_text", "")
+    full = f"{title}\n{body}"
+
+    excluded, unknown, flags = [], [], []
+
+    dist, how = district(rec)
+    if not dist:
+        excluded.append("district not on your list")
+    elif how == "text":
+        flags.append("district guessed from text")
+
+    rooms = tp.rooms(title, body)
+    if rec["source"] == nehnutelnosti.SOURCE and rooms is None:
+        rooms = 2  # the search URL is the 2-room category
+    if rooms is None:
+        unknown.append("rooms")
+    elif rooms != config.ROOMS:
+        excluded.append(f"{rooms:g} rooms")
+
+    fl, fl_note = tp.floor(full)
+    if fl is None:
+        unknown.append("floor" + (f" ({fl_note})" if fl_note else ""))
+    elif fl < config.MIN_FLOOR:
+        excluded.append("prízemie" if fl == 0 else f"{fl}. poschodie")
+
+    bal = tp.balcony(full)
+    if bal is False:
+        excluded.append("no balcony")
+    elif bal is None:
+        unknown.append("balcony")
+
+    cond = tp.condition(full, rec.get("structured_condition"))
+    if cond == "original":
+        excluded.append("original condition")
+    elif cond is None:
+        unknown.append("condition")
+
+    rent = rec.get("rent") or tp.rent_from_text(full)
+    en = tp.energies(full, rent)
+    if en["status"] == "unknown":
+        flags.append("energies unknown")
+    elif en["status"] == "ambiguous":
+        flags.append("energy info contradictory, counted as extra")
+
+    prov = tp.provision(full, rent, rec.get("is_agency"))
+    if prov["source"] == "assumed":
+        flags.append("provision assumed 1× rent")
+
+    effective = None
+    if rent is None:
+        unknown.append("rent")
+    else:
+        energy = en["amount"] or 0
+        effective = round(rent + energy + prov["amount"] / config.CONTRACT_MONTHS)
+        if en["amount"] is not None and rent + energy < config.MIN_RENT_PLUS_ENERGIES:
+            excluded.append(f"suspiciously low ({rent + energy:.0f} € with energies)")
+        elif en["amount"] is None and rent < config.MIN_RENT_PLUS_ENERGIES:
+            unknown.append("rent below 600 € and energies unknown")
+        if effective > config.NEAR_MISS_MAX:
+            excluded.append(f"too expensive ({effective} €/month)")
+
+    if excluded:
+        status = "excluded"
+    elif unknown:
+        status = "check"
+    elif effective <= config.MAX_EFFECTIVE:
+        status = "match"
+    else:
+        status = "near"
+
+    return {
+        "status": status,
+        "district": dist,
+        "rooms": rooms,
+        "floor": fl,
+        "balcony": bal,
+        "condition": cond,
+        "rent": rent,
+        "energy_status": en["status"],
+        "energy": en["amount"],
+        "provision": prov["amount"],
+        "provision_source": prov["source"],
+        "effective": effective,
+        "area": tp.area_m2(full),
+        "excluded": excluded,
+        "unknown": unknown,
+        "flags": flags,
+    }
