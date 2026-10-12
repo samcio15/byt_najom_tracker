@@ -42,7 +42,7 @@
     ]
    ],
    "group": "nehnutelnosti:Ju3_WATPBuD",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -95,7 +95,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuTmctmsF4x",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -144,7 +144,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuG-Epv8z3T",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -196,7 +196,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuvH0G6TPcE",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -556,7 +556,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuBHFJ1eZC5",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -606,7 +606,7 @@
    ],
    "group": "nehnutelnosti:Ju6q07afmUQ",
    "last_seen": "2026-10-11",
-   "missed_runs": 0,
+   "missed_runs": 1,
    "active": true,
    "removed_on": null,
    "inactive": false,
@@ -706,7 +706,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuEo1F3Kz5l",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -757,7 +757,7 @@
     ]
    ],
    "group": "nehnutelnosti:JugBaarVBkzQ",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -808,7 +808,7 @@
     ]
    ],
    "group": "nehnutelnosti:Juo7G92Fha0",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -965,7 +965,7 @@
     ]
    ],
    "group": "nehnutelnosti:Ju8Gcp5xQGI",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -1067,7 +1067,7 @@
    ],
    "group": "nehnutelnosti:JuLTHC4NX-H",
    "last_seen": "2026-10-11",
-   "missed_runs": 0,
+   "missed_runs": 1,
    "active": true,
    "removed_on": null,
    "inactive": false,
@@ -1170,7 +1170,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuK7owTOuVc",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -1220,7 +1220,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuHy7GqCSk0",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -1415,7 +1415,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuFlppxoHTX",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -1518,7 +1518,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuMCwoUJiTC",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -1712,7 +1712,7 @@
     ]
    ],
    "group": "nehnutelnosti:Ju6nXX3jxj4",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -2120,7 +2120,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuTsAOLnCMQ",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -2225,7 +2225,7 @@
     ]
    ],
    "group": "nehnutelnosti:Ju5UH61zo56",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -2322,7 +2322,7 @@
     ]
    ],
    "group": "nehnutelnosti:JucDWZ_Hfv6",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -2375,9 +2375,9 @@
    ],
    "group": "nehnutelnosti:JuOJ3BvaZf2",
    "last_seen": "2026-10-10",
-   "missed_runs": 1,
-   "active": true,
-   "removed_on": null,
+   "missed_runs": 2,
+   "active": false,
+   "removed_on": "2026-10-12",
    "inactive": false,
    "parser_version": 6,
    "list_category": "2",
@@ -2423,7 +2423,7 @@
     ]
    ],
    "group": "nehnutelnosti:JunvG2VQ99f",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -2477,7 +2477,7 @@
     ]
    ],
    "group": "nehnutelnosti:JukvXkVxH8O",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -2528,7 +2528,7 @@
     ]
    ],
    "group": "nehnutelnosti:Ju0jtR3uJOw",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -2578,7 +2578,7 @@
     ]
    ],
    "group": "nehnutelnosti:Ju1y9dT-sDZ",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -2734,7 +2734,7 @@
     ]
    ],
    "group": "nehnutelnosti:Ju79NG_99G_",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -2784,7 +2784,7 @@
     ]
    ],
    "group": "nehnutelnosti:JudkUITBdvLh",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -2832,7 +2832,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuoFsUsJtrK",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -2884,7 +2884,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuDRGKBxk0u",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -2938,7 +2938,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuPbDJfydw1",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -2990,7 +2990,7 @@
     ]
    ],
    "group": "nehnutelnosti:Ju16jX8WWLH",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -3092,7 +3092,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuvrBPwT6XX8",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -3200,7 +3200,7 @@
     ]
    ],
    "group": "nehnutelnosti:JudNHKsZLlN",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -3250,7 +3250,7 @@
     ]
    ],
    "group": "nehnutelnosti:Ju7t939mSEu",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -3457,7 +3457,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuKwiqXJzQa",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -3612,7 +3612,7 @@
     ]
    ],
    "group": "nehnutelnosti:JurFLb8958n",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -3665,7 +3665,7 @@
     ]
    ],
    "group": "nehnutelnosti:JulKY_c4_lE",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -3766,7 +3766,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuOUj49c-65",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -4025,7 +4025,7 @@
     ]
    ],
    "group": "nehnutelnosti:JulZXAX0HSP",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -4079,7 +4079,7 @@
     ]
    ],
    "group": "nehnutelnosti:Ju8BaLwxH9n",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -4280,7 +4280,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuvyzJnceki",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -4332,7 +4332,7 @@
     ]
    ],
    "group": "nehnutelnosti:Jua-Ne6BprJ",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -4349,7 +4349,7 @@
    "title": "SVETLÝ ZARIADENÝ 2I BYT S LODŽIOU S VÝHĽADOM NA HRAD | NIVY",
    "location": "Záhradnícka, Bratislava-Ružinov, okres Bratislava II",
    "rent": 610.0,
-   "card_text": "SVETLÝ ZARIADENÝ 2I BYT S LODŽIOU S VÝHĽADOM NA HRAD | NIVY\nZáhradnícka, Bratislava-Ružinov, okres Bratislava II\n2 izbový byt\n32.74 m²\n610 €/mes.\n18,63 €/m²/mes.\nSVETLÝ ZARIADENÝ 2I BYT S LODŽIOU S VÝHĽADOM NA HRAD | NIVY\nZáhradnícka, Bratislava-Ružinov, okres Bratislava II\n2 izbový byt\n32.74 m²\n8. poschodie z 8 | klimatizácia | zvieratá akceptované | zastávka električky iba 5 minút peši | voľný od 1.10.2026\nHľadáte komfortné mestské bývanie v obľúbenom Ružinove? Tento dvojizbový byt situovaný na najvyššom poschodí poskytuje dokonalé súkromie a nádherný výhľad na mesto vrátane dominanty Bratislavského hradu. Byt je pripravený na nasťahovanie od 1. 10. 2026 a po dohode je vítaný aj Váš malý domáci miláčik.\nRealitná kancelária KARIN & PARTNERS ponúka vo výhradnom zastúpení na prenájom zariadený dvojizbový byt s lodžiou na Záhradníckej ulici v mestskej časti Bratislava – Ružinov a v miestnej časti Nivy.\nByt:\nTento byt sa nachádza na 8. poschodí polyfunkčného bytového domu s výťahmi, ktorý prešiel v roku 2012 kompletnou rekonštrukciou.\nPozostáva z obývacej izby s kuchynským kútom, spálne, kúpeľne spojenej s toaletou a predsiene. Veľkou výhodou je priestranná lodžia s výmerou 5,48 m². Z obývacej miestnosti a lodžie je krásny panoramatický výhľad na Bratislavský hrad.\nByt je zariadený vrátane spotrebičov v kuchynskej linke s elektrickou dvojplatničkou, chladničkou s mrazničkou, mikrovlnnou rúrou a novou práčkou. V kúpeľni sa nachádza sprchový kút, toaleta, skrinka s umývadlom a zrkadlo.\nAj v teplých letných mesiacoch je príjemná teplota v byte zabezpečená klimatizáciou.\nNa prízemí bytového domu sa nachádza uzamykateľná miestnosť na odkladanie bicyklov.\nLokalita:\nBytový dom je situovaný na rohu ulíc Záhradnícka a Jégeho v miestnej časti Nivy v mestskej časti Bratislava – Ružinov, ktorá poskytuje kompletnú občiansku vybavenosť. Disponuje skvelou polohou s výbornou dostupnosťou vlastným automobilom, mestskou hromadnou dopravou, bicyklom alebo peši. Autobusové, trolejbusové aj električkové zastávky Saleziáni sú vzdialené len pár minút peši. V blízkom okolí sa nachádza nákupné Trhovisko Miletičova, nákupné centrum Central a Nivy, Zimný štadión Ondreja Nepelu, Letné kúpalisko Tehelné pole, Národný futbalový štadión, Národné tenisové centrum či verejný park JAMA na oddych aj aktívne trávenie voľného času.\nSilné stránky tohto bytu sú najmä:\n- zariadený vrátane spotrebičov,\n- klimatizácia zabezpečujúca príjemnú teplotu,\n- priestranná lodžia s výhľadom na Bratislavský hrad,\n- malé domáce zvieratá akceptované,\n- vyhľadávaná a prestížna lokalita Nivy,\n- kompletná občianska vybavenosť v pešej dostupnosti,\n- výborná dostupnosť do centra mesta,\n- voľný od 1.10.2026.\nVýmera: celková výmera podlahovej plochy: 32,74 m² (z toho lodžia 5,48 m²)\nCena za mesiac: 610 € nájomné plus 180 € energie (vrátane internetu)\nPodmienky prenájmu:\n- pri podpise zmluvy 1 x nájomné vo výške 790 €,\n- pri podpise zmluvy 1 x peňažná zábezpeka vo výške 790 €,\n- byt je voľný od 1.10.2026,\n- malé domáce zvieratá sú po dohode akceptované,\n- nefajčiari.\nFotografie a text sú autorským dielom spoločnosti KARIN & PARTNERS. Viac fotografií nehnuteľnosti na vyžiadanie.\nMajitelia si vyhradzujú právo výberu najvhodnejšieho nájomcu.\nKontakt  k obhliadke:\nMichal Šumec\ncertifikovaný realitný maklér\nčlen Realitnej Únie Slovenskej republiky\n+421 948 038 459\nsumec@karinpartners.sk\nKARIN & PARTNERS, s.r.o.\n2 izbový byt Slovensko Prenájom\n610 €/mes.\n18,63 €/m²/mes.",
+   "card_text": "PREMIUM\nSVETLÝ ZARIADENÝ 2I BYT S LODŽIOU S VÝHĽADOM NA HRAD | NIVY\nZáhradnícka, Bratislava-Ružinov, okres Bratislava II\n2 izbový byt\n32.74 m²\n610 €/mes.\n18,63 €/m²/mes.\nSVETLÝ ZARIADENÝ 2I BYT S LODŽIOU S VÝHĽADOM NA HRAD | NIVY\nZáhradnícka, Bratislava-Ružinov, okres Bratislava II\n2 izbový byt\n32.74 m²\n8. poschodie z 8 | klimatizácia | zvieratá akceptované | zastávka električky iba 5 minút peši | voľný od 1.10.2026\nHľadáte komfortné mestské bývanie v obľúbenom Ružinove? Tento dvojizbový byt situovaný na najvyššom poschodí poskytuje dokonalé súkromie a nádherný výhľad na mesto vrátane dominanty Bratislavského hradu. Byt je pripravený na nasťahovanie od 1. 10. 2026 a po dohode je vítaný aj Váš malý domáci miláčik.\nRealitná kancelária KARIN & PARTNERS ponúka vo výhradnom zastúpení na prenájom zariadený dvojizbový byt s lodžiou na Záhradníckej ulici v mestskej časti Bratislava – Ružinov a v miestnej časti Nivy.\nByt:\nTento byt sa nachádza na 8. poschodí polyfunkčného bytového domu s výťahmi, ktorý prešiel v roku 2012 kompletnou rekonštrukciou.\nPozostáva z obývacej izby s kuchynským kútom, spálne, kúpeľne spojenej s toaletou a predsiene. Veľkou výhodou je priestranná lodžia s výmerou 5,48 m². Z obývacej miestnosti a lodžie je krásny panoramatický výhľad na Bratislavský hrad.\nByt je zariadený vrátane spotrebičov v kuchynskej linke s elektrickou dvojplatničkou, chladničkou s mrazničkou, mikrovlnnou rúrou a novou práčkou. V kúpeľni sa nachádza sprchový kút, toaleta, skrinka s umývadlom a zrkadlo.\nAj v teplých letných mesiacoch je príjemná teplota v byte zabezpečená klimatizáciou.\nNa prízemí bytového domu sa nachádza uzamykateľná miestnosť na odkladanie bicyklov.\nLokalita:\nBytový dom je situovaný na rohu ulíc Záhradnícka a Jégeho v miestnej časti Nivy v mestskej časti Bratislava – Ružinov, ktorá poskytuje kompletnú občiansku vybavenosť. Disponuje skvelou polohou s výbornou dostupnosťou vlastným automobilom, mestskou hromadnou dopravou, bicyklom alebo peši. Autobusové, trolejbusové aj električkové zastávky Saleziáni sú vzdialené len pár minút peši. V blízkom okolí sa nachádza nákupné Trhovisko Miletičova, nákupné centrum Central a Nivy, Zimný štadión Ondreja Nepelu, Letné kúpalisko Tehelné pole, Národný futbalový štadión, Národné tenisové centrum či verejný park JAMA na oddych aj aktívne trávenie voľného času.\nSilné stránky tohto bytu sú najmä:\n- zariadený vrátane spotrebičov,\n- klimatizácia zabezpečujúca príjemnú teplotu,\n- priestranná lodžia s výhľadom na Bratislavský hrad,\n- malé domáce zvieratá akceptované,\n- vyhľadávaná a prestížna lokalita Nivy,\n- kompletná občianska vybavenosť v pešej dostupnosti,\n- výborná dostupnosť do centra mesta,\n- voľný od 1.10.2026.\nVýmera: celková výmera podlahovej plochy: 32,74 m² (z toho lodžia 5,48 m²)\nCena za mesiac: 610 € nájomné plus 180 € energie (vrátane internetu)\nPodmienky prenájmu:\n- pri podpise zmluvy 1 x nájomné vo výške 790 €,\n- pri podpise zmluvy 1 x peňažná zábezpeka vo výške 790 €,\n- byt je voľný od 1.10.2026,\n- malé domáce zvieratá sú po dohode akceptované,\n- nefajčiari.\nFotografie a text sú autorským dielom spoločnosti KARIN & PARTNERS. Viac fotografií nehnuteľnosti na vyžiadanie.\nMajitelia si vyhradzujú právo výberu najvhodnejšieho nájomcu.\nKontakt  k obhliadke:\nMichal Šumec\ncertifikovaný realitný maklér\nčlen Realitnej Únie Slovenskej republiky\n+421 948 038 459\nsumec@karinpartners.sk\nKARIN & PARTNERS, s.r.o.\n2 izbový byt Slovensko Prenájom\n610 €/mes.\n18,63 €/m²/mes.",
    "structured_condition": "Čiastočná rekonštrukcia",
    "detail_text": "Vlastnosti nehnuteľnosti\nVybavenie\n:\nVýťah\nRok poslednej rekonštrukcie\n:\n2012\nVlastníctvo\n:\nOsobné\nZariadenie\n:\nZariadené kompletne\nNahlásiť\nVšetky novostavby na jednom mieste\nZobraziť\nZobraziť všetky\n\n8. poschodie z 8 | klimatizácia | zvieratá akceptované | zastávka električky iba 5 minút peši | voľný od 1.10.2026\nHľadáte komfortné mestské bývanie v obľúbenom Ružinove? Tento dvojizbový byt situovaný na najvyššom poschodí poskytuje dokonalé súkromie a nádherný výhľad na mesto vrátane dominanty Bratislavského hradu. Byt je pripravený na nasťahovanie od 1. 10. 2026 a po dohode je vítaný aj Váš malý domáci miláčik.\nRealitná kancelária KARIN & PARTNERS ponúka vo výhradnom zastúpení na prenájom zariadený dvojizbový byt s lodžiou na Záhradníckej ulici v mestskej časti Bratislava – Ružinov a v miestnej časti Nivy.\nByt:\nTento byt sa nachádza na 8. poschodí polyfunkčného bytového domu s výťahmi, ktorý prešiel v roku 2012 kompletnou rekonštrukciou.\nPozostáva z obývacej izby s kuchynským kútom, spálne, kúpeľne spojenej s toaletou a predsiene. Veľkou výhodou je priestranná lodžia s výmerou 5,48 m². Z obývacej miestnosti a lodžie je krásny panoramatický výhľad na Bratislavský hrad.\nByt je zariadený vrátane spotrebičov v kuchynskej linke s elektrickou dvojplatničkou, chladničkou s mrazničkou, mikrovlnnou rúrou a novou práčkou. V kúpeľni sa nachádza sprchový kút, toaleta, skrinka s umývadlom a zrkadlo.\nAj v teplých letných mesiacoch je príjemná teplota v byte zabezpečená klimatizáciou.\nNa prízemí bytového domu sa nachádza uzamykateľná miestnosť na odkladanie bicyklov.\nLokalita:\nBytový dom je situovaný na rohu ulíc Záhradnícka a Jégeho v miestnej časti Nivy v mestskej časti Bratislava – Ružinov, ktorá poskytuje kompletnú občiansku vybavenosť. Disponuje skvelou polohou s výbornou dostupnosťou vlastným automobilom, mestskou hromadnou dopravou, bicyklom alebo peši. Autobusové, trolejbusové aj električkové zastávky Saleziáni sú vzdialené len pár minút peši. V blízkom okolí sa nachádza nákupné Trhovisko Miletičova, nákupné centrum Central a Nivy, Zimný štadión Ondreja Nepelu, Letné kúpalisko Tehelné pole, Národný futbalový štadión, Národné tenisové centrum či verejný park JAMA na oddych aj aktívne trávenie voľného času.\nSilné stránky tohto bytu sú najmä:\n- zariadený vrátane spotrebičov,\n- klimatizácia zabezpečujúca príjemnú teplotu,\n- priestranná lodžia s výhľadom na Bratislavský hrad,\n- malé domáce zvieratá akceptované,\n- vyhľadávaná a prestížna lokalita Nivy,\n- kompletná občianska vybavenosť v pešej dostupnosti,\n- výborná dostupnosť do centra mesta,\n- voľný od 1.10.2026.\nVýmera: celková výmera podlahovej plochy: 32,74 m² (z toho lodžia 5,48 m²)\nCena za mesiac: 610 € nájomné plus 180 € energie (vrátane internetu)\nPodmienky prenájmu:\n- pri podpise zmluvy 1 x nájomné vo výške 790 €,\n- pri podpise zmluvy 1 x peňažná zábezpeka vo výške 790 €,\n- byt je voľný od 1.10.2026,\n- malé domáce zvieratá sú po dohode akceptované,\n- nefajčiari.\nFotografie a text sú autorským dielom spoločnosti KARIN & PARTNERS. Viac fotografií nehnuteľnosti na vyžiadanie.\nMajitelia si vyhradzujú právo výberu najvhodnejšieho nájomcu.\nKontakt  k obhliadke:\nMichal Šumec\ncertifikovaný realitný maklér\nčlen Realitnej Únie Slovenskej republiky\n...\n...",
    "is_agency": true,
@@ -4388,7 +4388,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuGeV3GN_x7",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -4645,7 +4645,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuUgsbCBDKj",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -4698,7 +4698,7 @@
     ]
    ],
    "group": "nehnutelnosti:JufiyHS9X92",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -4751,7 +4751,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuCLvwKLQ2P",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -4802,7 +4802,7 @@
     ]
    ],
    "group": "nehnutelnosti:Juj6r-BKA1K",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -4908,7 +4908,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuBntWBr6_c",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -4958,7 +4958,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuX16eI2fxr",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -5010,7 +5010,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuyzJVoagrf",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -5114,7 +5114,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuQN_J1VgcA",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -5165,7 +5165,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuBfkPwCw7W",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -5217,7 +5217,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuR-gvrTtmb",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -5271,7 +5271,7 @@
     ]
    ],
    "group": "nehnutelnosti:Jue2wrzjScL",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -5324,7 +5324,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuiHMceJhyl",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -5428,7 +5428,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuUPFTqzqy9",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -5483,7 +5483,7 @@
     ]
    ],
    "group": "nehnutelnosti:Jue6lH1Kwmv",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -5535,7 +5535,7 @@
     ]
    ],
    "group": "nehnutelnosti:Jul36QbMgdW",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -5797,8 +5797,8 @@
     ]
    ],
    "group": "nehnutelnosti:JuFuDfQRFCl",
-   "last_seen": "2026-10-10",
-   "missed_runs": 1,
+   "last_seen": "2026-10-12",
+   "missed_runs": 0,
    "active": true,
    "removed_on": null,
    "inactive": false,
@@ -5848,7 +5848,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuLXBSIJUNu",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -5899,7 +5899,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuDhEjn6PBy",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -6003,7 +6003,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuhbuKUjc19",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -6053,7 +6053,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuqRgOlp3Z9",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -6104,7 +6104,7 @@
     ]
    ],
    "group": "nehnutelnosti:JurcdlIk_3I",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -6158,7 +6158,7 @@
     ]
    ],
    "group": "nehnutelnosti:JufwxTXF22n",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -6206,7 +6206,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuER3ik2o1B",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -6261,7 +6261,7 @@
     ]
    ],
    "group": "nehnutelnosti:Ju9c2nA2yeD",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -6313,7 +6313,7 @@
     ]
    ],
    "group": "nehnutelnosti:Ju_xcV_XpWj",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -6366,7 +6366,7 @@
     ]
    ],
    "group": "nehnutelnosti:Jupca2Eb6qN",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -6418,7 +6418,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuNowx1aJGb",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -6470,7 +6470,7 @@
     ]
    ],
    "group": "nehnutelnosti:Jupca2Eb6qN",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -6626,7 +6626,7 @@
     ]
    ],
    "group": "nehnutelnosti:Jupca2Eb6qN",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -6677,7 +6677,7 @@
     ]
    ],
    "group": "nehnutelnosti:Ju1VrkfcCDI",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -6729,7 +6729,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuWzNnJWpdg",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -6938,7 +6938,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuQnxPDD5jA",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -7151,7 +7151,7 @@
     ]
    ],
    "group": "nehnutelnosti:Juxky9Mg9jFt",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -7252,7 +7252,7 @@
     ]
    ],
    "group": "nehnutelnosti:JurLJ0tjvdZ",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -7304,7 +7304,7 @@
     ]
    ],
    "group": "nehnutelnosti:Ju1MKabjN_D",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -7357,7 +7357,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuKJuz5z7eB",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -7409,7 +7409,7 @@
     ]
    ],
    "group": "nehnutelnosti:Ju9sQFj8_qS",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -7618,7 +7618,7 @@
     ]
    ],
    "group": "nehnutelnosti:Ju_IbFm9Tun",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -7775,7 +7775,7 @@
     ]
    ],
    "group": "nehnutelnosti:Jucks3a7TyZ",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -7879,7 +7879,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuqglOVB1x_",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -7930,7 +7930,7 @@
     ]
    ],
    "group": "nehnutelnosti:Jus2qdn16CS",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -8037,7 +8037,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuBKRRky1uy",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -8143,8 +8143,8 @@
     ]
    ],
    "group": "nehnutelnosti:JuATl8MLuVk",
-   "last_seen": "2026-10-10",
-   "missed_runs": 1,
+   "last_seen": "2026-10-12",
+   "missed_runs": 0,
    "active": true,
    "removed_on": null,
    "inactive": false,
@@ -8194,7 +8194,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuPTsG8tksh",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -8249,7 +8249,7 @@
     ]
    ],
    "group": "nehnutelnosti:Juh8lhUEDf0",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -8295,7 +8295,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuERUx3ZWuF",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -8399,7 +8399,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuVd8KJDcyX",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -8551,7 +8551,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuJfy3nLQh9",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -8653,7 +8653,7 @@
     ]
    ],
    "group": "nehnutelnosti:JupP64qzjnb",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -8756,7 +8756,7 @@
    ],
    "group": "nehnutelnosti:Jux8huEhJ4m",
    "last_seen": "2026-10-11",
-   "missed_runs": 0,
+   "missed_runs": 1,
    "active": true,
    "removed_on": null,
    "inactive": false,
@@ -8807,7 +8807,7 @@
     ]
    ],
    "group": "nehnutelnosti:JunYyrzKZvB",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -8862,7 +8862,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuwC8j1JF0J",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -8915,7 +8915,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuCeAfIHCS-",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -8966,7 +8966,7 @@
     ]
    ],
    "group": "nehnutelnosti:Ju8lMlk5hPk",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -9173,7 +9173,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuSbw2jR7Mt",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -9223,7 +9223,7 @@
     ]
    ],
    "group": "nehnutelnosti:JurGQf8tlT7",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -9324,7 +9324,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuGcmIgB_ko",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -9375,7 +9375,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuoD1vAaefF",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -9426,7 +9426,7 @@
     ]
    ],
    "group": "nehnutelnosti:JulJTOxh7jl",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -9786,7 +9786,7 @@
     ]
    ],
    "group": "nehnutelnosti:JunsrY1Dolq",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -9889,7 +9889,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuftI_auJ1V",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -10092,7 +10092,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuPC-eOsj_G",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -10190,7 +10190,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuI_rAdJcp2",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -10243,7 +10243,7 @@
     ]
    ],
    "group": "nehnutelnosti:JueTmQJMS_j",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -10295,7 +10295,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuN29idwwj5",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -10401,7 +10401,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuXWpUTGDVA",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -10508,7 +10508,7 @@
     ]
    ],
    "group": "nehnutelnosti:Ju-KPvfIkoh",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -10558,7 +10558,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuU23BtsAiP",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -10608,7 +10608,7 @@
     ]
    ],
    "group": "nehnutelnosti:Jufr0459UM0",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -10660,7 +10660,7 @@
     ]
    ],
    "group": "nehnutelnosti:Juvj9IcS7Ng",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -10712,7 +10712,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuA6U5kFrVG",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -10867,7 +10867,7 @@
     ]
    ],
    "group": "nehnutelnosti:JusZ3YxxkXA",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -10966,7 +10966,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuBq5kqnttu",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -11073,7 +11073,7 @@
     ]
    ],
    "group": "nehnutelnosti:Jug6xX0rzXC",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -11128,7 +11128,7 @@
     ]
    ],
    "group": "nehnutelnosti:Ju-dYDHmfSQ",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -11182,7 +11182,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuIF6pGPslo",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -11234,9 +11234,9 @@
    ],
    "group": "nehnutelnosti:JuRjYt1o92r",
    "last_seen": "2026-10-10",
-   "missed_runs": 1,
-   "active": true,
-   "removed_on": null,
+   "missed_runs": 2,
+   "active": false,
+   "removed_on": "2026-10-12",
    "inactive": false,
    "parser_version": 6,
    "structured_energy": 200.0,
@@ -11287,7 +11287,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuZELBih7RD",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -11336,7 +11336,7 @@
     ]
    ],
    "group": "nehnutelnosti:Juu2UwKIGCx",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -11494,9 +11494,9 @@
    ],
    "group": "nehnutelnosti:JuZRFJ4UBal",
    "last_seen": "2026-10-10",
-   "missed_runs": 1,
-   "active": true,
-   "removed_on": null,
+   "missed_runs": 2,
+   "active": false,
+   "removed_on": "2026-10-12",
    "inactive": false,
    "parser_version": 6,
    "structured_energy": 200.0,
@@ -11694,7 +11694,7 @@
    ],
    "group": "nehnutelnosti:JuoFsUsJtrK",
    "last_seen": "2026-10-11",
-   "missed_runs": 0,
+   "missed_runs": 1,
    "active": true,
    "removed_on": null,
    "parser_version": 6
@@ -11990,7 +11990,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuFaqpKsrgt",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -12090,7 +12090,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuwYxq8UVrC",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -12141,7 +12141,7 @@
     ]
    ],
    "group": "nehnutelnosti:Jul1Sur4Ibm",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null,
@@ -12246,7 +12246,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuXcwqTIII3",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -12295,7 +12295,7 @@
     ]
    ],
    "group": "nehnutelnosti:Ju3a8Gkpjec",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -12395,7 +12395,7 @@
     ]
    ],
    "group": "nehnutelnosti:Ju915Xgq2TH",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -12446,7 +12446,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuYOoPeceQZ",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -12506,28 +12506,35 @@
    "source": "bazos",
    "url": "/inzerat/196016626/realitny-kancelaria-realadr-sro.php",
    "title": "Realitný kancelária REALADR s.r.o.",
-   "location": "Bratislava 821 04",
-   "postcode": "82104",
-   "rent": 700.0,
-   "card_text": "🏡 PRENÁJOM – 1,5-IZBOVÝ BYT PO REKONŠTRUKCII S VEĽKOU LOGGIOU | OSTREDKOVÁ – RUŽINOV\n\n📍 Ostredková ulica, Bratislava – Ružinov\n\n💶 700 € mesačne vrátane energií pre 1 osobu\n💶 750 € mesačne vrátane energií pre 2 osoby\n\n📅 BYT JE VOĽNÝ IHNEĎ\n\n🏢 5. poschodie\n🛋️ Kompletne zariadený | po rekonštr ...",
-   "portal_date": "2026-10-11",
+   "location": "Bratislava 821 07",
+   "postcode": "82107",
+   "rent": 520.0,
+   "card_text": "NA PRENÁJOM | ZARIADENÁ GARSÓNKA V NOVOSTAVBE | MAJERSKÁ – BRATISLAVA, VRAKUŇA\nMajerská ulica, Bratislava – Vrakuňa\n520 € / mesiac vrátane energií\nINTERNET V CENE\nPARKOVANIE PRED DOMOM ZADARMO\nVOĽNÁ IHNEĎ\nHľadáte menšie, praktické bývanie, kam sa môžete nasťahovať okamžite a bez starostí so za ...",
+   "portal_date": "2026-10-12",
    "parser_version": 6,
    "eval": {
-    "status": "rooms15",
-    "district": "Ružinov",
-    "rooms": 1.5,
-    "floor": 5,
-    "balcony": true,
-    "condition": "renovated",
-    "rent": 700.0,
-    "energy_status": "total",
-    "energy": 50,
-    "provision": 700.0,
+    "status": "excluded",
+    "district": null,
+    "rooms": 1,
+    "floor": null,
+    "balcony": null,
+    "condition": "new",
+    "rent": 520.0,
+    "energy_status": "included",
+    "energy": 0,
+    "provision": 520.0,
     "provision_source": "assumed",
-    "effective": 808,
+    "effective": 563,
     "area": null,
-    "excluded": [],
-    "unknown": [],
+    "excluded": [
+     "district not on your list",
+     "1 rooms",
+     "suspiciously low (520 € with energies)"
+    ],
+    "unknown": [
+     "floor",
+     "balcony"
+    ],
     "flags": [
      "provision assumed 1× rent"
     ]
@@ -12542,10 +12549,14 @@
     [
      "2026-10-09",
      700.0
+    ],
+    [
+     "2026-10-12",
+     520.0
     ]
    ],
    "group": "bazos:196016626",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -12698,7 +12709,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuwBEK6y4fC",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -12750,7 +12761,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuxUnYgl1JJ",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -12807,7 +12818,7 @@
     ]
    ],
    "group": "nehnutelnosti:JukOtBkCSHL",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -13015,7 +13026,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuLszjyasBD",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -13065,7 +13076,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuxASI0NuC2",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -13220,7 +13231,7 @@
     ]
    ],
    "group": "nehnutelnosti:Jui1uHmg4-a",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -13272,7 +13283,7 @@
     ]
    ],
    "group": "nehnutelnosti:JujGwxExQAX",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -13324,7 +13335,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuIA6W6i-kT",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -13480,9 +13491,9 @@
    ],
    "group": "nehnutelnosti:JuIsWskP6z4",
    "last_seen": "2026-10-10",
-   "missed_runs": 1,
-   "active": true,
-   "removed_on": null
+   "missed_runs": 2,
+   "active": false,
+   "removed_on": "2026-10-12"
   },
   "nehnutelnosti:JuQZjEma5YC": {
    "id": "nehnutelnosti:JuQZjEma5YC",
@@ -13529,7 +13540,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuQZjEma5YC",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -13581,7 +13592,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuZG9auC1W5",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -13631,7 +13642,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuimZ-Fkldc",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -13735,7 +13746,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuucUP7_b1H",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -13837,7 +13848,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuNHYACAHKX",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -13890,7 +13901,7 @@
     ]
    ],
    "group": "nehnutelnosti:Ju-X2vCRnF0",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -13904,7 +13915,7 @@
    "postcode": "82101",
    "rent": 600.0,
    "card_text": "Realitná kancelária The Home Vám ponúka na prenájom slnečný 2-izbový byt v obľúbenom rezidenčnom projekte Perla Ružinova na Kaštielskej ulici v Bratislave – Ružinove.\nByt sa nachádza na 14. poschodí a je orientovaný na západ, s príjemným výhľadom smerom na centrum mesta. Celková výmera bytu je 50 m ...",
-   "portal_date": "2026-10-11",
+   "portal_date": "2026-10-12",
    "parser_version": 6,
    "eval": {
     "status": "check",
@@ -13939,7 +13950,7 @@
     ]
    ],
    "group": "bazos:196126819",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -14140,7 +14151,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuhmFLfhcj-",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -14193,7 +14204,7 @@
    ],
    "group": "nehnutelnosti:JuOgqsNCc_k",
    "last_seen": "2026-10-11",
-   "missed_runs": 0,
+   "missed_runs": 1,
    "active": true,
    "removed_on": null
   },
@@ -14242,7 +14253,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuB6pfALiaW",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -14293,7 +14304,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuVKxz8eb4k",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -14341,7 +14352,7 @@
     ]
    ],
    "group": "nehnutelnosti:Ju0hCoTSNlN",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -14445,7 +14456,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuKVQjs7oPR",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -14494,7 +14505,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuLN0gBXAKv",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -14600,7 +14611,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuJjZTKL3Md",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -14649,7 +14660,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuGtKfIxDKG",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -14903,7 +14914,7 @@
     ]
    ],
    "group": "nehnutelnosti:Ju2EMfxoO8R",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -14958,7 +14969,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuRi6HiUaz_",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -15009,7 +15020,7 @@
     ]
    ],
    "group": "nehnutelnosti:Ju8v5KSC3wP",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -15023,7 +15034,7 @@
    "postcode": "85101",
    "rent": 350.0,
    "card_text": "Od 5.10. 2026 ponúkam na prenájom samostatnú izbu v 4i byte (86 m2), byt sa nachádza na 8. poschodí a je kompletne zariadený a zrekonštruovaný. Kuchynská linka je vybavená kvalitnými vstavanými spotrebičmi, byt má práčku, 2 chladničky s mrazničkami, optický internet, mikrovlnku, byt má výbornú pol ...",
-   "portal_date": "2026-10-11",
+   "portal_date": "2026-10-12",
    "parser_version": 6,
    "eval": {
     "status": "check",
@@ -15058,7 +15069,7 @@
     ]
    ],
    "group": "bazos:196182549",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -15208,7 +15219,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuP-VqAYsSt",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -15257,7 +15268,7 @@
     ]
    ],
    "group": "nehnutelnosti:Juo5vUVZctM",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -15313,7 +15324,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuEDs6ve9Ll",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -15366,7 +15377,7 @@
     ]
    ],
    "group": "nehnutelnosti:Juqr85rgVDG",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -15420,7 +15431,7 @@
     ]
    ],
    "group": "nehnutelnosti:JulSxyzsLvz",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -15471,7 +15482,7 @@
     ]
    ],
    "group": "nehnutelnosti:JumUT_Detz5",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -15522,7 +15533,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuV8xQYcr7-",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -15576,7 +15587,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuaQIVHZ1QH",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -15628,7 +15639,7 @@
     ]
    ],
    "group": "bazos:195407688",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -15680,7 +15691,7 @@
     ]
    ],
    "group": "nehnutelnosti:Ju1HQ0vphQI",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -15732,7 +15743,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuJfOEZC1-Z",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -15786,7 +15797,7 @@
     ]
    ],
    "group": "nehnutelnosti:JupUPUFqtXG",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -16141,7 +16152,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuK1ZXMrzc1",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -16197,7 +16208,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuJHuqDi8no",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -16245,7 +16256,7 @@
     ]
    ],
    "group": "nehnutelnosti:Jub7RXC6mrs",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -16297,7 +16308,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuIbOYdYiJI",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -16350,7 +16361,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuG5RacVAb4",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -16402,7 +16413,7 @@
     ]
    ],
    "group": "nehnutelnosti:Ju9nEeCO14Z",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -16454,7 +16465,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuPCuTekHtK",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -16506,7 +16517,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuyZWjcYQ1k",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -16556,7 +16567,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuLTLKCVTsv",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -16566,7 +16577,7 @@
    "source": "nehnutelnosti",
    "url": "https://www.nehnutelnosti.sk/detail/JusMkmEjrO8/prenajom-2-izboveho-bytu-s-2-lodziami-nove-mesto-skultetyho-ulica-blizko-centra-bratislavy",
    "title": "Prenájom 2-izbového bytu s 2 lodžiami – Nové Mesto, Škultétyho ulica, blízko centra Bratislavy",
-   "location": "Byty Bratislava-Nové Mesto",
+   "location": "Škultétyho, Bratislava-Nové Mesto, okres Bratislava III",
    "rent": 700.0,
    "card_text": "Prenájom 2-izbového bytu s 2 lodžiami – Nové Mesto, Škultétyho ulica, blízko centra Bratislavy\nŠkultétyho, Bratislava-Nové Mesto, okres Bratislava III\n2 izbový byt\n42 m²\n700 €/mes.\n16,67 €/m²/mes.\nPrenájom 2-izbového bytu s 2 lodžiami – Nové Mesto, Škultétyho ulica, blízko centra Bratislavy\nŠkultétyho, Bratislava-Nové Mesto, okres Bratislava III\n2 izbový byt\n42 m²\nPonúkame na prenájom 2-izbový byt s dvoma lodžiami na Škultétyho ulici v Bratislave – Novom Meste, v atraktívnej lokalite v blízkosti centra mesta.\nByt sa nachádza na 4. poschodí a má výmeru 42 m². K bytu patria 2 lodžie s celkovou výmerou 6,76 m². Spolu s plochou lodžií predstavuje celková plocha 48,76 m².\nDISPOZÍCIA\nByt pozostáva z:\n•\tvstupnej chodby,\n•\tobývacej izby,\n•\tkuchyne,\n•\tspálne,\n•\tšatníka,\n•\tkúpeľne so sprchovacím kútom a WC,\n•\t2 lodžií.\nŠatník\nVeľký šatník poskytuje dostatok úložného priestoru na oblečenie, obuv a ďalšie osobné veci. Je praktickým benefitom bytu a pomáha udržať ostatné miestnosti vzdušné a upratané.\nObývacia izba\nObývacia izba je vybavená skriňami, stolom so stoličkami a posteľou. Izba ponúka dostatok priestoru na pohodlné bývanie.\nSpálňa / druhá izba\nDruhá izba je v súčasnosti bez postele a je vybavená vstavanou skriňou a menším PC stolom.\nPo dohode s vlastníkom je možné túto miestnosť prispôsobiť podľa potrieb nájomcu – môže slúžiť napríklad ako spálňa, pracovňa, jedáleň alebo hosťovská izba. V prípade záujmu je možné doplniť posteľ a vytvoriť tak plnohodnotnú menšiu spálňu.\nKuchyňa\nKuchyňa je vybavená:\n•\tvstavanou sklokeramickou varnou doskou,\n•\telektrickou rúrou,\n•\tdigestorom,\n•\tchladničkou s mrazničkou,\n•\tmikrovlnnou rúrou.\nKúpeľňa s WC\nPrakticky riešená kúpeľňa s WC ponúka sprchovací kút so sklenenou zástenou, umývadlo so skrinkou a zrkadlo.\nKúpeľňa je obložená vkusnými béžovo-sivými obkladmi, ktoré vytvárajú príjemný a moderný vzhľad. Súčasťou kúpeľne je aj rebríkový radiátor, vhodný na vykurovanie aj sušenie uterákov.\nPriestor je prakticky využitý a poskytuje všetko potrebné na pohodlné každodenné používanie.\nInternet a TV si nájomca zriaďuje a hradí samostatne na vlastné meno.\n________________________________________\nLOKALITA – VÝBORNÁ POLOHA PRI CENTRE BRATISLAVY\nJednou z najväčších výhod bytu je jeho výborná poloha na Škultétyho ulici, v blízkosti širšieho centra Bratislavy.\nDo historického centra Bratislavy sa pohodlne dostanete pešo, bez potreby používať auto alebo verejnú dopravu.\nPriamo pri dome sa nachádza supermarket Lidl, takže každodenné nákupy máte doslova na dosah.\nV blízkosti sa nachádza aj obchodné centrum Central, ktoré ponúka veľké množstvo obchodov, reštaurácií, kaviarní, služieb a ďalších možností na každodenné vybavenie.\nVeľkou výhodou je tiež výborná dostupnosť MHD – v okolí premávajú električky, autobusy aj trolejbusy, ktoré zabezpečujú pohodlné spojenie s ostatnými časťami Bratislavy.\nNový Istropolis – nová budúcnosť lokality\nPriamo oproti domu vzniká Nový Istropolis, ktorý výrazne zmení a zatraktívni túto časť Bratislavy.\nProjekt prinesie nové moderné budovy, bývanie, zeleň, kultúrne priestory, služby a kvalitnejšie verejné priestory. Súčasťou plánov je aj skvalitnenie priestoru v okolí Škultétyho ulice s väčším dôrazom na chodcov a cyklistov.\nParkovanie\nProjekt Nový Istropolis počíta aj s rozsiahlymi parkovacími kapacitami. V celom projekte má byť približne 2 107 parkovacích miest.\nParkovacie státia budú podľa ponuky developera určené na kúpu alebo prenájom. Podľa ponuky developera bude možné parkovacie státie kúpiť alebo prenajať v novovznikajúcej modernej štvrti oproti domu. \n________________________________________\nŠkultétyho ulica tak spája výhody bývania v pokojnej lokalite s komfortom života takmer v centre mesta. Obchody, služby, MHD, nákupné centrum aj historické centrum Bratislavy máte na dosah.\n________________________________________\nCENA\n•\tnájomné: 700 € / mesiac\n•\tenergie, plyn a správcovské poplatky: 200 € / mesiac\n•\tcelková mesačná platba: 900 €\nPRI PODPISE NÁJOMNEJ ZMLUVY\n•\tnájomné: 700 €\n•\tenergie a správcovské poplatky: 200 €\n•\tvratná kaucia: 900 €\n•\tprovízia RK: 700 €\nSpolu pri podpise: 2 500 €\nĎALŠIE INFORMÁCIE\nByt je vhodný ideálne pre 1–2 osoby, nefajčiarov. Domáce zviera je možné po dohode s vlastníkom.\nTrvalý ani prechodný pobyt na adrese bytu sa neposkytuje.\n2 LODŽIE • VEĽKÝ ŠATNÍK • VÝBORNÁ POLOHA • PRI NOVOM ISTROPOLISE\nSlovak Real Com s.r.o.\n2 izbový byt Slovensko Prenájom\n700 €/mes.\n16,67 €/m²/mes.",
    "structured_condition": "Kompletná rekonštrukcia",
@@ -16610,7 +16621,7 @@
     ]
    ],
    "group": "nehnutelnosti:JusMkmEjrO8",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -16662,7 +16673,7 @@
     ]
    ],
    "group": "nehnutelnosti:Jui5NUmhO4v",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -16714,7 +16725,7 @@
     ]
    ],
    "group": "nehnutelnosti:Jumn9WNnzCi",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -16766,7 +16777,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuLAIv8d_Mg",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -16870,7 +16881,7 @@
     ]
    ],
    "group": "nehnutelnosti:Ju32YVNk8Om",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -16884,7 +16895,7 @@
    "postcode": "82103",
    "rent": 650.0,
    "card_text": "PONÚKAM PRENÁJOM 1,5izbového mezonetového bytu / apartmánu na ulici POD GAŠTANMI (iba 950metrov od konečnej električiek v RUŽINOVE),\n\n-apartmán sa nachádza vo veľkom uzavretom areáli, vstup do areálu je cez elektrickú bránu na DO,\n\n-k apartmánu prislúcha jedno parkovacie miesto 15m2 (priamo pred ...",
-   "portal_date": "2026-10-11",
+   "portal_date": "2026-10-12",
    "parser_version": 6,
    "eval": {
     "status": "rooms15",
@@ -16918,7 +16929,7 @@
     ]
    ],
    "group": "bazos:196252244",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -16932,7 +16943,7 @@
    "postcode": "83106",
    "rent": 750.0,
    "card_text": "Typ: 2-izbový byt\n\nUlica: Kadnárova\n\nMestská časť: Rača\n\nObec: Bratislava-Rača\n\n\nNa prenájom priestranný, slnečný 2i byt s balkónom, parkovacím miestom a pivničnou kobkou, Kadnárova ulica, Bratislava - Rača\n\nPonúkame na prenájom veľkorysý a krásne slnečný 2-izbový byt s výmerou 67 m², balkónom, piv ...",
-   "portal_date": "2026-10-11",
+   "portal_date": "2026-10-12",
    "parser_version": 6,
    "eval": {
     "status": "check",
@@ -16966,7 +16977,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuPTsG8tksh",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -16980,7 +16991,7 @@
    "postcode": "81101",
    "rent": 700.0,
    "card_text": "Realitná kancelária Domovia ponúka exkluzívne na prenájom priestranný 2 izbový byt vo výnimočnej lokalite pri Bratislavskom hrade. Tento byt je ideálnou voľbou pre tých, ktorí hľadajú jedinečné bývanie v srdci Bratislavy s nádychom histórie a moderného pohodlia. \n\nByt sa prenajíma kompletne zariad ...",
-   "portal_date": "2026-10-11",
+   "portal_date": "2026-10-12",
    "parser_version": 6,
    "eval": {
     "status": "excluded",
@@ -17018,7 +17029,7 @@
     ]
    ],
    "group": "bazos:196242715",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -17169,7 +17180,7 @@
     ]
    ],
    "group": "nehnutelnosti:JusFnZQzQhv",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -17216,7 +17227,7 @@
     ]
    ],
    "group": "nehnutelnosti:JujDpVAgTo3",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -17270,7 +17281,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuLyz51myZ4",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -17322,7 +17333,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuxfDvc1w8x",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -17334,7 +17345,7 @@
    "title": "PERGO - 2-izbový byt v novostavbe na Peknej ceste",
    "location": "Pekná cesta, Bratislava-Nové Mesto, okres Bratislava III",
    "rent": 800.0,
-   "card_text": "PREMIUM\nPERGO - 2-izbový byt v novostavbe na Peknej ceste\nPekná cesta, Bratislava-Nové Mesto, okres Bratislava III\n2 izbový byt\n73 m²\n800 €/mes.\n10,96 €/m²/mes.\nPERGO - 2-izbový byt v novostavbe na Peknej ceste\nPekná cesta, Bratislava-Nové Mesto, okres Bratislava III\n2 izbový byt\n73 m²\nRealitná kancelária PERGO Vám ponúka na prenájom 2-izbový byt s terasou, ktorý sa nachádza v novostavbe na Peknej ceste.\nDispozícia\nDispozícia bytu pozostáva zo vstupnej chodby, obývačky, kuchyne s jedálňou, spálne, kúpeľne a samostatného WC.\nVybavenie\nByt sa prenajíma kompletne zariadený a vybavený vrátane elektrospotrebičov ako práčka a vstavané kuchynské spotrebiče - chladnička s mrazničkou, el. rúra, digestor, indukčná varná platňa, umývačka riadu. Byt je klimatizovaný. K bytu prislúcha krytý vonkajší stojan na bicykle.\nLokalita\nLokalita ponúka pohodlné bývanie v blízkosti Mestských lesov (50m) s dobrým napojením na centrum mesta a diaľnicu. V blízkosti sa nachádzajú školy, škôlky, supermarket LIDL (450m), MHD zastávka autobusov 50m a električiek (800m).\nCena a doplňujúce info\nCena nájmu nezahŕňa energie vo výške 100 EUR/mesiac. Internet je zahrnutý v cene nájmu. K bytu je možné prenajať 1 vonkajšie parkovacie státie v uzavretom dvore za 90 EUR/mesiac. Byt je k dispozícii ihneď. Chovanie domácich zvierat a fajčenie v byte nie je dovolené.\n© Text a fotografie sú autorským dielom a majetkom realitnej kancelárie Pergo.\nAktuálne informácie o našej ponuke nájdete na www.pergo.sk.\nPergo Group s.r.o.\n2 izbový byt Bratislava-Nové Mesto Prenájom\n800 €/mes.\n10,96 €/m²/mes.",
+   "card_text": "PERGO - 2-izbový byt v novostavbe na Peknej ceste\nPekná cesta, Bratislava-Nové Mesto, okres Bratislava III\n2 izbový byt\n73 m²\n800 €/mes.\n10,96 €/m²/mes.\nPERGO - 2-izbový byt v novostavbe na Peknej ceste\nPekná cesta, Bratislava-Nové Mesto, okres Bratislava III\n2 izbový byt\n73 m²\nRealitná kancelária PERGO Vám ponúka na prenájom 2-izbový byt s terasou, ktorý sa nachádza v novostavbe na Peknej ceste.\nDispozícia\nDispozícia bytu pozostáva zo vstupnej chodby, obývačky, kuchyne s jedálňou, spálne, kúpeľne a samostatného WC.\nVybavenie\nByt sa prenajíma kompletne zariadený a vybavený vrátane elektrospotrebičov ako práčka a vstavané kuchynské spotrebiče - chladnička s mrazničkou, el. rúra, digestor, indukčná varná platňa, umývačka riadu. Byt je klimatizovaný. K bytu prislúcha krytý vonkajší stojan na bicykle.\nLokalita\nLokalita ponúka pohodlné bývanie v blízkosti Mestských lesov (50m) s dobrým napojením na centrum mesta a diaľnicu. V blízkosti sa nachádzajú školy, škôlky, supermarket LIDL (450m), MHD zastávka autobusov 50m a električiek (800m).\nCena a doplňujúce info\nCena nájmu nezahŕňa energie vo výške 100 EUR/mesiac. Internet je zahrnutý v cene nájmu. K bytu je možné prenajať 1 vonkajšie parkovacie státie v uzavretom dvore za 90 EUR/mesiac. Byt je k dispozícii ihneď. Chovanie domácich zvierat a fajčenie v byte nie je dovolené.\n© Text a fotografie sú autorským dielom a majetkom realitnej kancelárie Pergo.\nAktuálne informácie o našej ponuke nájdete na www.pergo.sk.\nPergo Group s.r.o.\n2 izbový byt Bratislava-Nové Mesto Prenájom\n800 €/mes.\n10,96 €/m²/mes.",
    "structured_condition": "Novostavba",
    "structured_energy": null,
    "list_category": "2",
@@ -17376,7 +17387,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuWm2lNnsyN",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -17427,7 +17438,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuTS0yrJHKy",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -17479,7 +17490,7 @@
     ]
    ],
    "group": "nehnutelnosti:JudvhUZv7JI",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -17531,7 +17542,7 @@
     ]
    ],
    "group": "nehnutelnosti:JusKGxUA5-7",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -17583,7 +17594,7 @@
     ]
    ],
    "group": "nehnutelnosti:Ju010FjoCPv",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -17632,7 +17643,7 @@
     ]
    ],
    "group": "nehnutelnosti:JubIyo4jL90",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -17646,7 +17657,7 @@
    "postcode": "81106",
    "rent": 650.0,
    "card_text": "Prenájom bytu Obchodná ulica, Bratislava (Staré Mesto)\n\nByt je k dispozícii ihneď a pripravený na nasťahovanie , nespamujte ma s nezmyselnými otázkami - hľadám nájomníka teraz ihneď!!!\n\nPrenájom je bez depozitu, podmienkou je seriózny a zodpovedný nájomník\n\nMaximálne pre dve dospelé osoby - be ...",
-   "portal_date": "2026-10-11",
+   "portal_date": "2026-10-12",
    "parser_version": 6,
    "eval": {
     "status": "excluded",
@@ -17684,7 +17695,7 @@
     ]
    ],
    "group": "bazos:196273399",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -17733,7 +17744,7 @@
    ],
    "group": "nehnutelnosti:JudNHKsZLlN",
    "last_seen": "2026-10-11",
-   "missed_runs": 0,
+   "missed_runs": 1,
    "active": true,
    "removed_on": null
   },
@@ -17835,7 +17846,7 @@
     ]
    ],
    "group": "bazos:195407688",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -17887,7 +17898,7 @@
     ]
    ],
    "group": "nehnutelnosti:JulilQ999_W",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -17935,7 +17946,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuVHb9N6k6q",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -17945,9 +17956,9 @@
    "source": "nehnutelnosti",
    "url": "https://www.nehnutelnosti.sk/detail/Ju7wRshWB-B/prenajmeme-kompletne-zariadeny-2-izbovy-53m2-byt-s-loggiou-pivnicou-a-garazovym-statim-v-podzemnej-garazi-na-rustavelliho-ulici-v-raci-bratislava",
    "title": "Prenajmeme kompletne zariadený 2-izbový 53m2 byt  s loggiou, pivnicou  a garážovým státim v podzemnej garáži na Rustavelliho ulici v Rači, Bratislava",
-   "location": "Rustaveliho, Bratislava-Rača, okres Bratislava III",
-   "rent": 700.0,
-   "card_text": "TOP\nPrenajmeme kompletne zariadený 2-izbový 53m2 byt  s loggiou, pivnicou  a garážovým státim v podzemnej garáži na Rustavelliho ulici v Rači, Bratislava\nRustaveliho, Bratislava-Rača, okres Bratislava III\n2 izbový byt\n53 m²\n700 €/mes.\n13,21 €/m²/mes.\nPrenajmeme kompletne zariadený 2-izbový 53m2 byt  s loggiou, pivnicou  a garážovým státim v podzemnej garáži na Rustavelliho ulici v Rači, Bratislava\nRustaveliho, Bratislava-Rača, okres Bratislava III\n2 izbový byt\n53 m²\nPrenajmeme 2-izbový 53m2 byt + 6 m2 loggia + 3m2 pivnica + 15m2  garážové státie v podzemnej garáži v bytovom dome na Rustavelliho ulici v Rači, ktorý bol kolaudovaný v roku 2016\nByt je rozdelený na dennú a nočnú časť:\nV dennej časti sa nachádza:\nkuchyňa s kompletne vybavenou kuchynskou linkou so vstavanými elektrospotrebičmi (umývačka riadu, sklokeramická varná doska, elektrická teplovzdušná rúra, digestor, mikrovlnná rúra), špajza (praktický policový systém), jedálenský stôl so stoličkami,\nobývačka (rozkladacia trojsedačka, malý drevený stolík, pohodlné kreslo s podnožkou, sektorový nábytok pod televízor/uhlopriečka 106 cm)\nv nočnej časti na nacháza:\nspálňa (manželské dvojlôžko s ortopedickým matracom, nočné stolíky, lampy, vstavaná skriňa)\npriestranná kúpeľňa (vaňa, kúpeľňový nábytok, umývadlo, zrkadlo, práčka)\ntoaleta s umývadlom\nštvrodielne vstavané skrine s hĺbkou 80 cm/výška 2,80/šírka 4,5m/\nV celom byte je položená kvalitná plávajúca podlaha, plastové okná s izolačným trojsklom so žalúziami. Kúrenie je ústredné s diaľkovým odpočtom tepla, možnosť regulácie s digitálnym termostatom (možnosť automatického nastavenia) ako aj termoregulačnými hlavicami. Bytový dom je v správe spoločnosti Contesta, konštrukcia stavby železobetónová, výplňové murivo tehla, zateplenie obvodového plášťa - minerálna vlna.\nAdriana Danailova-IRE Consult\n2 izbový byt Slovensko Prenájom\n700 €/mes.\n13,21 €/m²/mes.",
+   "location": "Prenajmeme kompletne zariadený 2-izbový 53m2 byt  s loggiou, pivnicou  a garážovým státim v podzemnej garáži na Rustavelliho ulici v Rači, Bratislava | Nehnutelnosti.sk",
+   "rent": 650.0,
+   "card_text": "TOP\nPrenajmeme kompletne zariadený 2-izbový 53m2 byt  s loggiou, pivnicou  a garážovým státim v podzemnej garáži na Rustavelliho ulici v Rači, Bratislava\nRustaveliho, Bratislava-Rača, okres Bratislava III\n2 izbový byt\n53 m²\n650 €/mes.\n12,26 €/m²/mes.\nPrenajmeme kompletne zariadený 2-izbový 53m2 byt  s loggiou, pivnicou  a garážovým státim v podzemnej garáži na Rustavelliho ulici v Rači, Bratislava\nRustaveliho, Bratislava-Rača, okres Bratislava III\n2 izbový byt\n53 m²\nPrenajmeme 2-izbový 53m2 byt + 6 m2 loggia + 3m2 pivnica + 15m2  garážové státie v podzemnej garáži v bytovom dome na Rustavelliho ulici v Rači, ktorý bol kolaudovaný v roku 2016\nByt je rozdelený na dennú a nočnú časť:\nV dennej časti sa nachádza:\nkuchyňa s kompletne vybavenou kuchynskou linkou so vstavanými elektrospotrebičmi (umývačka riadu, sklokeramická varná doska, elektrická teplovzdušná rúra, digestor, mikrovlnná rúra), špajza (praktický policový systém), jedálenský stôl so stoličkami,\nobývačka (rozkladacia trojsedačka, malý drevený stolík, pohodlné kreslo s podnožkou, sektorový nábytok pod televízor/uhlopriečka 106 cm)\nv nočnej časti na nacháza:\nspálňa (manželské dvojlôžko s ortopedickým matracom, nočné stolíky, lampy, vstavaná skriňa)\npriestranná kúpeľňa (vaňa, kúpeľňový nábytok, umývadlo, zrkadlo, práčka)\ntoaleta s umývadlom\nštvrodielne vstavané skrine s hĺbkou 80 cm/výška 2,80/šírka 4,5m/\nV celom byte je položená kvalitná plávajúca podlaha, plastové okná s izolačným trojsklom so žalúziami. Kúrenie je ústredné s diaľkovým odpočtom tepla, možnosť regulácie s digitálnym termostatom (možnosť automatického nastavenia) ako aj termoregulačnými hlavicami. Bytový dom je v správe spoločnosti Contesta, konštrukcia stavby železobetónová, výplňové murivo tehla, zateplenie obvodového plášťa - minerálna vlna.\nAdriana Danailova-IRE Consult\n2 izbový byt Slovensko Prenájom\n650 €/mes.\n12,26 €/m²/mes.",
    "structured_condition": "Novostavba",
    "structured_energy": 200.0,
    "list_category": "2",
@@ -17958,20 +17969,21 @@
    "parser_version": 6,
    "eval": {
     "status": "excluded",
-    "district": "Rača",
+    "district": null,
     "rooms": 2,
     "floor": 5,
     "balcony": true,
     "condition": "new",
-    "rent": 700.0,
+    "rent": 650.0,
     "energy_status": "portal",
     "energy": 200.0,
-    "provision": 700.0,
+    "provision": 650.0,
     "provision_source": "assumed",
-    "effective": 958,
+    "effective": 904,
     "area": 53.0,
     "excluded": [
-     "too expensive (958 €/month)"
+     "district not on your list",
+     "too expensive (904 €/month)"
     ],
     "unknown": [],
     "flags": [
@@ -17984,10 +17996,14 @@
     [
      "2026-10-09",
      700.0
+    ],
+    [
+     "2026-10-12",
+     650.0
     ]
    ],
    "group": "nehnutelnosti:Ju7wRshWB-B",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -18037,7 +18053,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuFK4vHud9N",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -18087,7 +18103,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuKjuibAIKi",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -18139,7 +18155,7 @@
    ],
    "group": "nehnutelnosti:JuxACnyKk9B",
    "last_seen": "2026-10-11",
-   "missed_runs": 0,
+   "missed_runs": 1,
    "active": true,
    "removed_on": null
   },
@@ -18186,7 +18202,7 @@
     ]
    ],
    "group": "nehnutelnosti:Juo959CDKa5",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -18238,7 +18254,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuIOgI89LAZ",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -18288,7 +18304,7 @@
     ]
    ],
    "group": "nehnutelnosti:Julb7XhLFAJ",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -18298,7 +18314,7 @@
    "source": "nehnutelnosti",
    "url": "https://www.nehnutelnosti.sk/detail/JuAf-f2EJv4/2-izb-byt-v-petrzalke-medvedovej-ul",
    "title": "2-izb. byt v Petržalke - Medveďovej ul.",
-   "location": "Byty Bratislava-Petržalka",
+   "location": "Medveďovej, Bratislava-Petržalka, okres Bratislava V",
    "rent": 790.0,
    "card_text": "2-izb. byt v Petržalke - Medveďovej ul.\nMedveďovej, Bratislava-Petržalka, okres Bratislava V\n2 izbový byt\n52 m²\n790 €/mes.\n15,19 €/m²/mes.\n2-izb. byt v Petržalke - Medveďovej ul.\nMedveďovej, Bratislava-Petržalka, okres Bratislava V\n2 izbový byt\n52 m²\nPonúkame na prenájom 2-izb. byt v Petržalke, na Medveďovej ul..\nLokalita: veľmi dobrá lokalita v blízkosti Ekonomickej univerzity, dobrý prístup na MHD do mesta resp. na hrádzu za športom.\nPopis: Byt pozostáva z 2 samostatných izieb, chodby, kúpeľne, WC a kuchyne. Celková výmera je 52 m2, nachádza sa na 4. poschodí z 8 a je orientovaný na západ.\nStav bytu: po staršej kompletnej rekonštrukcii v dobrom stave.\n- plastové okná s vnútornými aj vonkajšími žalúziami\n- laminátová plávajúca podlaha + dlažba\n- vymenené interiérové dvere aj zárubne\n- bezpečnostné vstupné dvere\n- sadrokartónové podhľady\n- prenajíma sa zariadený \nStav domu:\n- zateplený panelový dom\n- s výťahom\n- slušný vchod\nParkovanie: v okolí domu PAAS, ale v blízkosti sa dajú nájsť aj miesta, ktoré sa neplatia. \nCena: 790,-€/mesiac s E. Pri podpise nájomnej zmluvy sa platí nájomné, kaucia, provízia RK.\nPodmienky: byt je vhodný pre 1 osobu resp. pár - nefajčiari, bez domácich zvierat. Voľný ihneď.\nKontakt: 0907 547 856.\nRK ANNA, s.r.o.\n2 izbový byt Slovensko Prenájom\n790 €/mes.\n15,19 €/m²/mes.",
    "structured_condition": "Kompletná rekonštrukcia",
@@ -18347,7 +18363,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuwdnciPW24",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -18395,7 +18411,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuYd_zQ23ex",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -18447,7 +18463,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuQWPmnew9l",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -18497,7 +18513,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuKjuibAIKi",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -18651,7 +18667,7 @@
     ]
    ],
    "group": "nehnutelnosti:Ju9Q0qXsQkW",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -18705,7 +18721,7 @@
     ]
    ],
    "group": "nehnutelnosti:Ju8228nwhGk",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -18757,7 +18773,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuykiT1pR2S",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -18806,7 +18822,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuImWbl-fu8",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -18860,9 +18876,9 @@
    ],
    "group": "bazos:196351461",
    "last_seen": "2026-10-10",
-   "missed_runs": 1,
-   "active": true,
-   "removed_on": null
+   "missed_runs": 2,
+   "active": false,
+   "removed_on": "2026-10-12"
   },
   "bazos:196349547": {
    "id": "bazos:196349547",
@@ -18911,9 +18927,9 @@
    ],
    "group": "bazos:196349547",
    "last_seen": "2026-10-10",
-   "missed_runs": 1,
-   "active": true,
-   "removed_on": null
+   "missed_runs": 2,
+   "active": false,
+   "removed_on": "2026-10-12"
   },
   "bazos:196342490": {
    "id": "bazos:196342490",
@@ -18963,9 +18979,9 @@
    ],
    "group": "bazos:196342490",
    "last_seen": "2026-10-10",
-   "missed_runs": 1,
-   "active": true,
-   "removed_on": null
+   "missed_runs": 2,
+   "active": false,
+   "removed_on": "2026-10-12"
   },
   "bazos:196337692": {
    "id": "bazos:196337692",
@@ -19011,16 +19027,16 @@
    ],
    "group": "bazos:196337692",
    "last_seen": "2026-10-10",
-   "missed_runs": 1,
-   "active": true,
-   "removed_on": null
+   "missed_runs": 2,
+   "active": false,
+   "removed_on": "2026-10-12"
   },
   "nehnutelnosti:JummTitNqvo": {
    "id": "nehnutelnosti:JummTitNqvo",
    "source": "nehnutelnosti",
    "url": "https://www.nehnutelnosti.sk/detail/JummTitNqvo/2izb-novostavba-slnecnice-prenajom-s-parkovanim-internetom-kbtv-bratislava-petrzalka-komplet-cena-850euro",
    "title": "2izb novostavba Slnečnice - prenájom s parkovaním internetom KBTV Bratislava Petržalka komplet cena 850€",
-   "location": "2izb novostavba Slnečnice - prenájom s parkovaním internetom KBTV Bratislava Petržalka komplet cena 850€ | Nehnutelnosti.sk",
+   "location": "2izb novostavba Slnečnice - prenájom s parkovaním internetom KBTV Bratislava Petržalka komplet cena 850€",
    "rent": 650.0,
    "card_text": "PREMIUM\n2izb novostavba Slnečnice - prenájom s parkovaním internetom KBTV Bratislava Petržalka komplet cena 850€\nFialová 2, Bratislava-Petržalka, okres Bratislava V\n2 izbový byt\n52 m²\n650 €/mes.\n12,5 €/m²/mes.\n2izb novostavba Slnečnice - prenájom s parkovaním internetom KBTV Bratislava Petržalka komplet cena 850€\nFialová 2, Bratislava-Petržalka, okres Bratislava V\n2 izbový byt\n52 m²\n︎ AKTUÁLNE DO ZMAZANIA.\n.NA PRENÁJOM - 2 izbový byt - SLNEČNICE zóna VILADOMY - NOVÝ BYT - KRÁSNA TERASA\nMáme pre Vás veľmi kvalitnú ponuku 2- izbového bytu na prenájom, nachádzajúceho sa na Fialovej ulici v mestskej časti Petržalka. Novo-vybudovaný projekte Slnečnice, zóna vila-domy.\nByt sa rozkladá na podlahovej ploche 52 m2 + 20 m2 priestranná terasa. Predstavte si tie nádherné slnečné dni a príjemné letné večery ktoré strávite na svojej terase.\nAby ste už nemuseli strácať svoj čas hľadaním parkovacieho miesta, máme pre Vás teraz ako bonus zdarma pripravené parkovacie státie po celú dobu prenájmu.\nPOPRECHÁDZAJTE SA PO CELOM BYTE IHNEĎ\nPripravili sme pre vás 3D virtuálnu prehliadku tejto nehnuteľnosti, v ktorej sa môžete voľne pohybovať po celom byte. Nazrite do každého zákutia, preskúmajte každú izbu a urobte si predstavu o tomto bývaní s pohodlia kde sa práve nachádzate.\nKuchynská linka je kompletne zariadená elektrospotrebičmi, umývačka riadu, mikrovlná rúra, rúra na pečenie a elektrický sporák, chladnička s mrazničkou.\nV obývacej izbe sa nachádza pohodlná pohovka, LCD TV, stojaca lampa, doplnky.\nV spálni je manželská posteľ a skriňa.\nNa chodbe nájdete priestrannú rolldor skriňu.\nV kúpeľni sa nachádza vaňa, umývadlo a práčka.\nSamostatné WC.\nINTERNET A KÁBLOVÁ TV sú v cene prenájmu. Byt bude k NASŤAHOVANIU od 1.11.2026\nCENA PRENÁJMU - 700,- Eur + 150,- Eur energie BEZ DOMÁCICH ZVIERAT maximálne dve osoby ktoré tvoria pár\nCENA KOMPLET - 850,- Eur vrátane energii a správcovských poplatkov, parkovacieho státia, internetu a káblovej TV - 1 osoba . Dve osoby dohodou\nPri podpise zmluvy sa hradí: nájom na mesiac vopred + kaucia (vratná na konci nájmu) + provízia realitnej kancelárii ( všetky platby vo výške komplet nájomného).\n.\nBližšie informácie telefonicky 0948 943 349 každý deň do 22:00 hod. aj v SO a NE\nInformácie mailom NON-STOP: krajcovic@nlreal.sk\nNL REAL, s.r.o.\n2 izbový byt Slovensko Prenájom\n650 €/mes.\n12,5 €/m²/mes.",
    "structured_condition": "Novostavba",
@@ -19061,7 +19077,7 @@
     ]
    ],
    "group": "nehnutelnosti:JummTitNqvo",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -19071,7 +19087,7 @@
    "source": "nehnutelnosti",
    "url": "https://www.nehnutelnosti.sk/detail/JukFEdy3NKa/2i-byt-prievozska-ba-ruz-zariadeny-parkovanie-stylovy-moderny-nivy-mall",
    "title": "2i byt Prievozská, BA, Ružinov (BEZ PROVÍZIE) - ZARIADENÝ, PARKOVANIE, štýlový, moderný, NIVY MALL",
-   "location": "Byty Bratislava-Ružinov",
+   "location": "Prievozská 35, Bratislava-Ružinov, okres Bratislava II",
    "rent": 800.0,
    "card_text": "PREMIUM\n2i byt Prievozská, BA, Ružinov (BEZ PROVÍZIE) - ZARIADENÝ, PARKOVANIE, štýlový, moderný, NIVY MALL\nPrievozská 35, Bratislava-Ružinov, okres Bratislava II\n2 izbový byt\n40 m²\n800 €/mes.\n20 €/m²/mes.\n2i byt Prievozská, BA, Ružinov (BEZ PROVÍZIE) - ZARIADENÝ, PARKOVANIE, štýlový, moderný, NIVY MALL\nPrievozská 35, Bratislava-Ružinov, okres Bratislava II\n2 izbový byt\n40 m²\nHľadáte ideálne bývanie, kde máte všetko na skok, no zároveň si po práci užijete zaslúžený pokoj? Ponúkam na dlhodobý prenájom kompletne zrekonštruovaný, moderne zariadený 2-izbový byt na Prievozskej ulici, ktorý spája historický šarm tehlovej stavby s modernými technológiami pre maximálne pohodlie.\nPrečo si tento byt zamilujete:\nTop lokalita pre biznis aj relax: Byt sa nachádza v tesnej blízkosti biznis centier, čo ocenia najmä profesionáli pracujúci v okolí. Všetko, čo potrebujete – od potravín, kaviarní, reštaurácií až po trhovisko Miletičova či školy – máte doslova na peší dosah.\nKomfort bez kompromisov: Byt je orientovaný na východ a juhovýchod, je slnečný a plný svetla. Aby vám však bolo príjemne aj počas horúcich letných dní, každá miestnosť je vybavená modernou klimatizáciou s ovládaním cez mobilnú aplikáciu.\nModerné bývanie s dušou: Byt sa nachádza v zateplenom bytovom dome s výťahom, ktorý je obklopený krásnym zeleným vnútroblokom – ideálne miesto na rannú kávu alebo večernú prechádzku.\nPripravený na nasťahovanie: Byt je zariadený nábytkom na mieru, disponuje novou kuchynskou linkou so všetkými spotrebičmi, obývačkou s TV a rozťahovacím gaučom. V spálni vás čaká pohodlná manželská posteľ. Samozrejmosťou je optický internet.\nTechnické parametre:\nPlocha: 40 m² + pivnica (1,5 m²) + miestonosť na odloženie bicyklov\nPoschodie: 2. poschodie.\nKúpeľňa: Čerstvo zrekonštruovaná, vybavená sprchovým kútom a práčkou.\nOkná: Kvalitné rolety pre úplné zatemnenie a sieťky proti hmyzu pre bezproblémové vetranie. Byt nemá balkón.\nPivničná kopka a uzamknutá miestnosť na bezpečné odloženie bicyklov.\nÚložný priestor: Praktické vstavané skrine.\nParkovanie:\nO starosti s parkovaním máte postarané. Parkovanie je zabezpečené vo vnútrobloku (vyhradené len pre rezidentov). Po dohode, si nájomca zabezpečí rezidenčnú parkovaciu kartu pre jedno vozidlo.\nPodmienky prenájmu:\nByt je vhodný pre max. 2 osoby.\nNefajčiarsky byt.\nZvieratá: Malé plemenám a mačky (po vzájomnej dohode). Stredné/veľké plemená, žiaľ, nie sú povolené.\nZabezpeka sa platí vo vyške dvoch mesačných nájmov s energiami (2x940€ = 1.880€). \nK dispozícii na nasťahovanie: najskôr od 20.10.2026\nBez provízie RK - prenajímate priamo od majiteľa. Neplatíte províziu realitnej kancelárii.\nMinimálna dĺžka prenájmu je 12 mesiacov s možnosťou predĺženia. Uprednostňujeme dlhodobých nájomníkov. \nTento byt je ideálnou voľbou pre náročných klientov, ktorí hľadajú kľud, moderné štandardy a život v jednej z najžiadanejších lokalít Bratislavy.\n2 izbový byt Slovensko Prenájom\n800 €/mes.\n20 €/m²/mes.",
    "structured_condition": "Kompletná rekonštrukcia",
@@ -19110,7 +19126,7 @@
     ]
    ],
    "group": "nehnutelnosti:JukFEdy3NKa",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -19120,9 +19136,9 @@
    "source": "nehnutelnosti",
    "url": "https://www.nehnutelnosti.sk/detail/Ju1ppzfsmCl/top-lokalita-moderny-2-izbovy-byt-s-velkou-loggiou-8-m2-na-mileticovej-hned-pri-oc-central-moznost-prenajom-aj-parkovacieho-statia-vo-dvore",
    "title": "TOP LOKALITA! Moderný 2-izbový byt s veľkou loggiou (8 m²) na Miletičovej, hneď pri OC Centrál, možnosť prenájom aj parkovacieho státia vo dvore.",
-   "location": "Byty Bratislava-Ružinov",
+   "location": "Miletičova 5, Bratislava-Ružinov, okres Bratislava II",
    "rent": 790.0,
-   "card_text": "TOP LOKALITA! Moderný 2-izbový byt s veľkou loggiou (8 m²) na Miletičovej, hneď pri OC Centrál, možnosť prenájom aj parkovacieho státia vo dvore.\nMiletičova 5, Bratislava-Ružinov, okres Bratislava II\n2 izbový byt\n57 m²\n790 €/mes.\n13,86 €/m²/mes.\nTOP LOKALITA! Moderný 2-izbový byt s veľkou loggiou (8 m²) na Miletičovej, hneď pri OC Centrál, možnosť prenájom aj parkovacieho státia vo dvore.\nMiletičova 5, Bratislava-Ružinov, okres Bratislava II\n2 izbový byt\n57 m²\nPonúkame na prenájom kompletne zariadený, MODERNÝ 2-izbový byt s veľkou loggiou (8,39 m²) orientovanou do dvora. Byt sa nachádza na Miletičovej ulici č. 5, v tesnej blízkosti OC Centrál a Trnavského mýta, čo zabezpečuje bývanie v širšom centre mesta s kompletnou občianskou vybavenosťou.\nByt je situovaný na 4. poschodí v polyfunkčnej budove s 2 výťahmi. Výborná dispozícia, samostatné izby,  voľný, ideálny a vhodný pre 2 pracujúce osoby (pár). \nZÁKLADNÉ INFORMÁCIE A VYBAVENIE BYTU:\n•\tCelková plocha: 57 m² (vrátane loggie 8 m²).\n•\tKlimatizácia: Samostatné jednotky v oboch miestnostiach.\n•\tKúrenie: Regulovateľné s vlastným termostatom.\n•\tBezpečnosť: Bezpečnostné dvere a video-vrátnik.\n•\tLoggia: Veľká, prepojená s obývačkou aj spálňou, ideálna na príjemné posedenie.\nDISPOZÍCIA A ZARIADENIE:\nByt má vynikajúcu dispozíciu s nepriechodnými izbami. Zo vstupnej predsiene je samostatný vstup do každej miestnosti:\n• Priestranná denná časť: Kuchyňa spojená s obývacou izbou. Kuchynská linka je vybavená vstavanými spotrebičmi zn. Whirlpool: umývačka riadu, teplovzdušná rúra, chladnička s mrazničkou, elektrická varná doska, digestor, (kuchynskými potrebami, príborom, riadom..) a jedálenským posedením. Obývacia časť disponuje novou rozkladacou rohovou sedačkou, TV, konferenčným stolíkom a policovou zostavou, 2 x taburetka, 2x komoda.\n• Spálňa: Manželská posteľ s kvalitnými matracmi, nočné stolíky a 2x úložné šatníkové skrine, knižnica.\n• Kúpeľňa a WC: Samostatná kúpeľňa so sprchovacím kútom, umývadlom, práčkou a samostatná toaleta.\nPARKOVANIE:\n• K bytu je v prípade záujmu k dispozícii aj vyhradené vonkajšie parkovacie státie priamo vo dvore bytového domu, ktoré je zabezpečené rampou. Možnosť prenájmu za doplatok 100,- EUR / mesiac (prenájom státia nie je podmienkou prenájmu bytu). Vzhľadom na parkovaciu politiku v okolí ide o obrovskú výhodu a garantované miesto.\nVÝNIMOČNÁ LOKALITA (Hneď pri OC Centrál):\nPoloha bytu patrí k najvyhľadávanejším v Bratislave a ponúka maximálny mestský komfort:\n• Nákupy a služby na dosah ruky: Nákupné centrum OC Centrál je vzdialené len pár krokov od vchodu. Nájdete tu supermarket, módu, lekáreň, banky, poštu, kaviarne a obľúbené fitness & wellness centrum s bazénom.\n• Čerstvé potraviny každý deň: Svetoznáme trhovisko „Miletička sa nachádza pár minút pešo, čo oceníte pri nákupoch čerstvej zeleniny, ovocia a lokálnych produktov.\n• Dokonalá dopravná dostupnosť: Strategický uzol Trnavské mýto (pešo cca 3 minúty) poskytuje priame spoje električiek, autobusov a trolejbusov do každej časti Bratislavy (centrum mesta, Ružinov, Petržalka, vlakovej aj autobusovej stanice).\n• Oddych a kultúra: V pešej dostupnosti sú parky, kaviarne, reštaurácie a Národné tenisové centrum (NTC).\nCENA A PODMIENKY PRENÁJMU:\n• Mesačné nájomné: 790,- EUR (bez internetu, zriaďuje si nájomca podľa potreby)\n• Zálohové platby za energie a služby: 100,- EUR\n• Celková cena mesačne vrátane energií: 890,- EUR / mesiac (+ 100,- EUR v prípade záujmu o parkovacie státie – nie je podmienka k bytu - len výhoda)\n• Pri podpise zmluvy sa hradí bez parkovania: 1x mesačné nájomné s energiami (890,- EUR), 1x vratná kaucia/depozit (900,- EUR) a poplatok pre RK (890,- EUR).\nPre viac informácií alebo dohodnutie obhliadky nás neváhajte kontaktovať: Gabriela Pintérová 0903 418 572. V prípade neprítomnosti a záujmu o obhliadku, prípadne bližšie informácie, prosíme zašlite SMS  budeme Vás kontaktovať.  Obhliadky po dohode možné aj cez víkend. Výhradné zastúpenie pri prenájme: licencovaná realitná kancelária 4people real plus, s.r.o., riadny člen NARKS.\nUnited Professionals s.r.o.\n2 izbový byt Slovensko Prenájom\n790 €/mes.\n13,86 €/m²/mes.",
+   "card_text": "PREMIUM\nTOP LOKALITA! Moderný 2-izbový byt s veľkou loggiou (8 m²) na Miletičovej, hneď pri OC Centrál, možnosť prenájom aj parkovacieho státia vo dvore.\nMiletičova 5, Bratislava-Ružinov, okres Bratislava II\n2 izbový byt\n57 m²\n790 €/mes.\n13,86 €/m²/mes.\nTOP LOKALITA! Moderný 2-izbový byt s veľkou loggiou (8 m²) na Miletičovej, hneď pri OC Centrál, možnosť prenájom aj parkovacieho státia vo dvore.\nMiletičova 5, Bratislava-Ružinov, okres Bratislava II\n2 izbový byt\n57 m²\nPonúkame na prenájom kompletne zariadený, MODERNÝ 2-izbový byt s veľkou loggiou (8,39 m²) orientovanou do dvora. Byt sa nachádza na Miletičovej ulici č. 5, v tesnej blízkosti OC Centrál a Trnavského mýta, čo zabezpečuje bývanie v širšom centre mesta s kompletnou občianskou vybavenosťou.\nByt je situovaný na 4. poschodí v polyfunkčnej budove s 2 výťahmi. Výborná dispozícia, samostatné izby,  voľný, ideálny a vhodný pre 2 pracujúce osoby (pár). \nZÁKLADNÉ INFORMÁCIE A VYBAVENIE BYTU:\n•\tCelková plocha: 57 m² (vrátane loggie 8 m²).\n•\tKlimatizácia: Samostatné jednotky v oboch miestnostiach.\n•\tKúrenie: Regulovateľné s vlastným termostatom.\n•\tBezpečnosť: Bezpečnostné dvere a video-vrátnik.\n•\tLoggia: Veľká, prepojená s obývačkou aj spálňou, ideálna na príjemné posedenie.\nDISPOZÍCIA A ZARIADENIE:\nByt má vynikajúcu dispozíciu s nepriechodnými izbami. Zo vstupnej predsiene je samostatný vstup do každej miestnosti:\n• Priestranná denná časť: Kuchyňa spojená s obývacou izbou. Kuchynská linka je vybavená vstavanými spotrebičmi zn. Whirlpool: umývačka riadu, teplovzdušná rúra, chladnička s mrazničkou, elektrická varná doska, digestor, (kuchynskými potrebami, príborom, riadom..) a jedálenským posedením. Obývacia časť disponuje novou rozkladacou rohovou sedačkou, TV, konferenčným stolíkom a policovou zostavou, 2 x taburetka, 2x komoda.\n• Spálňa: Manželská posteľ s kvalitnými matracmi, nočné stolíky a 2x úložné šatníkové skrine, knižnica.\n• Kúpeľňa a WC: Samostatná kúpeľňa so sprchovacím kútom, umývadlom, práčkou a samostatná toaleta.\nPARKOVANIE:\n• K bytu je v prípade záujmu k dispozícii aj vyhradené vonkajšie parkovacie státie priamo vo dvore bytového domu, ktoré je zabezpečené rampou. Možnosť prenájmu za doplatok 100,- EUR / mesiac (prenájom státia nie je podmienkou prenájmu bytu). Vzhľadom na parkovaciu politiku v okolí ide o obrovskú výhodu a garantované miesto.\nVÝNIMOČNÁ LOKALITA (Hneď pri OC Centrál):\nPoloha bytu patrí k najvyhľadávanejším v Bratislave a ponúka maximálny mestský komfort:\n• Nákupy a služby na dosah ruky: Nákupné centrum OC Centrál je vzdialené len pár krokov od vchodu. Nájdete tu supermarket, módu, lekáreň, banky, poštu, kaviarne a obľúbené fitness & wellness centrum s bazénom.\n• Čerstvé potraviny každý deň: Svetoznáme trhovisko „Miletička sa nachádza pár minút pešo, čo oceníte pri nákupoch čerstvej zeleniny, ovocia a lokálnych produktov.\n• Dokonalá dopravná dostupnosť: Strategický uzol Trnavské mýto (pešo cca 3 minúty) poskytuje priame spoje električiek, autobusov a trolejbusov do každej časti Bratislavy (centrum mesta, Ružinov, Petržalka, vlakovej aj autobusovej stanice).\n• Oddych a kultúra: V pešej dostupnosti sú parky, kaviarne, reštaurácie a Národné tenisové centrum (NTC).\nCENA A PODMIENKY PRENÁJMU:\n• Mesačné nájomné: 790,- EUR (bez internetu, zriaďuje si nájomca podľa potreby)\n• Zálohové platby za energie a služby: 100,- EUR\n• Celková cena mesačne vrátane energií: 890,- EUR / mesiac (+ 100,- EUR v prípade záujmu o parkovacie státie – nie je podmienka k bytu - len výhoda)\n• Pri podpise zmluvy sa hradí bez parkovania: 1x mesačné nájomné s energiami (890,- EUR), 1x vratná kaucia/depozit (900,- EUR) a poplatok pre RK (890,- EUR).\nPre viac informácií alebo dohodnutie obhliadky nás neváhajte kontaktovať: Gabriela Pintérová 0903 418 572. V prípade neprítomnosti a záujmu o obhliadku, prípadne bližšie informácie, prosíme zašlite SMS  budeme Vás kontaktovať.  Obhliadky po dohode možné aj cez víkend. Výhradné zastúpenie pri prenájme: licencovaná realitná kancelária 4people real plus, s.r.o., riadny člen NARKS.\nUnited Professionals s.r.o.\n2 izbový byt Slovensko Prenájom\n790 €/mes.\n13,86 €/m²/mes.",
    "structured_condition": "Novostavba",
    "structured_energy": 100.0,
    "list_category": "2",
@@ -19162,7 +19178,7 @@
     ]
    ],
    "group": "nehnutelnosti:Ju1ppzfsmCl",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -19172,7 +19188,7 @@
    "source": "nehnutelnosti",
    "url": "https://www.nehnutelnosti.sk/detail/JuVJOVBCxq3/svetly-prijemny-2i-byt-38m2-s-balkonom-a-parkovanim",
    "title": "Svetlý, príjemný 2i byt 38m2, s balkónom a parkovaním",
-   "location": "Byty Bratislava-Ružinov",
+   "location": "Vietnamská, Bratislava-Ružinov, okres Bratislava II",
    "rent": 590.0,
    "card_text": "Svetlý, príjemný 2i byt 38m2, s balkónom a parkovaním\nVietnamská, Bratislava-Ružinov, okres Bratislava II\n2 izbový byt\n38 m²\n590 €/mes.\n15,53 €/m²/mes.\nSvetlý, príjemný 2i byt 38m2, s balkónom a parkovaním\nVietnamská, Bratislava-Ružinov, okres Bratislava II\n2 izbový byt\n38 m²\nEXPAT EXPERTS | Svetlý, príjemný 2i byt 38m2, s balkónom a parkovaním\nDispozícia:\ncelková rozloha 38m2 + balkón 1m2; situovaný na 4.poschodí (7) v bytovom dome s výťahom;\nVstupný priestor, priestranná kúpeľňa s vaňou a WC, obývacia izba prepojená s plne vybavenou kuchyňou, spálňa s manželskou posteľou.\nVybavenie:\nByt sa prenajíma plne zariadený a vybavený elektrospotrebičmi a nábytkom; vybavená kuchyňa, ponúka všetko potrebné pre komfortné bývanie; vstavaná skriňa v spálni, práčka v kúpeľni.\nPopis lokality:\nNachádza sa vo výbornej lokalite bratislavského Ružinova – Trnávky, v rezidenčnom projekte Dornyk, s dobrou občianskou vybavenosťou – obchody, reštaurácie, služby, v blízkosti nákupné centrá Avion Shopping Park a IKEA.\nLokalita ponúka detské ihriská, možnosti na šport a oddych, výbornú dostupnosť autom vďaka rýchlemu napojeniu na hlavné dopravné ťahy a pohodlné spojenie MHD s ostatnými časťami Bratislavy.\nCena a doplňujúce info:\nCena nezahŕňa energie 150€.\nK bytu prislúcha parkovacie státie na vyhradenom parkovisku pred bytovým domom za 30€/mesačne, ktoré je podmienkou prenájmu spolu s bytom.\nK dispozícií ihneď, obhliadky možné po dohode.\nTešíme sa na Vás pri obhliadke!\nexpat.sk\n2 izbový byt Bratislava-Ružinov Prenájom\n590 €/mes.\n15,53 €/m²/mes.",
    "structured_condition": "Pôvodný stav",
@@ -19213,7 +19229,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuVJOVBCxq3",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -19223,7 +19239,7 @@
    "source": "nehnutelnosti",
    "url": "https://www.nehnutelnosti.sk/detail/JudqN9IEC_8/velky-2-izb-byt-v-raci-okamzite-dostupny-na-prenajom",
    "title": "Veľký 2-izb byt v Rači okamžite dostupný na prenájom",
-   "location": "Byty Bratislava-Rača",
+   "location": "Karpatské námestie, Bratislava-Rača, okres Bratislava III",
    "rent": 760.0,
    "card_text": "Veľký 2-izb byt v Rači okamžite dostupný na prenájom\nKarpatské námestie, Bratislava-Rača, okres Bratislava III\n2 izbový byt\n62 m²\n760 €/mes.\n12,26 €/m²/mes.\nVeľký 2-izb byt v Rači okamžite dostupný na prenájom\nKarpatské námestie, Bratislava-Rača, okres Bratislava III\n2 izbový byt\n62 m²\nHľadáte pokojné bývanie s bonusom? Tento 2-izbák v Rači si zamilujete! \nS povolením majiteľa ponúkam na prenájom veľký a mimoriadne úsporný 2-izbový byt (62 m²) na Karpatskom námestí 23 v bratislavskej Rači. Byt má samostatné izby, je kompletne zariadený v príjemnom klasickom štýle po čiastočnej prerábke a ako bonus má aj zasklený balkón na rannú kávičku. \nPrečo si vybrať práve tento byt?\nSuper lokalita a ticho: Zateplený bytový dom (2/6 posch.) obklopený pokojným prostredím.\nVšetko poruke: Električka len 3 minúty od domu, autobus 5 minút. Nákupy v Lidl a Kaufland vyriešite bleskovo pešo.\nVychytávky: Rýchly optický internet pre home office a spoločná miestnosť na bicykle.\nKoho hľadáme?\nByt je ideálny pre SK/CZ pár alebo rodinku s jedným dieťaťom (bez domácich miláčikov). \nUpozornenie: Vyhlásenie pre cudzineckú políciu sa neposkytuje.\nKedy môžete bývať?\nIhneď alebo dohodou. Stačí sa zbaliť a nasťahovať!\n Cena a skvelé podmienky:\n760€/mesiac (cena je už kompletná vrátane energií a internetu!)\nDEPOZIT ZNÍŽENÝ DOHODOU! (Chceme vám uľahčiť štart )\nPri podpise zmluvy sa platí provízia pre RK vo výške 760€.\nZuMa Real s. r. o.\n2 izbový byt Slovensko Prenájom\n760 €/mes.\n12,26 €/m²/mes.",
    "structured_condition": "Čiastočná rekonštrukcia",
@@ -19263,7 +19279,7 @@
     ]
    ],
    "group": "nehnutelnosti:JuoFsUsJtrK",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -19315,7 +19331,7 @@
    ],
    "group": "bazos:196380338",
    "last_seen": "2026-10-11",
-   "missed_runs": 0,
+   "missed_runs": 1,
    "active": true,
    "removed_on": null
   },
@@ -19363,6 +19379,411 @@
    ],
    "group": "nehnutelnosti:Ju1ppzfsmCl",
    "last_seen": "2026-10-11",
+   "missed_runs": 1,
+   "active": true,
+   "removed_on": null
+  },
+  "nehnutelnosti:JuGi5Vr9GAQ": {
+   "id": "nehnutelnosti:JuGi5Vr9GAQ",
+   "source": "nehnutelnosti",
+   "url": "https://www.nehnutelnosti.sk/detail/JuGi5Vr9GAQ/rebskprenajom-2-izbovy-byt64-m2tupeho-ulzariadenykolibaba-iii",
+   "title": "REB.sk,Prenájom 2 izbový byt,64 m2,Tupého ul,zariadený,Koliba,BA III",
+   "location": "Byty Bratislava-Nové Mesto",
+   "rent": 650.0,
+   "card_text": "REB.sk,Prenájom 2 izbový byt,64 m2,Tupého ul,zariadený,Koliba,BA III\nTupého, Bratislava-Nové Mesto, okres Bratislava III\n2 izbový byt\n64 m²\n650 €/mes.\n10,16 €/m²/mes.\nREB.sk,Prenájom 2 izbový byt,64 m2,Tupého ul,zariadený,Koliba,BA III\nTupého, Bratislava-Nové Mesto, okres Bratislava III\n2 izbový byt\n64 m²\nKLIENT NEPLATÍ PROVÍZIU RK. EXKLUZÍVNE V PONUKE REB - REAL PARTNERS. \nPonúkame na prenájom 2 izbový byt v novostavbe na Kolibe . Byt sa nachádza na Tupého ulici. \nÚžitková plocha má 64 m2 + murovaná pivnica cca 2 m2 . Nachádza sa na 1 NP/4 NP. \nByt sa prenajíma kompletne zariadený. \nDISPOZIČNÉ RIEŠENIE: \nzo vstupnej predsiene so zrkadlovým roldorom sa plynule prechádza do chodby. Vpravo je samostatné WC, vedľa je kúpelňa s rohovou vaňou, \numývadlom a práčkou. Koniec chodby je začiatkom veľkého otvoreného priestoru, ktorý tvorí kuchyňa, jedáleň a obývačka. \nZ obývačky sa potom prechádza do spálne. \nLOKALITA:\nAreál s bytovými domami a detským ihriskom je oplotený so vstupom na pozemok cez bránu na diaľkové ovládanie.\nLokalita Tupého je v podstate širšie centrum s dobrým napojením a dostupnosťou do mesta. \nO zeleň v celom areáli je profesionálne postarané a pre zvýšenie komfortu majiteľov bytov je možné využiť aj súkromnú umyváreň automobilov.\nCena: 650,-eur + 150 energie. \nPodmienka žiadne zvieratá a len nefajčiari. Max. pre 2 osoby. Bez detí.\nKontaktná osoba: Michaela Rokašová, 0904 00 33 08, email: info@reb.sk\nREB - REAL PARTNERS, s. r. o.\n2 izbový byt Slovensko Prenájom\n650 €/mes.\n10,16 €/m²/mes.",
+   "structured_condition": "Novostavba",
+   "structured_energy": 150.0,
+   "list_category": "2",
+   "detail_text": "Vlastnosti nehnuteľnosti\nVybavenie\n:\nVýťah\nUmiestnenie\n:\nĎalšie nadzemné podlažie\nVlastníctvo\n:\nOsobné\nPlyn\n:\nNedostupné\nTelekomunikácie\n:\nInternet\nZariadenie\n:\nZariadené kompletne\nZobraziť všetky\nNahlásiť\nVšetky novostavby na jednom mieste\nZobraziť\nZobraziť všetky\n\nKLIENT NEPLATÍ PROVÍZIU RK. EXKLUZÍVNE V PONUKE REB - REAL PARTNERS.\nPonúkame na prenájom 2 izbový byt v novostavbe na Kolibe . Byt sa nachádza na Tupého ulici.\nÚžitková plocha má 64 m2 + murovaná pivnica cca 2 m2 . Nachádza sa na 1 NP/4 NP.\nByt sa prenajíma kompletne zariadený.\nDISPOZIČNÉ RIEŠENIE:\nzo vstupnej predsiene so zrkadlovým roldorom sa plynule prechádza do chodby. Vpravo je samostatné WC, vedľa je kúpelňa s rohovou vaňou,\numývadlom a práčkou. Koniec chodby je začiatkom veľkého otvoreného priestoru, ktorý tvorí kuchyňa, jedáleň a obývačka.\nZ obývačky sa potom prechádza do spálne.\nLOKALITA:\nAreál s bytovými domami a detským ihriskom je oplotený so vstupom na pozemok cez bránu na diaľkové ovládanie.\nLokalita Tupého je v podstate širšie centrum s dobrým napojením a dostupnosťou do mesta.\nO zeleň v celom areáli je profesionálne postarané a pre zvýšenie komfortu majiteľov bytov je možné využiť aj súkromnú umyváreň automobilov.\nCena: 650,-eur + 150 energie.\nPodmienka žiadne zvieratá a len nefajčiari. Max. pre 2 osoby. Bez detí.\nKontaktná osoba: Michaela Rokašová,\n...\n, email:\n...",
+   "is_agency": true,
+   "structured_floor": "1/4 + výťah",
+   "inactive": false,
+   "parser_version": 6,
+   "eval": {
+    "status": "excluded",
+    "district": "Nové Mesto",
+    "rooms": 2,
+    "floor": 1,
+    "balcony": null,
+    "condition": "new",
+    "rent": 650.0,
+    "energy_status": "portal",
+    "energy": 150.0,
+    "provision": 0.0,
+    "provision_source": "none",
+    "effective": 800,
+    "area": 64.0,
+    "excluded": [
+     "1. poschodie"
+    ],
+    "unknown": [
+     "balcony"
+    ],
+    "flags": []
+   },
+   "fp": "350014ade01c9ef5",
+   "first_seen": "2026-10-12",
+   "price_history": [
+    [
+     "2026-10-12",
+     650.0
+    ]
+   ],
+   "group": "nehnutelnosti:JuGi5Vr9GAQ",
+   "last_seen": "2026-10-12",
+   "missed_runs": 0,
+   "active": true,
+   "removed_on": null
+  },
+  "nehnutelnosti:Juiord1XouM": {
+   "id": "nehnutelnosti:Juiord1XouM",
+   "source": "nehnutelnosti",
+   "url": "https://www.nehnutelnosti.sk/detail/Juiord1XouM/kompletne-zariadeny-a-zrekonstruovany-2-izbovy-byt",
+   "title": "kompletne zariadený a zrekonštruovaný 2-izbový byt",
+   "location": "Byty Bratislava-Ružinov",
+   "rent": 800.0,
+   "card_text": "kompletne zariadený a zrekonštruovaný 2-izbový byt\nHerlianska, Bratislava-Ružinov, okres Bratislava II\n2 izbový byt\n54 m²\n800 €/mes.\n14,81 €/m²/mes.\nkompletne zariadený a zrekonštruovaný 2-izbový byt\nHerlianska, Bratislava-Ružinov, okres Bratislava II\n2 izbový byt\n54 m²\nPonúkame Vám na prenájom svetlý, kompletne zariadený 2 - izbový byt o výmere 54 m2 s výbornou polohou na Herlianskej ulici v centre Ružinova, v blízkosti Štrkoveckého jazera. V okruhu do 100 m je kompletná občianska vybavenosť - potraviny, drogéria, lekáreň, reštaurácia, kaviareň, pekáreň, zastávky MHD, atď. Ružinovská poliklinika je len 500 m vzdialená.\nByt sa nachádza na 2. nadzemnom poschodí 8 - poschodového bytového domu s novým výťahom, vymenenými stupačkovými rozvodmi, zateplením, zrekonštruovanými spoločnými priestormi, kontajnerovým stojiskom a okolím domu. Je orientovaný na východ do vnútrobloku so vzrastlou zeleňou, vďaka čomu sa v lete veľmi neprehrieva a zároveň je tichý a svetlý. Byt disponuje balkónom o veľkosti 1,5 m2 ako aj krytou lodžiou o veľkosti 2,7 m2. \nByt je čerstvo po rekonštrukcii, sú v ňom nové elektrické a vodovodné siete, sadrokartónové podhľady, svietidlá, maľovka, nanovo prebrúsené bukové parkety, radiatory a nábytok (rozkladacia pohovka, knižnica, jedálenský stôl, stoličky, skrinka pod TV, manželská posteľ, matrace, nočné stolíky). Kúpeľňa a záchod majú novú mikrocementovú stierku, vymenená bola sanita, práčka, zariadenie. Okná sú vybavené žalúziami a čiastočne sieťkami proti hmyzu.\nSpálňa a predsieň disponujú vstavanými skriňami s veľkým množstvom odkladacieho priestoru.\nV kuchynke vybavenej pôvodnými skrinkami, s plynovým sporákom a elektrickou rúrou je nová chladnička s mrazničkou a mikrovlnná rúra.\nByt je bezbariérovo prístupný a ihneď obývateľný.  \nCena prenájmu je 800 €/mes. + 250 €/mes. energie\nPre viac informácií a dohodnutie obhliadky kontaktujte:\nIng. Michal Čutora +421 911 854 863 michal.cutora@luxreal.sk\nLux Real s.r.o.\n2 izbový byt Slovensko Prenájom\n800 €/mes.\n14,81 €/m²/mes.",
+   "structured_condition": "Kompletná rekonštrukcia",
+   "structured_energy": null,
+   "list_category": "2",
+   "detail_text": "Vlastnosti nehnuteľnosti\nPočet lodžií\n:\n1\nNahlásiť\nVšetky novostavby na jednom mieste\nZobraziť\nZobraziť všetky\n\nPonúkame Vám na prenájom svetlý, kompletne zariadený 2 - izbový byt o výmere 54 m2 s výbornou polohou na Herlianskej ulici v centre Ružinova, v blízkosti Štrkoveckého jazera. V okruhu do 100 m je kompletná občianska vybavenosť - potraviny, drogéria, lekáreň, reštaurácia, kaviareň, pekáreň, zastávky MHD, atď. Ružinovská poliklinika je len 500 m vzdialená.\nByt sa nachádza na 2. nadzemnom poschodí 8 - poschodového bytového domu s novým výťahom, vymenenými stupačkovými rozvodmi, zateplením, zrekonštruovanými spoločnými priestormi, kontajnerovým stojiskom a okolím domu. Je orientovaný na východ do vnútrobloku so vzrastlou zeleňou, vďaka čomu sa v lete veľmi neprehrieva a zároveň je tichý a svetlý. Byt disponuje balkónom o veľkosti 1,5 m2 ako aj krytou lodžiou o veľkosti 2,7 m2.\nByt je čerstvo po rekonštrukcii, sú v ňom nové elektrické a vodovodné siete, sadrokartónové podhľady, svietidlá, maľovka, nanovo prebrúsené bukové parkety, radiatory a nábytok (rozkladacia pohovka, knižnica, jedálenský stôl, stoličky, skrinka pod TV, manželská posteľ, matrace, nočné stolíky). Kúpeľňa a záchod majú novú mikrocementovú stierku, vymenená bola sanita, práčka, zariadenie. Okná sú vybavené žalúziami a čiastočne sieťkami proti hmyzu.\nSpálňa a predsieň disponujú vstavanými skriňami s veľkým množstvom odkladacieho priestoru.\nV kuchynke vybavenej pôvodnými skrinkami, s plynovým sporákom a elektrickou rúrou je nová chladnička s mrazničkou a mikrovlnná rúra.\nByt je bezbariérovo prístupný a ihneď obývateľný.\nCena prenájmu je 800 €/mes. + 250 €/mes. energie\nPre viac informácií a dohodnutie obhliadky kontaktujte:\nIng. Michal Čutora\n...\n...",
+   "is_agency": true,
+   "structured_floor": "2/8",
+   "inactive": false,
+   "parser_version": 6,
+   "eval": {
+    "status": "excluded",
+    "district": "Ružinov",
+    "rooms": 2,
+    "floor": 2,
+    "balcony": true,
+    "condition": "renovated",
+    "rent": 800.0,
+    "energy_status": "separate",
+    "energy": 250,
+    "provision": 800.0,
+    "provision_source": "assumed",
+    "effective": 1117,
+    "area": 54.0,
+    "excluded": [
+     "too expensive (1117 €/month)"
+    ],
+    "unknown": [],
+    "flags": [
+     "provision assumed 1× rent"
+    ]
+   },
+   "fp": "0b2bb3e75473a768",
+   "first_seen": "2026-10-12",
+   "price_history": [
+    [
+     "2026-10-12",
+     800.0
+    ]
+   ],
+   "group": "nehnutelnosti:Juiord1XouM",
+   "last_seen": "2026-10-12",
+   "missed_runs": 0,
+   "active": true,
+   "removed_on": null
+  },
+  "bazos:196411343": {
+   "id": "bazos:196411343",
+   "source": "bazos",
+   "url": "/inzerat/196411343/uplne-novy-2-izbovy-byt-s-parkovanim-ihned-volny.php",
+   "title": "Úplne nový 2-izbový byt s parkovaním | IHNEĎ VOĽNÝ",
+   "location": "Bratislava 831 06",
+   "postcode": "83106",
+   "rent": 650.0,
+   "card_text": "V príjemnej lokalite, obklopený prírodou Malých Karpát sa rozprestiera rezidenčný projekt komunitných rozmerov. Tiché prostredie s jednoduchou dostupnosťou hlavných ťahov, ale najmä s vysokou mierou súkromia. Realitná kancelária ROYALTY´S ponúka na prenájom úplne nový, práve dokončený 2-izbový byt s ...",
+   "portal_date": "2026-10-12",
+   "parser_version": 6,
+   "eval": {
+    "status": "check",
+    "district": "Rača",
+    "rooms": 2,
+    "floor": null,
+    "balcony": null,
+    "condition": null,
+    "rent": 650.0,
+    "energy_status": "unknown",
+    "energy": null,
+    "provision": 650.0,
+    "provision_source": "assumed",
+    "effective": 704,
+    "area": null,
+    "excluded": [],
+    "unknown": [
+     "floor",
+     "balcony",
+     "condition"
+    ],
+    "flags": [
+     "energies unknown",
+     "provision assumed 1× rent"
+    ]
+   },
+   "fp": null,
+   "first_seen": "2026-10-12",
+   "price_history": [
+    [
+     "2026-10-12",
+     650.0
+    ]
+   ],
+   "group": "bazos:196411343",
+   "last_seen": "2026-10-12",
+   "missed_runs": 0,
+   "active": true,
+   "removed_on": null
+  },
+  "bazos:196415532": {
+   "id": "bazos:196415532",
+   "source": "bazos",
+   "url": "/inzerat/196415532/na-prenajom-samostatne-izby-v-rodinnom-dome.php",
+   "title": "na prenájom samostatné izby v rodinnom dome",
+   "location": "Bratislava 811 01",
+   "postcode": "81101",
+   "rent": 350.0,
+   "card_text": "#4100\n\nPonúkame Vám na prenájom samostatné izby v 2-podlažnom rodinnom dome na Mostnej ul. vo Vrakuni a v prístavbe.\n- každé podlažie má 3 samostatné izby +  kompletne zariadená kuchyňa, WC, kúpeľňa s práčkou\n- každá izba je zariadená\n- na každom poschodí je spoločný balkón\n- dom je kompletne zrekon ...",
+   "portal_date": "2026-10-12",
+   "parser_version": 6,
+   "eval": {
+    "status": "excluded",
+    "district": null,
+    "rooms": null,
+    "floor": null,
+    "balcony": true,
+    "condition": null,
+    "rent": 350.0,
+    "energy_status": "unknown",
+    "energy": null,
+    "provision": 0.0,
+    "provision_source": "private",
+    "effective": 350,
+    "area": null,
+    "excluded": [
+     "district not on your list"
+    ],
+    "unknown": [
+     "rooms",
+     "floor",
+     "condition",
+     "rent below 600 € and energies unknown"
+    ],
+    "flags": [
+     "energies unknown"
+    ]
+   },
+   "fp": null,
+   "first_seen": "2026-10-12",
+   "price_history": [
+    [
+     "2026-10-12",
+     350.0
+    ]
+   ],
+   "group": "bazos:196415532",
+   "last_seen": "2026-10-12",
+   "missed_runs": 0,
+   "active": true,
+   "removed_on": null
+  },
+  "bazos:196411321": {
+   "id": "bazos:196411321",
+   "source": "bazos",
+   "url": "/inzerat/196411321/2-izb-byt-s-loggiou-karadzicova-ul-stare-mesto.php",
+   "title": "2 izb. byt s loggiou, Karadžičova ul., Staré Mesto",
+   "location": "Bratislava 811 01",
+   "postcode": "81101",
+   "rent": 700.0,
+   "card_text": "ARCUS REAL s.r.o. ponúka na prenájom krásny kompletne zrekonštruovaný 2 izb. byt s veľkou loggiou v tehlovom  dome v Starom Meste na Karadžičovej ul.\n\nByt má 41,5 m2, nachádza sa na 5.p./7 s výťahom, s orientáciou do tichého zeleného dvora. Je veľmi dobre dispozične riešený - priestranná obývačka  ...",
+   "portal_date": "2026-10-11",
+   "parser_version": 6,
+   "eval": {
+    "status": "excluded",
+    "district": null,
+    "rooms": 2,
+    "floor": 5,
+    "balcony": true,
+    "condition": "renovated",
+    "rent": 700.0,
+    "energy_status": "unknown",
+    "energy": null,
+    "provision": 700.0,
+    "provision_source": "assumed",
+    "effective": 758,
+    "area": 41.5,
+    "excluded": [
+     "district not on your list"
+    ],
+    "unknown": [],
+    "flags": [
+     "energies unknown",
+     "provision assumed 1× rent"
+    ]
+   },
+   "fp": null,
+   "first_seen": "2026-10-12",
+   "price_history": [
+    [
+     "2026-10-12",
+     700.0
+    ]
+   ],
+   "group": "bazos:196411321",
+   "last_seen": "2026-10-12",
+   "missed_runs": 0,
+   "active": true,
+   "removed_on": null
+  },
+  "bazos:196410507": {
+   "id": "bazos:196410507",
+   "source": "bazos",
+   "url": "/inzerat/196410507/dlhodoby-prenajom-2-izb-byt-ruzinov-790e-vratane-energii.php",
+   "title": "Dlhodobý prenájom 2- izb. byt, Ružinov. 790€ vrátane energií",
+   "location": "Bratislava 821 03",
+   "postcode": "82103",
+   "rent": 790.0,
+   "card_text": "Dlhodobo prenajmem dvojizbový byt v Ružinove, blízko MHD zastávky Herlianska. Cena je 790€ mesačne, vrátane poplatkov za energie. Nástup možný od 1. novembra, obhliadka možná v pracovných dňoch po 17 hod. Poznámka - fotky nie sú úplne aktuálne, ale menili sa len drobnosti (závesy a pod.). RK prosím  ...",
+   "portal_date": "2026-10-11",
+   "parser_version": 6,
+   "eval": {
+    "status": "excluded",
+    "district": "Ružinov",
+    "rooms": 2,
+    "floor": null,
+    "balcony": null,
+    "condition": null,
+    "rent": 790.0,
+    "energy_status": "included",
+    "energy": 0,
+    "provision": 790.0,
+    "provision_source": "assumed",
+    "effective": 856,
+    "area": null,
+    "excluded": [
+     "too expensive (856 €/month)"
+    ],
+    "unknown": [
+     "floor",
+     "balcony",
+     "condition"
+    ],
+    "flags": [
+     "provision assumed 1× rent"
+    ]
+   },
+   "fp": null,
+   "first_seen": "2026-10-12",
+   "price_history": [
+    [
+     "2026-10-12",
+     790.0
+    ]
+   ],
+   "group": "bazos:196410507",
+   "last_seen": "2026-10-12",
+   "missed_runs": 0,
+   "active": true,
+   "removed_on": null
+  },
+  "bazos:196406883": {
+   "id": "bazos:196406883",
+   "source": "bazos",
+   "url": "/inzerat/196406883/rebskprenajom-2-izbovy-byt64-m2tupeho-ulzariadenykolib.php",
+   "title": "REB.sk,Prenájom 2 izbový byt,64 m2,Tupého ul,zariadený,Kolib",
+   "location": "Bratislava 830 00",
+   "postcode": "83000",
+   "rent": 650.0,
+   "card_text": "KLIENT NEPLATÍ PROVÍZIU RK. EXKLUZÍVNE V PONUKE REB - REAL PARTNERS. \n\nPonúkame na prenájom 2 izbový byt v novostavbe na Kolibe . Byt sa nachádza na Tupého ulici. \nÚžitková plocha má 64 m2 + murovaná pivnica cca 2 m2 . Nachádza sa na 1 NP/4 NP. \nByt sa prenajíma kompletne zariadený. \n\nDISPOZIČ ...",
+   "portal_date": "2026-10-11",
+   "parser_version": 6,
+   "eval": {
+    "status": "excluded",
+    "district": "Nové Mesto",
+    "rooms": 2,
+    "floor": 0,
+    "balcony": null,
+    "condition": "new",
+    "rent": 650.0,
+    "energy_status": "unknown",
+    "energy": null,
+    "provision": 0.0,
+    "provision_source": "none",
+    "effective": 650,
+    "area": 64.0,
+    "excluded": [
+     "prízemie"
+    ],
+    "unknown": [
+     "balcony"
+    ],
+    "flags": [
+     "district guessed from text",
+     "energies unknown"
+    ]
+   },
+   "fp": null,
+   "first_seen": "2026-10-12",
+   "price_history": [
+    [
+     "2026-10-12",
+     650.0
+    ]
+   ],
+   "group": "nehnutelnosti:JuGi5Vr9GAQ",
+   "last_seen": "2026-10-12",
+   "missed_runs": 0,
+   "active": true,
+   "removed_on": null
+  },
+  "bazos:196402585": {
+   "id": "bazos:196402585",
+   "source": "bazos",
+   "url": "/inzerat/196402585/prenajom-1izbyt-novy-bratislavska-ulzahorska-bystrica.php",
+   "title": "Prenájom 1iz.byt NOVÝ Bratislavská ul.Záhorská Bystrica",
+   "location": "Bratislava 841 06",
+   "postcode": "84106",
+   "rent": 570.0,
+   "card_text": "Ponúkame na prenájom príjemný 1 iz. byt NOVOSTAVBA, Bratislavská ul. Záhorská Bystrica.\n\nNachádza sa na 3/3 poschodí v bytovom dome s výťahom. Výmera  je 28 m2, plus balkón. \n\nByt je zariadený nábytkom vrátane spotrebičov - chladnička, mraznička, varná doska, rúra a  práčka. Dostatok úložného pr ...",
+   "portal_date": "2026-10-11",
+   "parser_version": 6,
+   "eval": {
+    "status": "excluded",
+    "district": null,
+    "rooms": null,
+    "floor": 3,
+    "balcony": true,
+    "condition": "new",
+    "rent": 570.0,
+    "energy_status": "unknown",
+    "energy": null,
+    "provision": 0.0,
+    "provision_source": "private",
+    "effective": 570,
+    "area": 28.0,
+    "excluded": [
+     "district not on your list"
+    ],
+    "unknown": [
+     "rooms",
+     "rent below 600 € and energies unknown"
+    ],
+    "flags": [
+     "energies unknown"
+    ]
+   },
+   "fp": null,
+   "first_seen": "2026-10-12",
+   "price_history": [
+    [
+     "2026-10-12",
+     570.0
+    ]
+   ],
+   "group": "bazos:196402585",
+   "last_seen": "2026-10-12",
    "missed_runs": 0,
    "active": true,
    "removed_on": null
@@ -19608,6 +20029,21 @@
      "details": 11
     }
    }
+  },
+  {
+   "date": "2026-10-12",
+   "sources": {
+    "nehnutelnosti": {
+     "cards": 885,
+     "complete": true,
+     "details": 3
+    },
+    "bazos": {
+     "cards": 20,
+     "complete": true,
+     "details": 13
+    }
+   }
   }
  ],
  "notified": [
@@ -19625,6 +20061,7 @@
   "bazos:196342490:check",
   "bazos:196349547:check",
   "bazos:196380338:check",
+  "bazos:196411343:check",
   "nehnutelnosti:Ju-KPvfIkoh",
   "nehnutelnosti:Ju-QKIEbkFF:check",
   "nehnutelnosti:Ju-sIAtIQN5:check",
